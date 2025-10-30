@@ -1,8 +1,10 @@
 @import url(../../shared/variable.css);
 .login-box{
+    position: absolute;
+    top: 30%;
+    left: calc((100% - 600px) / 2);
     width: 600px;
     height: max-content;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
