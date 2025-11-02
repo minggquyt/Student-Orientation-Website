@@ -1,52 +1,50 @@
 import Login from "../components/login/login.js";
 
-function addEffectLogin(triggerElement,renderElement,loginFunction,loginClass){
+function addEffectLogin(triggerElement,renderElement,loginFunction){
     const triggerE = document.querySelector(triggerElement);
     const renderE = document.querySelector(renderElement);
+
     triggerE.addEventListener('click',(e) => {
-        console.log("add event occurs")
-        renderE.innerHTML += loginFunction();
-        removeEffectLogin(renderElement,loginClass);
+        e.stopPropagation();
+        const div = document.createElement('div');
+        div.classList.add("login-container")
+        div.innerHTML += loginFunction();   
+        renderE.append(div);
+        addSmokeEffect(renderE);
+        removeEffectLogin(renderElement,'.login-container');
     });
+    
 }
 
 function removeEffectLogin(renderElement,loginClass){
-    const con = document.querySelector('.container');
-    const loginBox = document.querySelector('.login-box');
-    con.addEventListener('click',(e) => {
-        if(loginBox.contains(e.target) == false)
-            con.remove()
-    })
+    const renderE = document.querySelector(renderElement);
+
+    const removeBox = (e) => { 
+        const loginBox = document.querySelector(loginClass); 
+        if(loginBox.contains(e.target) == false){
+            loginBox.remove();
+            renderE.removeEventListener('click',removeBox); 
+            removeSmokeEffect(renderE);
+        }
+    }
+
+    renderE.addEventListener('click',removeBox);
 }
 
-// Ý tưởng: 
-// dùng eventTarget để lấy class của thẻ con dc click
-// kiểm tra xem class do981 có phải là con của ligin box hya không 
+function addSmokeEffect(element){
+    element.classList.add('smoke-effect');
+}
 
-function createEffectLogin(triggerElement,renderElement,loginFunction,loginClass){
-    addEffectLogin(triggerElement,renderElement,loginFunction,loginClass);
+function removeSmokeEffect(element){
+    element.classList.remove('smoke-effect');
+    console.log("remove function occurs !");
+}
+
+function createEffectLogin(triggerElement,renderElement,loginFunction){
+    addEffectLogin(triggerElement,renderElement,loginFunction);
 }   
 
 function main(){
-    createEffectLogin('.header__navbar > button','body',Login,'.login-box'); // true
+    createEffectLogin('.header__navbar > button','body',Login); 
 }
 main();
-
-// CLick lần 1  vào button thì hiện thẻ lên  - DONE 
-// CLick lần 2  ra ngoài box thì hủy 
-
-
-// làm thế nào đẻ remove DOM element trong HTML ? -> remove()
-
-// Task: 
-// 1. Làm effect Login - chức năng tắt box login
-// 2. Responsive 
-// 3. Làm chức năng login   
-
-// Canh giữa Box bằng position 
-// Test xem click vào body có delete dc bx k
-
-// sự khác nhau giữa event.target và evnt.currentTarget 
-// event.target: trả về phần tử thấp nhất mà người dủng thực sự click vào trong cây DOM
-
-
