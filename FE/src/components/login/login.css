@@ -12,6 +12,7 @@
     align-items: center;
     padding: 90px 50px;
     background-color: var(--primary-color);
+    z-index: 10000;
 }
 .login-box > h1{
     color: #FFFFFF;
