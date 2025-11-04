@@ -57,6 +57,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 .box:nth-child(5) .box-content .box-content-title {
     font-size: 30px;
@@ -68,15 +69,50 @@ body {
 .box:nth-child(11) {
     max-width: 1195px;
     width: 100%;
-    height: 736px;
+    height: 669px;
     margin: 20px 5px 20px 5px;
-    background-color: #00FF9FD9;
+    background: #00FF9FD9;
     opacity: 0.85;
     border-radius: 67px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 37px;
+}
+.box:nth-child(11) .previous-page, .next-page {
+    cursor: pointer;
+}
+.box:nth-child(11) .page {
+    max-width: 919px;
+    width: 100%;
+    height: 562px;
+    border-radius: 101px;
+    background-color: rgba(160, 160, 160, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22.5px;
+
+}
+.box:nth-child(11) .page .page-number {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Unbounded';
+    text-align: center;
+}
+.box:nth-child(11) .page .line {
+    max-width: 800px;
+    width: 100%;
+    height: 7px;
+    background-color: #FFFFFF;
+}
+.box:nth-child(11) .page .page-content {
+    max-width: 875px;
+    width: 100%;
+    height: 347px;
+    border-radius: 55px;
 }
 .title {
     max-width: 562px;
