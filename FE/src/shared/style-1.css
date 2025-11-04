@@ -82,6 +82,9 @@ body {
 .box:nth-child(11) .previous-page, .next-page {
     cursor: pointer;
 }
+.box:nth-child(11) .previous-page:hover, .next-page:hover {
+    scale: 1.3;
+}
 .box:nth-child(11) .page {
     max-width: 919px;
     width: 100%;
