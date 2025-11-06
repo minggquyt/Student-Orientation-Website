@@ -9,9 +9,19 @@ export default function postInfoFromForm(formElement){
             username:  username,
             password: password
         }
-        console.log(inputInfo);
 
-        fetch("http://localhost:3000/api/login", {
+        postInfo(inputInfo)
+        .then((result) => {
+            console.log(result);
+        })
+        .catch((error) => {
+            console.log(`error: ${error}`);
+        })
+    });
+}
+
+function postInfo(inputInfo){
+        return fetch("http://localhost:3000/api/login", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -19,17 +29,13 @@ export default function postInfoFromForm(formElement){
             body: JSON.stringify(inputInfo)
         })
         .then(result => {
-            console.log("fetch data succeed !");
-            console.log(typeof result);   
+            console.log("fetch data succeed !"); 
             return result.json();
         })
-        .then(data => console.log(data))
-        .catch(err => console.log(`error occurs when fetch data: ${err}`))
-        .finally(() => {
-            console.log("Fetch data ends !");
+        .then(data => {
+            return data;
         })
-
-    });
+        .catch(err => console.log(`error occurs when fetch data: ${err}`))
 }
 
 
