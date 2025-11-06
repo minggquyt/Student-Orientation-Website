@@ -9,7 +9,6 @@ function main() {
 
 main();
 
-// Lỗi CSP ( Content Security Policy ): giới hạn nguồn tài nguyên truy cập 
 
 
 
