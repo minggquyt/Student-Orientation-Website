@@ -11,7 +11,7 @@ hr {
 
 body{
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 
 .header{
@@ -55,15 +55,7 @@ body{
     font-size: 30px;
 }
 
-.container{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-}
-
+/* SECTION 1 */
 .section1 {
     background-color: var(--primary-color);
     display: flex;
@@ -96,16 +88,17 @@ body{
     position: absolute;
 }
 
-.section1__decor1 {
+.section1__decor1{
     top: -78px;
-    right: -200px;
+    right: -100px;
 }
 
 .section1__decor2 {
-    bottom: -45px;
+    bottom: -70px;
     left: -120px;
 }
 
+/* SECTION 2 */
 .section2 {
     display: flex;
     flex-direction: column;
@@ -151,6 +144,7 @@ body{
     line-height: 100%;
 }
 
+/* SECTION 3 */
 .section3 {
     background-color: var(--primary-color);
     display: flex;
@@ -207,10 +201,22 @@ body{
     align-items: center;
 }
 
+.section3__frame--decor {
+    max-width: 424px;
+    width: 100%;
+}
+
+.section3__frame--decor > img {
+    width: 100%;
+    position: relative;
+    z-index: 1; 
+}
 .section3__logo {
     display: flex;
     flex-direction: column;
     gap: 36px;
+    position: relative;
+    z-index: 2;
 }
 
 .section3__logo--row {
@@ -227,8 +233,17 @@ body{
     background-color: #F5F7FA;
     border-radius: 20px;
     box-shadow: 0 0 10px 0 #00FF9F, inset 0 0 24px 0 #A0A0A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
 }
 
+.section3__logo--child:hover {
+    transform: scale(1.3);
+}
+
+/* SECTION 4 */
 .section4 {
     background-color: var(--primary-color);
     padding: 83px 0 204px 0;
@@ -264,11 +279,19 @@ body{
 .section4__decor1 {
     top: -395px;
     right: 90px;
+    z-index: 1;
 }
 
 .section4__decor2 {
     position: relative;
     bottom: 50px;
+    z-index: 1;
+    max-width: 436px;
+    width: 100%;
+}
+
+.section4__decor2 > img {
+    width: 100%;
 }
 
 .section4__decor3 {
@@ -302,6 +325,7 @@ body{
     justify-content: center;
     align-items: center;
     position: relative;
+    z-index: 2;
 }
 
 .section4__group--center {
@@ -322,6 +346,14 @@ body{
     background-color: #F5F7FA;
     box-shadow: 0 4px 25px 0 #463030;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.section4__group--logo:hover {
+    transform: scale(1.4);
 }
 
 .section4__group--logo1 {
@@ -358,6 +390,7 @@ body{
     left: -100px;
 }
 
+/* SECTION 5 */
 .section5 {
     display: flex;
     width: 100%;

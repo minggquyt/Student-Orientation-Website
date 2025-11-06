@@ -14,6 +14,14 @@
     background-color: var(--primary-color);
     z-index: 10000;
 }
+.container-login-box{
+    position: absolute;
+    top:192px;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    z-index: 1;
+}
 .login-box > h1{
     color: #FFFFFF;
 }

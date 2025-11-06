@@ -60,3 +60,6 @@
   opacity: 0.5;
   content: "";
 }
+.smoke-effect{
+  overflow-y: hidden;
+}
