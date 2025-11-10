@@ -1,0 +1,152 @@
+@import url(./variable.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    padding: 0 0 13px 0;
+}
+
+.section1 {
+    height: 270px;
+}
+
+.section1--child {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.section1__layer {
+    max-width: 705px;
+    width: 100%;
+    height: 97px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.section1__layer1 {
+    background-color: #6EE6561A;
+    top: 48px;
+}
+
+.section1__layer2 {
+    background-color: #8ADB421A;
+    top: 61px;
+}
+
+.section1__layer3 {
+    background-color: #4CC53C80;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+
+.section1__layer--logo {
+
+}
+
+.section1__layer--title {
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 100%;
+}
+
+.section2 {
+    
+}
+
+.section2__title {
+    margin-left: 44px;
+    position: relative;
+    max-width: 1373px;
+    width: 100%;
+}
+
+.section2__title--layer {
+    width: 558px;
+    height: 73px;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 4px 0 #2DBD7F;
+    border-radius: 55px;
+    position: absolute;
+}
+
+.section2__layer1 {
+    position: initial;
+}
+
+.section2__layer2 {
+    top: 4px;
+    left: 3px;
+}
+
+.section2__layer3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 100%;
+    color: #FFFFFF;
+    top: 8px;
+    left: 7px;
+}
+
+.section2__content {
+    margin-top: 96px;
+    padding: 0 131px 0 73px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2__box {
+    width: 419px;
+    height: 471px;
+    border-radius: 55px;
+    background: linear-gradient(to right, #00FF9F, #00995F);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2__box--text {
+    width: 404.9983215332031px;
+    height: 455.39752197265625px;
+    border-radius: 55px;
+    background-color: #E0E0E0;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 160px;
+}
+
+.section3--child {
+    max-width: 1334.5px;;
+    width: 100%;
+}
+
+.section3__line {
+    width: 100%;
+    border: 5px solid #FFFFFF;
+}
+
+.section3__back {
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.section3__back--icon {
+
+}
