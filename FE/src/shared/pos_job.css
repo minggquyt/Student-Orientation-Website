@@ -8,10 +8,14 @@
 body {
     background-color: var(--primary-color);
     padding: 0 0 13px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section1 {
     height: 270px;
+    width: 100%;
 }
 
 .section1--child {
@@ -58,7 +62,8 @@ body {
 }
 
 .section2, .section2b {
-    
+    max-width: 1375px;
+    width: 100%;
 }
 
 .section2__title, .section2b__title {
@@ -98,7 +103,7 @@ body {
     left: 7px;
 }
 
-.section2__content, .section2b__content {
+.section2__content {
     margin-top: 96px;
     padding: 0 131px 0 73px;
     display: flex;
@@ -175,4 +180,11 @@ body {
 .ux__title3 {
     left: initial;
     right: -7px;
+}
+
+.section2b__content {
+    margin-top: 96px;
+    padding: 0 0 0 131px;
+    display: flex;
+    justify-content: space-between;
 }
