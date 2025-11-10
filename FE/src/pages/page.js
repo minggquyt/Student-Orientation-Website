@@ -1,4 +1,5 @@
 
+let major = '';
 document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const major = params.get('major');
@@ -17,9 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
     else if (major === 'cntt') {
         cntt();
     }
+    contentYearOne();
 });
 
 function ktpm() {
+    major = 'ktpm';
     const icon1 = document.getElementById('box-content-image-1');
     icon1.src = "./assets/images/page/KTPM/icon-1.svg";
     const title1 = document.getElementById('box-content-title-1');
@@ -190,7 +193,7 @@ function nextYear() {
 function previousYear() {
     const yearText = document.getElementById('year-text');
     if (yearText.textContent.trim() === 'Năm 4') {
-        yearText.textContent = 'Năm 3';     
+        yearText.textContent = 'Năm 3';
     } else if (yearText.textContent.trim() === 'Năm 3') {
         yearText.textContent = 'Năm 2';
     } else if (yearText.textContent.trim() === 'Năm 2') {
