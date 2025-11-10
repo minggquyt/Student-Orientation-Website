@@ -60,5 +60,5 @@ export default function CVOverview(){
                 </div>
             </div>
         </section>`
-    )
+    );
 }

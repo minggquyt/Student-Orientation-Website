@@ -134,15 +134,3 @@ function main() {
 }
 
 main();
-
-// 1. Làm tính năng client-side rendering cho web ( link đủ các trang theo yêu cầu )
-// 2. Cấu hình lại các trang để tái sử dụng về nội dung 
-// - MERGE lại code
-// - Chỉnh sửa lại giao diện 
-// - Cấu hình lại các trang để truyền data vào
-// 3. Tạo file nội dung giả về truyền data vào các function 
-// 4. Đưa data lên database 
-// 5. Thực hiện tính năng CRUD cho admin thao tác trên nội dung của web 
-
-// 10/11/2025
-// 1. Ôn lại được sự khác nhau giữa callback của hàm event mặc định và event custom 
