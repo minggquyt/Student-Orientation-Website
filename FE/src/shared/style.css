@@ -416,6 +416,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 81px;
+    padding-top: 316px;
 }
 
 .section5__form {
@@ -566,4 +568,8 @@ body{
     font-size: 18px;
     line-height: 100%;
     color: white;
+}
+
+.section5, .footer {
+    padding: 0 110px;
 }
