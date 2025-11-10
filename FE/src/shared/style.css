@@ -10,11 +10,22 @@ hr {
 }
 
 body{
+    background-color: var(--primary-color);
     position: relative;
     height: 100%;
 }
 
+.active{
+    display: inline-block;
+}
+
+.unactive{
+    display: none;
+}
+
 .header{
+    max-width: 1460px;
+    margin: auto;
     width: 100%;
     height: 192px;
     background-color: var(--primary-color);

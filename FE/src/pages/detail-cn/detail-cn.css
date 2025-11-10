@@ -1,18 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: #2A2A2A;
+.details-majors{
     display: flex;
     flex-direction: column;
-    padding: 73px 20px 73px 20px;
-    gap: 65px;
-    max-width: 1393px;
-    width: 100%;
     align-items: center;
-    margin: 0 auto;
 }
 .box:nth-child(1) {
     max-width: 1195px;

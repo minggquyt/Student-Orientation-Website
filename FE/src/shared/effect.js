@@ -12,8 +12,6 @@ function addEffectLogin(triggerElement,renderElement,loginFunction){
         renderE.append(div);
         addSmokeEffect(renderE);
         removeEffectLogin(renderElement,'.login-container');
-
-        // custom event
         const event = new CustomEvent('loginFormCreated',{
             detail: {
                 form: document.querySelector('.login-box__input > form')
@@ -30,6 +28,7 @@ function removeEffectLogin(renderElement,loginClass){
 
     const removeBox = (e) => { 
         const loginBox = document.querySelector(loginClass); 
+        
         if(loginBox.contains(e.target) == false){
             loginBox.remove();
             renderE.removeEventListener('click',removeBox); 
@@ -52,7 +51,20 @@ function createEffectLogin(triggerElement,renderElement,loginFunction){
     addEffectLogin(triggerElement,renderElement,loginFunction);
 }   
 
+function handleEventLoginSucceed(settingButton, loginButton){
+    settingButton.classList.remove('unactive');
+    settingButton.classList.add("active");
+    loginButton.classList.remove("active");
+    loginButton.classList.add('unactive');
+}
+
 function main(){
     createEffectLogin('.header__navbar > button','body',Login); 
+    document.addEventListener("LoginSucceed",(e) => {
+        handleEventLoginSucceed(e.detail.settingButton,e.detail.loginButton);
+        removeEffectLogin(e.detail.renderElement,e.detail.loginClass);
+    });
 }
 main();
+
+// 1. Lỗi UI khi đăng nhập xong phải tắt luôn box login
