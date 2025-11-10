@@ -1,0 +1,65 @@
+{
+    "majors": [
+        {
+            "id": "1",
+            "code": "KTPM",
+            "name": "Kỹ thuật phần mềm",
+            "overview": "Ngành Kỹ thuật phần mềm trang bị cho sinh viên kiến thức về thiết kế, phát triển, kiểm thử và bảo trì phần mềm đáp ứng nhu cầu của doanh nghiệp và xã hội.",
+            "jobs": [
+                {
+                    "title": "DevOps Engineer",
+                    "image": "/FE/assets/images/jobs/devops.svg",
+                    "description": "DevOps Engineer chịu trách nhiệm tự động hóa quy trình triển khai phần mềm, kết nối giữa nhóm phát triển và nhóm vận hành."
+                },
+                {
+                    "title": "Developer",
+                    "image": "/FE/assets/images/jobs/developer.svg",
+                    "description": "Developer thiết kế, lập trình và bảo trì các ứng dụng phần mềm theo yêu cầu của khách hàng hoặc tổ chức."
+                },
+                {
+                    "title": "Tester",
+                    "image": "/FE/assets/images/jobs/tester.svg",
+                    "description": "Tester kiểm tra và đảm bảo chất lượng phần mềm, phát hiện và báo cáo lỗi trong quá trình phát triển sản phẩm."
+                },
+                {
+                    "title": "Software Engineer",
+                    "image": "/FE/assets/images/jobs/software-engineer.svg",
+                    "description": "Software Engineer chịu trách nhiệm thiết kế kiến trúc phần mềm và phát triển hệ thống với khả năng mở rộng cao."
+                },
+                {
+                    "title": "Product Manager",
+                    "image": "/FE/assets/images/jobs/pm.svg",
+                    "description": "Product Manager điều phối giữa nhóm kỹ thuật và người dùng để đảm bảo sản phẩm phát triển đúng hướng và đáp ứng nhu cầu thị trường."
+                },
+                {
+                    "title": "Data Analyst",
+                    "image": "/FE/assets/images/jobs/data-analyst.svg",
+                    "description": "Data Analyst thu thập và phân tích dữ liệu để giúp doanh nghiệp đưa ra quyết định dựa trên dữ liệu."
+                }
+            ],
+            "career_opportunities": [
+                "Làm việc trong các công ty phần mềm trong và ngoài nước.",
+                "Trở thành kỹ sư phát triển, kiểm thử, quản lý sản phẩm hoặc chuyên gia DevOps.",
+                "Khởi nghiệp trong lĩnh vực công nghệ hoặc trở thành giảng viên đại học."
+            ],
+            "recruitment_demand": "Nhu cầu tuyển dụng ngành phần mềm tăng trưởng mạnh với hơn 400,000 vị trí cần trong 5 năm tới. Nhiều doanh nghiệp sẵn sàng tuyển sinh viên năm cuối.",
+            "training_program": {
+                "Năm 1": [
+                    "Toán cao cấp, Vật lý đại cương, Nhập môn lập trình.",
+                    "Cơ sở dữ liệu, Kỹ năng mềm và Tin học đại cương."
+                ],
+                "Năm 2": [
+                    "Lập trình hướng đối tượng, Cấu trúc dữ liệu & Giải thuật.",
+                    "Hệ điều hành, Phân tích & Thiết kế hệ thống."
+                ],
+                "Năm 3": [
+                    "Công nghệ Web, Phát triển ứng dụng di động.",
+                    "Kiểm thử phần mềm, Mạng máy tính, Bảo mật hệ thống."
+                ],
+                "Năm 4": [
+                    "Đồ án tốt nghiệp, Thực tập doanh nghiệp, Quản lý dự án phần mềm."
+                ]
+            }
+        }
+    ]
+}

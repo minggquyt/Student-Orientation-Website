@@ -1,52 +1,136 @@
-import Login from "../components/login/login.js";
+import postInfo from "../services/login/authenLogin.js";
+import Homepage from "../pages/homepage/homepage.js";
+import Header from "../components/login/header/header.js";
+import Footer from "../components/footer/footer.js";
+import CNOverview from "../pages/cn-overview/cn-overview.js";
+import CVOverview from "../pages/cv-overview/cv-overview.js";
+import DetailsMajor from "../pages/detail-cn/detail-cn.js";
 
-function addEffectLogin(triggerElement,renderElement,loginFunction,loginClass){
-    const triggerE = document.querySelector(triggerElement);
-    const renderE = document.querySelector(renderElement);
-    triggerE.addEventListener('click',(e) => {
-        console.log("add event occurs")
-        renderE.innerHTML += loginFunction();
-        removeEffectLogin(renderElement,loginClass);
+function renderHeader(bodyElement){
+    const header = document.createElement("div");
+    header.classList.add("header");
+    header.innerHTML = Header();
+    bodyElement.appendChild(header);
+}
+
+function renderBody(bodyElement){
+    const body = document.createElement("div");
+    body.classList.add("body");
+    body.innerHTML = Homepage();
+    bodyElement.appendChild(body);
+}   
+
+function renderFooter(bodyElement){
+    const footer = document.createElement("div");
+    footer.classList.add("footer");
+    footer.innerHTML = Footer();
+    bodyElement.appendChild(footer);
+}
+
+function renderApp(bodyElement){
+    renderHeader(bodyElement);
+    renderBody(bodyElement);
+    renderFooter(bodyElement);
+}
+
+function postInfoFromForm(formElement){
+    formElement.addEventListener('submit',(e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        const username = document.querySelector('input[name="username"]').value; 
+        const password  = document.querySelector('input[name="password"]').value;
+        const inputInfo = {
+            username:  username,
+            password: password
+        }
+
+        postInfo(inputInfo)
+        .then((result) => {
+            if(result.token){
+                localStorage.setItem('token',result.token);
+                
+                const event = new CustomEvent("LoginSucceed", {
+                    detail: {
+                        loginButton: document.querySelector('.header__navbar > button'),
+                        settingButton: document.querySelector('.header__navbar > img'),
+                        renderElement: 'body',
+                        loginClass: '.login-container'
+                    }
+                });
+                document.dispatchEvent(event);
+            }
+            else if(result.message == "User not found"){
+                alert("User not found !");
+            }
+            else    
+                alert("Wrong pasword !");
+        })
+        .catch((error) => {
+            console.log(`error: ${error}`);
+        })
     });
 }
 
-function removeEffectLogin(renderElement,loginClass){
-    const con = document.querySelector('.container');
-    const loginBox = document.querySelector('.login-box');
-    con.addEventListener('click',(e) => {
-        if(loginBox.contains(e.target) == false)
-            con.remove()
+function rerenderBody(renderFuncComponent){
+    const rootElement = document.querySelector('.body');
+    rootElement.innerHTML = renderFuncComponent();
+}
+
+function addEventNavMenu(navbar){
+
+    const list = [Homepage,CNOverview,CVOverview,CNOverview];
+    const navElements = navbar.children;
+    for(let i = 0; i < 4; i++){
+        navElements[i].addEventListener("click",(e) => {
+            e.stopPropagation();
+            e.preventDefault();
+            rerenderBody(list[i]);
+        })
+    }
+}
+
+function addEventRenderMajorDetailPage(){
+    const KTPM = document.querySelector("#KTPM");
+    KTPM.addEventListener('click',(e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        rerenderBody(DetailsMajor);
+    }) 
+}
+
+function addEventRenderJobDetailPage(){
+    const jobs = document.querySelectorAll(".section4__group--logo");
+    jobs.forEach((job) => {
+        job.addEventListener("click", (e) => {
+            e.stopPropagation();
+            e.preventDefault();
+            rerenderBody(DetailsMajor);
+        })
     })
 }
 
-// Ý tưởng: 
-// dùng eventTarget để lấy class của thẻ con dc click
-// kiểm tra xem class do981 có phải là con của ligin box hya không 
 
-function createEffectLogin(triggerElement,renderElement,loginFunction,loginClass){
-    addEffectLogin(triggerElement,renderElement,loginFunction,loginClass);
-}   
+function main() {
 
-function main(){
-    createEffectLogin('.header__navbar > button','body',Login,'.login-box'); // true
+    document.addEventListener("CNOverviewRendered",(e) => {
+        e.stopPropagation();
+        addEventRenderMajorDetailPage();
+    })
+
+    document.addEventListener("CVOverviewRendered",(e) => {
+        e.stopPropagation();
+        addEventRenderJobDetailPage();
+    })
+
+    const body = document.querySelector('body');
+    renderApp(body);   
+
+    const navbar = document.querySelector('.header > nav');
+    addEventNavMenu(navbar);
+
+    document.addEventListener('loginFormCreated', (e) => {
+        postInfoFromForm(e.detail.form);
+    })
 }
+
 main();
-
-// CLick lần 1  vào button thì hiện thẻ lên  - DONE 
-// CLick lần 2  ra ngoài box thì hủy 
-
-
-// làm thế nào đẻ remove DOM element trong HTML ? -> remove()
-
-// Task: 
-// 1. Làm effect Login - chức năng tắt box login
-// 2. Responsive 
-// 3. Làm chức năng login   
-
-// Canh giữa Box bằng position 
-// Test xem click vào body có delete dc bx k
-
-// sự khác nhau giữa event.target và evnt.currentTarget 
-// event.target: trả về phần tử thấp nhất mà người dủng thực sự click vào trong cây DOM
-
-
