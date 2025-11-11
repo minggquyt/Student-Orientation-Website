@@ -1,202 +1,213 @@
+// ========================= Student Orientation Page JS (fixed) =========================
 
-let major = '';
+// ---- State chung
+let major = '';                         // 'ktpm' | 'khmt' | 'khdl' | 'httt' | 'cntt'
+const YEARS = ['Năm 1', 'Năm 2', 'Năm 3', 'Năm 4'];
+let currentYearIndex = 0;
+
+// Chống gọi đúp khi vuốt/click
+let isTransitioning = false;
+let lastSwipeTime = 0;
+const SWIPE_DEBOUNCE_MS = 350;
+
+// ---- Khởi tạo
 document.addEventListener('DOMContentLoaded', () => {
-    const params = new URLSearchParams(window.location.search);
-    const major = params.get('major');
-    if (major === 'ktpm') {
-        ktpm();
-    }
-    else if (major === 'khmt') {
-        khmt();
-    }
-    else if (major === 'khdl') {
-        khdl();
-    }
-    else if (major === 'httt') {
-        httt();
-    }
-    else if (major === 'cntt') {
-        cntt();
-    }
-    contentYearOne();
+  const params = new URLSearchParams(window.location.search);
+  major = (params.get('major') || '').toLowerCase();
+
+  switch (major) {
+    case 'ktpm': ktpm(); break;
+    case 'khmt': khmt(); break;
+    case 'khdl': khdl(); break;
+    case 'httt': httt(); break;
+    case 'cntt': cntt(); break;
+    default:     cntt(); break;
+  }
+
+  currentYearIndex = 0;
+  renderYear();
+
+  // KHÔNG gắn click cho mũi tên ở đây vì HTML đã có onclick=...
+  // Nếu bạn bỏ onclick trong HTML, có thể bật 2 dòng dưới:
+  // document.querySelector('.previous-page')?.addEventListener('click', previousYear);
+  // document.querySelector('.next-page')?.addEventListener('click', nextYear);
+
+  enableSwipeOnPage(); // Vuốt trái/phải chuyển năm
 });
 
+// ---- Helper gán icon + title
+function setBoxItem(n, imgSrc, title) {
+  const imgEl = document.getElementById(`box-content-image-${n}`);
+  const titleEl = document.getElementById(`box-content-title-${n}`);
+  if (imgEl)   imgEl.src = imgSrc;
+  if (titleEl) titleEl.textContent = title;
+}
+
+// ---- Danh mục nghề theo ngành
 function ktpm() {
-    major = 'ktpm';
-    const icon1 = document.getElementById('box-content-image-1');
-    icon1.src = "./assets/images/page/KTPM/icon-1.svg";
-    const title1 = document.getElementById('box-content-title-1');
-    title1.textContent = "DevOps";
-    const icon2 = document.getElementById('box-content-image-2');
-    icon2.src = "./assets/images/page/KTPM/icon-2.svg";
-    const title2 = document.getElementById('box-content-title-2');
-    title2.textContent = "Developer";  
-    const icon3 = document.getElementById('box-content-image-3');
-    icon3.src = "./assets/images/page/KTPM/icon-3.svg";
-    const title3 = document.getElementById('box-content-title-3');
-    title3.textContent = "Tester";  
-    const icon4 = document.getElementById('box-content-image-4');
-    icon4.src = "./assets/images/page/KTPM/icon-4.svg";
-    const title4 = document.getElementById('box-content-title-4');
-    title4.textContent = "Software Enginer";
-    const icon5 = document.getElementById('box-content-image-5');
-    icon5.src = "./assets/images/page/KTPM/icon-5.svg";
-    const title5 = document.getElementById('box-content-title-5');
-    title5.textContent = "Product Owner";
-    const icon6 = document.getElementById('box-content-image-6');
-    icon6.src = "./assets/images/page/KTPM/icon-6.svg";
-    const title6 = document.getElementById('box-content-title-6');
-    title6.textContent = "Systems Analyst";
+  setBoxItem(1, "./assets/images/page/KTPM/icon-1.svg", "DevOps");
+  setBoxItem(2, "./assets/images/page/KTPM/icon-2.svg", "Developer");
+  setBoxItem(3, "./assets/images/page/KTPM/icon-3.svg", "Tester");
+  setBoxItem(4, "./assets/images/page/KTPM/icon-4.svg", "Software Engineer");
+  setBoxItem(5, "./assets/images/page/KTPM/icon-5.svg", "Product Owner");
+  setBoxItem(6, "./assets/images/page/KTPM/icon-6.svg", "Systems Analyst");
 }
 function khmt() {
-    const icon1 = document.getElementById('box-content-image-1');
-    icon1.src = "./assets/images/page/KHMT/icon-1.svg";
-    const title1 = document.getElementById('box-content-title-1');
-    title1.textContent = "AI Engineer";
-    const icon2 = document.getElementById('box-content-image-2');
-    icon2.src = "./assets/images/page/KHMT/icon-2.svg";
-    const title2 = document.getElementById('box-content-title-2');
-    title2.textContent = "Cyber Security";  
-    const icon3 = document.getElementById('box-content-image-3');
-    icon3.src = "./assets/images/page/KHMT/icon-3.svg";
-    const title3 = document.getElementById('box-content-title-3');
-    title3.textContent = "Cloud Computing Specialist";  
-    const icon4 = document.getElementById('box-content-image-4');
-    icon4.src = "./assets/images/page/KHMT/icon-4.svg";
-    const title4 = document.getElementById('box-content-title-4');
-    title4.textContent = "Game Developer";
-    const icon5 = document.getElementById('box-content-image-5');
-    icon5.src = "./assets/images/page/KHMT/icon-5.svg";
-    const title5 = document.getElementById('box-content-title-5');
-    title5.textContent = "Hardware Engineer";
-    const icon6 = document.getElementById('box-content-image-6');
-    icon6.src = "./assets/images/page/KHMT/icon-6.svg";
-    const title6 = document.getElementById('box-content-title-6');
-    title6.textContent = "Systems Engineer";
+  setBoxItem(1, "./assets/images/page/KHMT/icon-1.svg", "AI Engineer");
+  setBoxItem(2, "./assets/images/page/KHMT/icon-2.svg", "Cyber Security");
+  setBoxItem(3, "./assets/images/page/KHMT/icon-3.svg", "Cloud Computing Specialist");
+  setBoxItem(4, "./assets/images/page/KHMT/icon-4.svg", "Game Developer");
+  setBoxItem(5, "./assets/images/page/KHMT/icon-5.svg", "Hardware Engineer");
+  setBoxItem(6, "./assets/images/page/KHMT/icon-6.svg", "Systems Engineer");
 }
 function khdl() {
-    const icon1 = document.getElementById('box-content-image-1');
-    icon1.src = "./assets/images/page/KHDL/icon-1.svg";
-    const title1 = document.getElementById('box-content-title-1');
-    title1.textContent = "Data Product Manager";
-    const icon2 = document.getElementById('box-content-image-2');
-    icon2.src = "./assets/images/page/KHDL/icon-2.svg";
-    const title2 = document.getElementById('box-content-title-2');
-    title2.textContent = "Data Manager";  
-    const icon3 = document.getElementById('box-content-image-3');
-    icon3.src = "./assets/images/page/KHDL/icon-3.svg";
-    const title3 = document.getElementById('box-content-title-3');
-    title3.textContent = "Risk Analyst";  
-    const icon4 = document.getElementById('box-content-image-4');
-    icon4.src = "./assets/images/page/KHDL/icon-4.svg";
-    const title4 = document.getElementById('box-content-title-4');
-    title4.textContent = "Data Analyst";
-    const icon5 = document.getElementById('box-content-image-5');
-    icon5.src = "./assets/images/page/KHDL/icon-5.svg";
-    const title5 = document.getElementById('box-content-title-5');
-    title5.textContent = "Data Scientist";
-    const icon6 = document.getElementById('box-content-image-6');
-    icon6.src = "./assets/images/page/KHDL/icon-6.svg";
-    const title6 = document.getElementById('box-content-title-6');
-    title6.textContent = "Data Engineer";
+  setBoxItem(1, "./assets/images/page/KHDL/icon-1.svg", "Data Product Manager");
+  setBoxItem(2, "./assets/images/page/KHDL/icon-2.svg", "Data Manager");
+  setBoxItem(3, "./assets/images/page/KHDL/icon-3.svg", "Risk Analyst");
+  setBoxItem(4, "./assets/images/page/KHDL/icon-4.svg", "Data Analyst");
+  setBoxItem(5, "./assets/images/page/KHDL/icon-5.svg", "Data Scientist");
+  setBoxItem(6, "./assets/images/page/KHDL/icon-6.svg", "Data Engineer");
 }
-
-// Chưa sửa
 function httt() {
-    const icon1 = document.getElementById('box-content-image-1');
-    icon1.src = "./assets/images/page/HTTT/icon-1.svg";
-    const title1 = document.getElementById('box-content-title-1');
-    title1.textContent = "Data Product Manager";
-    const icon2 = document.getElementById('box-content-image-2');
-    icon2.src = "./assets/images/page/HTTT/icon-2.svg";
-    const title2 = document.getElementById('box-content-title-2');
-    title2.textContent = "Big Data Engineer";
-    const icon3 = document.getElementById('box-content-image-3');
-    icon3.src = "./assets/images/page/HTTT/icon-3.svg";
-    const title3 = document.getElementById('box-content-title-3');
-    title3.textContent = "Data Analyst";  
-    const icon4 = document.getElementById('box-content-image-4');
-    icon4.src = "./assets/images/page/HTTT/icon-4.svg";
-    const title4 = document.getElementById('box-content-title-4');
-    title4.textContent = "System Analyst";
-    const icon5 = document.getElementById('box-content-image-5');
-    icon5.src = "./assets/images/page/HTTT/icon-5.svg";
-    const title5 = document.getElementById('box-content-title-5');
-    title5.textContent = "IT Auditor";
-    const icon6 = document.getElementById('box-content-image-6');
-    icon6.src = "./assets/images/page/HTTT/icon-6.svg";
-    const title6 = document.getElementById('box-content-title-6');
-    title6.textContent = "Information Systems Manager";
+  setBoxItem(1, "./assets/images/page/HTTT/icon-1.svg", "Data Product Manager");
+  setBoxItem(2, "./assets/images/page/HTTT/icon-2.svg", "Big Data Engineer");
+  setBoxItem(3, "./assets/images/page/HTTT/icon-3.svg", "Data Analyst");
+  setBoxItem(4, "./assets/images/page/HTTT/icon-4.svg", "System Analyst");
+  setBoxItem(5, "./assets/images/page/HTTT/icon-5.svg", "IT Auditor");
+  setBoxItem(6, "./assets/images/page/HTTT/icon-6.svg", "Information Systems Manager");
 }
 function cntt() {
-    const icon1 = document.getElementById('box-content-image-1');
-    icon1.src = "./assets/images/page/CNTT/icon-1.svg";
-    const title1 = document.getElementById('box-content-title-1');
-    title1.textContent = "Frontend Developer";
-    const icon2 = document.getElementById('box-content-image-2');
-    icon2.src = "./assets/images/page/CNTT/icon-2.svg";
-    const title2 = document.getElementById('box-content-title-2');
-    title2.textContent = "Backend Developer";
-    const icon3 = document.getElementById('box-content-image-3');
-    icon3.src = "./assets/images/page/CNTT/icon-3.svg";
-    const title3 = document.getElementById('box-content-title-3');
-    title3.textContent = "Fullstack Developer";  
-    const icon4 = document.getElementById('box-content-image-4');
-    icon4.src = "./assets/images/page/CNTT/icon-4.svg";
-    const title4 = document.getElementById('box-content-title-4');
-    title4.textContent = "Mobile Developer";
-    const icon5 = document.getElementById('box-content-image-5');
-    icon5.src = "./assets/images/page/CNTT/icon-5.svg";
-    const title5 = document.getElementById('box-content-title-5');
-    title5.textContent = "Game Developer";
-    const icon6 = document.getElementById('box-content-image-6');
-    icon6.src = "./assets/images/page/CNTT/icon-6.svg";
-    const title6 = document.getElementById('box-content-title-6');
-    title6.textContent = "Embedded Systems Developer";
+  setBoxItem(1, "./assets/images/page/CNTT/icon-1.svg", "Frontend Developer");
+  setBoxItem(2, "./assets/images/page/CNTT/icon-2.svg", "Backend Developer");
+  setBoxItem(3, "./assets/images/page/CNTT/icon-3.svg", "Fullstack Developer");
+  setBoxItem(4, "./assets/images/page/CNTT/icon-4.svg", "Mobile Developer");
+  setBoxItem(5, "./assets/images/page/CNTT/icon-5.svg", "Game Developer");
+  setBoxItem(6, "./assets/images/page/CNTT/icon-6.svg", "Embedded Systems Developer");
 }
 
-// lộ trình năm học
-function contentYearOne() {
-    const yearText = document.getElementById('year-text');
-    const yearContent = document.getElementById('page-content');
-    if (major === 'ktpm') {
-        yearContent.textContent = 'Nội dung cho Năm 1 - Kỹ thuật phần mềm';
-    }
-    else if (major === 'khmt') {
-        yearContent.textContent = 'Nội dung cho Năm 1 - Khoa học máy tính';
-    }
-    else if (major === 'khdl') {
-        yearContent.textContent = 'Nội dung cho Năm 1 - Khoa học dữ liệu lớn';
-    }
-    else if (major === 'httt') {
-        yearContent.textContent = 'Nội dung cho Năm 1 - Hệ thống thông tin';
-    }
-    else if (major === 'cntt') {
-        yearContent.textContent = 'Nội dung cho Năm 1 - Công nghệ thông tin';
-    }
+// ---- Nội dung lộ trình theo ngành
+const CONTENT_BY_MAJOR = {
+  ktpm: [
+    'Nội dung cho Năm 1 - Kỹ thuật phần mềm',
+    'Nội dung cho Năm 2 - Kỹ thuật phần mềm',
+    'Nội dung cho Năm 3 - Kỹ thuật phần mềm',
+    'Nội dung cho Năm 4 - Kỹ thuật phần mềm',
+  ],
+  khmt: [
+    'Nội dung cho Năm 1 - Khoa học máy tính',
+    'Nội dung cho Năm 2 - Khoa học máy tính',
+    'Nội dung cho Năm 3 - Khoa học máy tính',
+    'Nội dung cho Năm 4 - Khoa học máy tính',
+  ],
+  khdl: [
+    'Nội dung cho Năm 1 - Khoa học dữ liệu lớn',
+    'Nội dung cho Năm 2 - Khoa học dữ liệu lớn',
+    'Nội dung cho Năm 3 - Khoa học dữ liệu lớn',
+    'Nội dung cho Năm 4 - Khoa học dữ liệu lớn',
+  ],
+  httt: [
+    'Nội dung cho Năm 1 - Hệ thống thông tin',
+    'Nội dung cho Năm 2 - Hệ thống thông tin',
+    'Nội dung cho Năm 3 - Hệ thống thông tin',
+    'Nội dung cho Năm 4 - Hệ thống thông tin',
+  ],
+  cntt: [
+    'Nội dung cho Năm 1 - Công nghệ thông tin',
+    'Nội dung cho Năm 2 - Công nghệ thông tin',
+    'Nội dung cho Năm 3 - Công nghệ thông tin',
+    'Nội dung cho Năm 4 - Công nghệ thông tin',
+  ],
+};
+
+// ---- Render năm hiện tại
+function renderYear() {
+  const yearText = document.getElementById('year-text');
+  const yearContent = document.getElementById('page-content');
+  if (!yearText || !yearContent) return;
+
+  yearText.textContent = YEARS[currentYearIndex];
+  const list = CONTENT_BY_MAJOR[major] || CONTENT_BY_MAJOR['cntt'];
+  yearContent.textContent = list[currentYearIndex] || '';
 }
 
+// ---- Chuyển năm (đã có khoá isTransitioning + debounce)
 function nextYear() {
-    const yearText = document.getElementById('year-text');
-    const yearContent = document.getElementById('page-content');
-    if (yearText.textContent.trim() === 'Năm 1') {
-        yearText.textContent = 'Năm 2';
-        yearContent.textContent = 'Nội dung cho Năm 2';
-    } else if (yearText.textContent.trim() === 'Năm 2') {
-        yearText.textContent = 'Năm 3';
-        yearContent.textContent = 'Nội dung cho Năm 3';
-    } else if (yearText.textContent.trim() === 'Năm 3') {
-        yearText.textContent = 'Năm 4';
-        yearContent.textContent = 'Nội dung cho Năm 4';
-    }
+  if (isTransitioning) return;
+  if (currentYearIndex < YEARS.length - 1) {
+    isTransitioning = true;
+    currentYearIndex++;
+    renderYear();
+    setTimeout(() => { isTransitioning = false; }, 250);
+  }
 }
 function previousYear() {
-    const yearText = document.getElementById('year-text');
-    if (yearText.textContent.trim() === 'Năm 4') {
-        yearText.textContent = 'Năm 3';
-    } else if (yearText.textContent.trim() === 'Năm 3') {
-        yearText.textContent = 'Năm 2';
-    } else if (yearText.textContent.trim() === 'Năm 2') {
-        yearText.textContent = 'Năm 1';
-    } 
+  if (isTransitioning) return;
+  if (currentYearIndex > 0) {
+    isTransitioning = true;
+    currentYearIndex--;
+    renderYear();
+    setTimeout(() => { isTransitioning = false; }, 250);
+  }
+}
+
+// ---- Vuốt trái/phải: dùng Pointer Events để tránh sự kiện kép
+function enableSwipeOnPage() {
+  const pageEl = document.querySelector('.page');
+  if (!pageEl) return;
+
+  // Ưu tiên cuộn dọc, mình tự xử lý vuốt ngang
+  pageEl.style.touchAction = 'pan-y';
+
+  let tracking = false;
+  let startX = 0, startY = 0;
+  let activePointerId = null;
+
+  const MIN_SWIPE = 60;      // px tối thiểu
+  const MAX_SLOPE = Math.tan(30 * Math.PI / 180); // lệch dọc cho phép (<= 30°)
+
+  pageEl.addEventListener('pointerdown', (e) => {
+    // Chỉ xử lý cảm ứng (touch). Nếu muốn hỗ trợ chuột có thể bỏ điều kiện.
+    if (e.pointerType !== 'touch') return;
+    tracking = true;
+    activePointerId = e.pointerId;
+    startX = e.clientX;
+    startY = e.clientY;
+    pageEl.setPointerCapture(activePointerId);
+  });
+
+  pageEl.addEventListener('pointerup', (e) => {
+    if (!tracking || e.pointerId !== activePointerId) return;
+
+    const now = Date.now();
+    if (now - lastSwipeTime < SWIPE_DEBOUNCE_MS) {
+      // quá gần lần trước → bỏ qua
+      tracking = false;
+      pageEl.releasePointerCapture(activePointerId);
+      activePointerId = null;
+      return;
+    }
+
+    const dx = e.clientX - startX;
+    const dy = e.clientY - startY;
+
+    // Kiểm tra: vuốt ngang đủ dài và không chéo quá
+    if (Math.abs(dx) >= MIN_SWIPE && Math.abs(dy) <= Math.abs(dx) * MAX_SLOPE) {
+      lastSwipeTime = now;
+      if (dx < 0) nextYear();      // trái → năm sau
+      else        previousYear();  // phải → năm trước
+    }
+
+    tracking = false;
+    pageEl.releasePointerCapture(activePointerId);
+    activePointerId = null;
+  });
+
+  // Nếu pointer bị cancel (rời khỏi màn hình, v.v.)
+  pageEl.addEventListener('pointercancel', () => {
+    tracking = false;
+    if (activePointerId != null) {
+      try { pageEl.releasePointerCapture(activePointerId); } catch {}
+      activePointerId = null;
+    }
+  });
 }
