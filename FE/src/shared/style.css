@@ -101,7 +101,8 @@ body{
 
 .section1__decor1{
     top: -78px;
-    right: -100px;
+    right: -41px;
+    /* display: none; */
 }
 
 .section1__decor2 {

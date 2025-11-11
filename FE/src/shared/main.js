@@ -1,6 +1,6 @@
 import postInfo from "../services/login/authenLogin.js";
 import Homepage from "../pages/homepage/homepage.js";
-import Header from "../components/login/header/header.js";
+import Header from "../components/header/header.js";
 import Footer from "../components/footer/footer.js";
 import CNOverview from "../pages/cn-overview/cn-overview.js";
 import CVOverview from "../pages/cv-overview/cv-overview.js";
