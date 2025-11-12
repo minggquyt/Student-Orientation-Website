@@ -125,6 +125,25 @@ body {
     height: 455.39752197265625px;
     border-radius: 55px;
     background-color: #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2__box--text-child > ul, .section2b__box--text-child > ul {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.section2__box--text-child > ul > li, .section2b__box--text-child > ul > li {
+    font-size: 20px;
+    line-height: 100%;
+    color: #000000;
 }
 
 .section3 {
@@ -187,4 +206,14 @@ body {
     padding: 0 0 0 131px;
     display: flex;
     justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section1__layer {
+        max-width: 550px;
+    }
+
+    .section1__layer--logo {
+        width: 50px;
+    }
 }
