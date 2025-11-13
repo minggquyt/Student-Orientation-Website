@@ -12,7 +12,6 @@ const allowedOrigins = [
 
 app.use(cors({
     origin: (origin, callback) => {
-        console.log(origin);
         if (!origin || allowedOrigins.includes(origin)) {
             callback(null, true);
         } else {
@@ -21,11 +20,11 @@ app.use(cors({
     }
 }));
 
-app.get('/', (req, res) => {
-    res.send("Hello world");
-})
-
 app.use('/api', authRoutes);
+
+app.get('/',(req,res) => {
+    res.send("Hello world !");
+})
 
 app.listen(port, () => {
     console.log(`Node App is running on port http://localhost:${port}`);

@@ -1,0 +1,79 @@
+[
+    {
+        "id": "ops-security",
+        "title": "Giám sát & Bảo trì (Ops & Security)",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "developer",
+        "title": "Lập trình viên ( Developer )",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "tester",
+        "title": "Tester",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "se",
+        "title": "Software engineer",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "po",
+        "title": "Project Owner",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "da",
+        "title": "Giám sát & Bảo trì (Ops & Security)",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    },
+    {
+        "id": "ba",
+        "title": "Giám sát & Bảo trì (Ops & Security)",
+        "icon": "/FE/assets/images/pages/ops-security/Vector.svg",
+        "image": "/FE/assets/images/pages/ops-security/content1.svg",
+        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "firsttitle": "Ops là gì",
+        "firstdesc": "Info about Ops",
+        "secondtitle": "Security là gì",
+        "seconddesc": "Info about security"
+    }
+]
