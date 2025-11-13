@@ -1,7 +1,7 @@
-@import url(./variable.css);
+@import url(../../shared/variable.css);
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -17,20 +17,22 @@ body {
     align-items: center;
 }
 
-.section1 {
+.job-section1 {
     height: 270px;
     width: 100%;
-    padding: 0 50px;
+    display: flex;
+    justify-content: center;
 }
 
-.section1--child {
+.job-section1--child {
     display: flex;
     justify-content: center;
     position: relative;
+    width: 100%;
+    max-width: 705px;
 }
 
-.section1__layer {
-    max-width: 705px;
+.job-section1__layer {
     width: 100%;
     height: 97px;
     border-radius: 30px;
@@ -38,17 +40,17 @@ body {
     padding: 0 15px;
 }
 
-.section1__layer1 {
+.job-section1__layer1 {
     background-color: #6EE6561A;
     top: 48px;
 }
 
-.section1__layer2 {
+.job-section1__layer2 {
     background-color: #8ADB421A;
     top: 61px;
 }
 
-.section1__layer3 {
+.job-section1__layer3 {
     background-color: #4CC53C80;
     top: 75px;
     display: flex;
@@ -57,22 +59,18 @@ body {
     gap: 20px;
 }
 
-.section1__layer--logo {
-
-}
-
-.section1__layer--title {
+.job-section1__layer--title {
     font-size: 30px;
     color: #FFFFFF;
     line-height: 100%;
 }
 
-.section2, .section2b {
-    max-width: 1375px;
+.job-section2, .job-section2b {
+    max-width: 1440px;
     width: 100%;
 }
 
-.section2__title, .section2b__title {
+.job-section2__title, .job-section2b__title {
     margin-left: 44px;
     position: relative;
     max-width: 1373px;
@@ -80,9 +78,8 @@ body {
     display: flex;
 }
 
-.section2__title--layer, .section2b__title--layer {
-    max-width: 558px;
-    width: 100%;
+.job-section2__title--layer, .job-section2b__title--layer {
+    width: 558px;
     height: 73px;
     background-color: var(--primary-color);
     box-shadow: 0 4px 4px 0 #2DBD7F;
@@ -90,16 +87,16 @@ body {
     position: absolute;
 }
 
-.section2__layer1, .section2b__layer1 {
+.job-section2__layer1, .job-section2b__layer1 {
     position: initial;
 }
 
-.section2__layer2, .section2b__layer2 {
+.job-section2__layer2, .job-section2b__layer2 {
     top: 4px;
     left: 3px;
 }
 
-.section2__layer3, .section2b__layer3 {
+.job-section2__layer3, .job-section2b__layer3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,21 +107,27 @@ body {
     left: 7px;
 }
 
-.section2__content {
+.job-section2__content {
     margin-top: 96px;
     padding: 0 131px 0 73px;
     display: flex;
     justify-content: space-between;
 }
 
-.section2__content > img {
+.job-section2b__content {
+    margin-top: 96px;
+    padding: 0 40px 0 131px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-section2__content > img {
     max-width: 520px;
     width: 100%;
 }
 
-.section2__box, .section2b__box {
-    max-width: 419px;
-    width: 100%;
+.job-section2__box, .job-section2b__box {
+    width: 419px;
     height: 471px;
     border-radius: 55px;
     background: linear-gradient(to right, #00FF9F, #00995F);
@@ -134,7 +137,7 @@ body {
     padding: 8px 7px;
 }
 
-.section2__box--text, .section2b__box--text {
+.job-section2__box--text, .job-section2b__box--text {
     width: 404.9983215332031px;
     height: 455.39752197265625px;
     border-radius: 55px;
@@ -144,7 +147,7 @@ body {
     align-items: center;
 }
 
-.section2__box--text-child > ul, .section2b__box--text-child > ul {
+.job-section2__box--text-child > ul, .job-section2b__box--text-child > ul {
     width: 330px;
     display: flex;
     flex-direction: column;
@@ -154,31 +157,31 @@ body {
     gap: 30px;
 }
 
-.section2__box--text-child > ul > li, .section2b__box--text-child > ul > li {
+.job-section2__box--text-child > ul > li, .job-section2b__box--text-child > ul > li {
     font-size: 20px;
     line-height: 100%;
     color: #000000;
 }
 
-.section3 {
+.job-section3 {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 160px;
 }
 
-.section3--child {
+.job-section3--child {
     max-width: 1334.5px;;
     width: 100%;
     padding: 0 50px;
 }
 
-.section3__line {
+.job-section3__line {
     width: 100%;
     border: 5px solid #FFFFFF;
 }
 
-.section3__back {
+.job-section3__back {
     font-size: 20px;
     line-height: 100%;
     color: #FFFFFF;
@@ -187,11 +190,11 @@ body {
     margin-top: 21px;
 }
 
-.section3__back--icon {
+.job-section3__back--icon {
 
 }
 
-.section__cloud {
+.job-section__cloud {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,6 +203,7 @@ body {
 
 .ux__title {
     justify-content: flex-end;
+    width: 100%;
 }
 
 .ux__title1 {
@@ -216,48 +220,43 @@ body {
     right: -7px;
 }
 
-.section2b__content {
-    margin-top: 96px;
-    padding: 0 0 0 131px;
-    display: flex;
-    justify-content: space-between;
-}
 
-@media only screen and (max-width: 1024px) {
-    .section1__layer {
+
+@media only screen and (max-width: 1024.5px) {
+    .job-section1__layer {
         max-width: 550px;
     }
 
-    .section1__layer--logo {
+    .job-section1__layer--logo {
         width: 50px;
     }
 
-    .section1__layer--title {
+    .job-section1__layer--title {
         font-size: 20px;
     }
 
-    .section2__title, .section2b__title {
+    .job-section2__title, .job-section2b__title {
         margin-left: 0;
         width: 100%;
     }
 
-    .section2__title--layer, .section2b__title--layer {
+    .job-section2__title--layer, .job-section2b__title--layer {
         max-width: 465px;
         width: 100%;
     }
 
-    .section2__layer1, .section2b__layer1 {
+    .job-section2__layer1, .job-section2b__layer1 {
         position: initial;
         margin: 0 auto;
     }
 
-    .section2__layer2, .section2b__layer2 {
+    .job-section2__layer2, .job-section2b__layer2 {
         top: 5px;
         left: 50%;
         transform: translate(-50%, 0);
     }
 
-    .section2__layer3, .section2b__layer3 {
+    .job-section2__layer3, .job-section2b__layer3 {
         font-size: 24px;
         top: 8px;
         left: 50%;
@@ -266,7 +265,7 @@ body {
         text-align: center;
     }
 
-    .section2__content {
+    .job-section2__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -275,77 +274,77 @@ body {
         padding: 0 125px;
     }
 
-    .section2__content > img {
+    .job-section2__content > img {
         width: 80%;
     }
 
-    .section2__box, .section2b__box {
+    .job-section2__box, .job-section2b__box {
         max-width: 100%;
         width: 100%;
         height: 400px;
         padding: 20px 20px;
     }
 
-    .section2__box--text, .section2b__box--text {
+    .job-section2__box--text, .job-section2b__box--text {
         max-width: 100%;
         width: 100%;
         height: 365px;
     }
 
-    .section2__box--text-child {
+    .job-section2__box--text-child {
         display: flex;
         justify-content: center;
     }
 
-    .section2__box--text-child > ul, .section2b__box--text-child > ul {
+    .job-section2__box--text-child > ul, .job-section2b__box--text-child > ul {
         max-width: 80%;
         width: 100%;
     }
 
-    .section2__box--text-child > ul > li, .section2b__box--text-child > ul > li {
+    .job-section2__box--text-child > ul > li, .job-section2b__box--text-child > ul > li {
         font-size: 18px;
     }
 
-    .section3 {
+    .job-section3 {
         margin-top: 70px;
     }
 
-    .section3--child {
+    .job-section3--child {
         max-width: 900px;   
         width: 100%;
     }
 
-    .section__cloud > img {
+    .job-section__cloud > img {
         width: 100%;
     }
 
-    .section2b__content {
+    .job-section2b__content {
         padding: 0 125px;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .section1 {
+    .job-section1 {
         height: 230px;
         width: 100%;
         padding: 0 50px;
     }
 
-    .section1__layer {
+    .job-section1__layer {
         max-width: 300px;
         width: 100%;
         height: 75px;
     }
     
-    .section1__layer--title {
+    .job-section1__layer--title {
         font-size: 16px;
     }
 
-    .section1__layer--logo {
+    .job-section1__layer--logo {
         width: 35px;
     }
 
-    .section2__title--layer, .section2b__title--layer {
+    .job-section2__title--layer, .job-section2b__title--layer {
         max-width: 558px;
         width: 100%;
         height: 50px;
@@ -354,7 +353,7 @@ body {
         text-align: center;
     }
 
-    .section2__layer3, .section2b__layer3 {
+    .job-section2__layer3, .job-section2b__layer3 {
         font-size: 18px;
         top: 8px;
         left: 50%;
@@ -363,7 +362,7 @@ body {
         text-align: center;
     }
 
-    .section2__content {
+    .job-section2__content {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -373,26 +372,26 @@ body {
         margin-top: 65px;
     }
 
-    .section2__box, .section2b__box {
+    .job-section2__box, .job-section2b__box {
         max-width: 100%;
         width: 100%;
         height: 400px;
         padding: 10px 10px;
     }
 
-    .section2__box--text, .section2b__box--text {
+    .job-section2__box--text, .job-section2b__box--text {
         max-width: 100%;
         width: 100%;
         height: 375px;
     }
 
-    .section2__box--text-child > ul, .section2b__box--text-child > ul {
+    .job-section2__box--text-child > ul, .job-section2b__box--text-child > ul {
         max-width: 75%;
         width: 100%;
         gap: 15px;
     }
     
-    .section2b__content {
+    .job-section2b__content {
         padding: 0 40px;
     }
 }

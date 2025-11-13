@@ -1,5 +1,6 @@
 @import url(./variable.css);
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,33 +10,37 @@ hr {
     border: 1px solid #A0A0A0;
 }
 
-body{
+body {
     background-color: var(--primary-color);
     position: relative;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.active{
+.active {
     display: inline-block;
 }
 
-.unactive{
+.unactive {
     display: none;
 }
 
-.header{
+.header {
     max-width: 1460px;
     margin: auto;
     width: 100%;
     height: 192px;
     background-color: var(--primary-color);
     display: flex;
+    gap: 42px;
     justify-content: space-between;
     align-items: center;
     padding: 62.5px 100px 42px 100px;
 }
 
-.header > img{
+.header>img {
     width: 255px;
     height: 50px;
 }
@@ -47,16 +52,18 @@ body{
     gap: 49px;
 }
 
-.header > nav{
+.header>nav {
     display: flex;
     align-items: center;
     gap: 42px;
 }
-.header > nav > a {
+
+.header>nav>a {
     color: #FFFFFF;
     text-decoration: unset;
 }
-.header > nav > button{
+
+.header>nav>button {
     width: 265px;
     height: 78px;
     background-color: var(--primary-color);
@@ -71,7 +78,7 @@ body{
     background-color: var(--primary-color);
     display: flex;
     justify-content: center;
-    padding: 77px 0 104px 0 ;
+    padding: 77px 0 104px 0;
 }
 
 .section1__content {
@@ -86,7 +93,7 @@ body{
     position: relative;
 }
 
-.section1__content--text{
+.section1__content--text {
     font-size: 60px;
     color: #F5F7FA;
     text-shadow: 0 4px 0 #2BC20E;
@@ -99,7 +106,7 @@ body{
     position: absolute;
 }
 
-.section1__decor1{
+.section1__decor1 {
     top: -78px;
     right: -41px;
     /* right: -41px; */
@@ -173,13 +180,14 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 1;
 }
 
 .section3__decor {
     position: absolute;
 }
 
-.section3__decor1 { 
+.section3__decor1 {
     right: 560px;
     bottom: -60px;
 }
@@ -219,11 +227,12 @@ body{
     width: 100%;
 }
 
-.section3__frame--decor > img {
+.section3__frame--decor>img {
     width: 100%;
     position: relative;
-    z-index: 1; 
+    z-index: 1;
 }
+
 .section3__logo {
     display: flex;
     flex-direction: column;
@@ -303,7 +312,7 @@ body{
     width: 100%;
 }
 
-.section4__decor2 > img {
+.section4__decor2>img {
     width: 100%;
 }
 
@@ -331,6 +340,7 @@ body{
 
 .section4__group {
     position: relative;
+    z-index: 1;
 }
 
 .section4__group-ch {
@@ -455,7 +465,7 @@ body{
     color: #2BC20E;
 }
 
-.form--input > input {
+.form--input>input {
     color: #898989;
     max-width: 556px;
     width: 100%;
@@ -465,14 +475,14 @@ body{
     font-size: 18px;
 }
 
-.form__message--input > input {
+.form__message--input>input {
     height: 190px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.form__message--input > input::placeholder {
+.form__message--input>input::placeholder {
     text-align: start;
 }
 
@@ -566,12 +576,13 @@ body{
     color: #FFFFFF;
 }
 
-.footer__section3 > a {
+.footer__section3>a {
     font-size: 18px;
     line-height: 100%;
     color: white;
 }
 
-.section5, .footer {
+.section5,
+.footer {
     padding: 0 110px;
 }

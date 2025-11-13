@@ -67,4 +67,3 @@ function main(){
 }
 main();
 
-// 1. Lỗi UI khi đăng nhập xong phải tắt luôn box login

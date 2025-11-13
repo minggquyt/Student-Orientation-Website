@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 .box:nth-child(1) {
     max-width: 1195px;
@@ -140,7 +141,6 @@ body {
     position: relative;
     right: 26%;
 }
-
 
 .cn-section1 {
     height: 270px;
@@ -316,4 +316,4 @@ body {
     padding: 0 0 0 131px;
     display: flex;
     justify-content: space-between;
-}
+} */
