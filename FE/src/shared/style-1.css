@@ -20,7 +20,87 @@ body {
     height: 487px;
     box-shadow: 0 4px 10px rgba(0, 255, 159, 0.29), inset 0 4px 20px rgba(0, 201, 255, 0.15);
     border: 1px solid #00FF9F;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 0 2% 0 2%;
+}
+.box:nth-child(1) .box-title {
+    max-width: 1046px;
+    width: 100%;
+    height: 95px;
+    border: 5px solid #92FE9D;
+    background-color: #FFFFFF;
+    border-radius: 55px;
+    margin-top: 54px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Unbounded';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.box:nth-child(1) .box-content-description {
+    max-width: 1046px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 52px;
+}
+.box:nth-child(1) .box-content-description .box-content-description-text:nth-child(1) {
+    max-width: 497px;
+    width: 100%;
+    height: 213px;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 5px 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 1.5%;
+}
+.box:nth-child(1) .box-content-description .box-content-description-text:nth-child(2) {
+    max-width: 497px;
+    width: 100%;
+    height: 213px;
+    background-color: #FFFFFF;
+    border-radius: 5px 5px 55px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding: 1.5%;
+}
+.box-content-description-text-child {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    line-height: 1.4;
+    max-width: 437px;
+    width: 100%;
+    min-height: 39px;
+    background-color: #2DBD7F;
+    display: flex;
+    align-items: center;
+    padding: 8px 4px 8px 26px ;
+    overflow-wrap: anywhere;
+    gap: 26px;
+}
+.box-content-description-text:nth-child(1) .box-content-description-text-child:nth-child(3) {
+  border-bottom-left-radius: 55px;
+}
+
+.box-content-description-text:nth-child(2) .box-content-description-text-child:nth-child(3) {
+    border-bottom-right-radius: 55px;
 }
 .box:nth-child(3), .box:nth-child(7), .box:nth-child(9) {
     max-width: 1195px;
@@ -125,6 +205,30 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+.page-content-item {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Unbounded';
+    margin-left: 20px;
+    color:#000000;
+    margin-bottom: 30px;
+}
+.sub-item {
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #000000;
+    font-family: 'Unbounded';
+    margin-top: 10px;
+}
+.text {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'Unbounded';
+    text-align: center;
+}
 .title {
     max-width: 562px;
     width: 100%;
@@ -208,4 +312,73 @@ body {
     .box:nth-child(11) .page .page-content {
         height: 554px;
     }
+    .box:nth-child(1) .box-title {
+        font-size: 22px;
+    }
+    .box:nth-child(1) .box-content-description {
+        gap: 20px;
+    }
+    .box-content-description-text-child {
+    font-size: 16px;
+    min-height: 50px;
+    padding: 8px 10px;
+    }
+    .box-content-description-text:nth-child(1) .box-content-description-text-child:nth-child(3),
+    .box-content-description-text:nth-child(2) .box-content-description-text-child:nth-child(3) {
+        font-size: 16px;
+        min-height: 50px;
+        padding:  8px 2px 8px 18px;
+    }
+    .box:nth-child(11) {
+        position: relative;
+    }
+
+    .box:nth-child(11) .page {
+    will-change: transform, opacity;
+    transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
+    backface-visibility: hidden;
+  }
+
+  /* Khi đang vuốt: thu nhỏ + giảm độ sáng */
+  .box:nth-child(11) .page.is-dragging {
+    transition: none;
+    transform: scale(0.96);
+    opacity: 0.85;
+  }
+
+  /* Khi đổi trang: fade + slide mềm */
+  .box:nth-child(11) .page.swipe-transition {
+    animation: swipeSlideIn 0.45s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+  }
+
+  @keyframes swipeSlideIn {
+    0% {
+      transform: translateX(60px) scale(0.96);
+      opacity: 0;
+    }
+    50% {
+      transform: translateX(15px) scale(0.985);
+      opacity: 0.75;
+    }
+    100% {
+      transform: translateX(0) scale(1);
+      opacity: 1;
+    }
+  }
+    .page-current {
+        display: flex;
+        gap: 20px;
+        position: absolute;
+        width: auto;
+        left: 35.3333333333%;
+        top: 95%;
+    }
+    .page-1, .page-2, .page-3, .page-4, .page-5 {
+        width: 15px;
+        height: 15px;
+        background: radial-gradient(circle at center, #d9fff0 0%, #00ffb7 100%);
+        opacity: 0.8;
+        border-radius: 50%;
+    }
+
 }
