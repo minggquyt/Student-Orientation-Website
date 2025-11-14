@@ -47,10 +47,10 @@ export default function DetailsJob(data) {
             </div>
         </div>
     </div>
-    <div class="section3">
-        <div class="section3--child">
-            <div class="section3__line"></div>
-            <div class="section3__back space-grotesk-500">
+    <div class="job-section3">
+        <div class="job-section3--child">
+            <div class="job-section3__line"></div>
+            <div class="job-section3__back space-grotesk-500">
                 <img src="/FE/assets/images/pages/back.svg" alt="" class="section__back--icon">
                 &nbsp;
                 Trở về

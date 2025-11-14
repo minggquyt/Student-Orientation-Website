@@ -109,5 +109,7 @@ function main() {
 
 main();
 
-
+// Công việc của ngày hôm nay:
+// 1. Merge code 
+// 2. Tổ chức lại data cho web 
 
