@@ -13,6 +13,9 @@ function renderPage(pageName,id = null) {
     switch (pageName) {
         case "details-major":
             divBody.innerHTML = DetailsMajor();
+            const script = document.createElement("script");
+            script.src = "/FE/src/pages/detail-cn/effect-detail-cn.js";
+            document.body.appendChild(script);
             break;
         case "details-job":
             getJobsData()

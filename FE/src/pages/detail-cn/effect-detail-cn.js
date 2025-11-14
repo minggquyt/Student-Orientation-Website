@@ -1,5 +1,3 @@
-// ========================= Student Orientation Page JS (fixed) =========================
-
 // ---- State chung
 let major = '';                         // 'ktpm' | 'khmt' | 'khdl' | 'httt' | 'cntt'
 const YEARS = ['Năm 1', 'Năm 2', 'Năm 3', 'Năm 4'];

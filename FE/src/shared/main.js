@@ -111,5 +111,10 @@ main();
 
 // Công việc của ngày hôm nay:
 // 1. Merge code 
+// 2. Tổ chức lại các page component 
 // 2. Tổ chức lại data cho web 
 
+// Lỗi 1: Khi gắn script để render bằng String -> trình duyệt sẽ không load script JS như việc trả về bằng file HTML 
+// Lỗi 2: Khi import bằngJS module -> function chạy trong scope module của JS, không phải global scope của window
+// -> JS khi load file bình thường -> không có module scope -> tự gắn vào windows
+// -> JS khi load file với type="module" => chạy trong scope module riêng -> không gắn vào windows -> gạy ra lỗi khi gọi các hàm JS inline

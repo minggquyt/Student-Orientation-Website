@@ -1,3 +1,6 @@
+import "./effect-detail-cn.js";
+
+
 export default function DetailsMajor(){
     return (
     `<div class="details-major">
@@ -72,7 +75,7 @@ export default function DetailsMajor(){
         </div>
         <div onclick="nextYear()" class="next-page"><img src="./assets/images/next-page.png" width="47" height="99.37"></div>
     </div>
-    <script src="/FE/src/pages/page.js"></script>
+    
     </div>`
     )
 }
