@@ -194,10 +194,14 @@ body {
     background-color: #FFFFFF;
 }
 .box:nth-child(11) .page .page-content {
-    max-width: 875px;
+    max-width: 428px;
     width: 100%;
-    height: 347px;
+    height: auto;
     border-radius: 55px;
+}
+.box:nth-child(11) .page .page-container-content {
+    display: flex;
+    gap: 140px
 }
 .title-container {
     max-width: 1195px;
@@ -223,11 +227,15 @@ body {
     margin-top: 10px;
 }
 .text {
-    font-size: 40px;
-    font-weight: 500;
-    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    color: #92FE9D;
     font-family: 'Unbounded';
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 .title {
     max-width: 562px;
