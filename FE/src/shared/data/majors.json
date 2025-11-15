@@ -1,123 +1,498 @@
 [
   {
     "id": "ktpm",
-    "name": "Kỹ thuật phần mềm",
-    "overview": "Tổng quan về chuyên ngành Kỹ thuật phần mềm",
-    "jobIds": [
-      "developer",
-      "tester",
-      "se",
-      "po"
-    ],
-    "careerOpportunities": "Cơ hội việc làm trong ngành CNTT",
-    "recruitmentDemand": "Nhu cầu tuyển dụng trong ngành CNTT",
-    "training": [
+    "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
+    "questions": {
+      "questionsColumn1": [
+        "Học xong sau này ra làm gì?",
+        "Nhà tuyển dụng cần gì ở bạn?",
+        "Đến 2030, còn ai tuyển dụng không?"
+      ],
+      "questionsColumn2": [
+        "Được học những môn học gì ở IUH?",
+        "Số tín chỉ, học phí, thời gian học?",
+        ""
+      ]
+    },
+    "overview": "Giới thiệu tổng quan về chuyên ngành",
+    "jobPositions": [
       {
-        "year": "Năm 1",
-        "content": "abou năm 1"
+        "title": "DevOps",
+        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
-        "year": "Năm 2",
-        "content": "about năm 2"
+        "title": "Developer",
+        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
-        "year": "Năm 3",
-        "content": "about năm 3"
+        "title": "Tester",
+        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
-        "year": "Năm 4",
-        "content": "about năm 4"
+        "title": "Software Engineer",
+        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+      },
+      {
+        "title": "Product Owner",
+        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+      },
+      {
+        "title": "Systems Analyst",
+        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }
-    ]
-  },
-  {
-    "id": "httt",
-    "name": "Hệ thống thông tin",
-    "overview": "Tổng quan về chuyên ngành Hệ thống thông tin",
-    "jobIds": [
-      "devops",
-      "se",
-      "da"
     ],
-    "careerOpportunities": "Cơ hội việc làm trong ngành Hệ thống & Bảo trì",
-    "recruitmentDemand": "Nhu cầu tuyển dụng trong ngành Hệ thống & Bảo trì",
-    "training": [
-      {
-        "year": "Năm 1",
-        "content": ""
-      },
-      {
-        "year": "Năm 2",
-        "content": ""
-      },
-      {
-        "year": "Năm 3",
-        "content": ""
-      },
-      {
-        "year": "Năm 4",
-        "content": ""
-      }
-    ]
+    "careerOpportunities": "Thông tin về cơ hội việc làm",
+    "recruitmentNeeds": "Thông tin về nhu cầu tuyền dụng",
+    "studyInfo": {  
+      "years": [
+        {
+          "year": "Năm 1",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Nhập môn tin học",
+                "Nhập môn lập trình"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Kĩ thuật lập trình",
+                "Hệ thống máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 2",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Cấu trúc dữ liệu",
+                "Lập trình hướng đối tượng"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Cơ sở dữ liệu",
+                "Mạng máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 3",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Hệ điều hành",
+                "Phát triển phần mềm"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Phân tích thiết kế hệ thống",
+                "Kiểm thử phần mềm"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 4",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Đồ án chuyên ngành",
+                "Thực tập doanh nghiệp"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Khóa luận tốt nghiệp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "id": "khmt",
-    "name": "Khoa học máy tính",
-    "overview": "Tổng quan về chuyên ngành Khoa học máy tính",
-    "jobIds": [
-      "devops",
-      "se",
-      "da"
-    ],
-    "careerOpportunities": "Cơ hội việc làm trong ngành Hệ thống & Bảo trì",
-    "recruitmentDemand": "Nhu cầu tuyển dụng trong ngành Hệ thống & Bảo trì",
-    "training": [
+    "icon": "/FE/assets/images/section3/Group.svg",
+    "questions": {
+      "questionsColumn1": [
+        "Học xong sau này ra làm gì?",
+        "Nhà tuyển dụng cần gì ở bạn?",
+        "Đến 2030, còn ai tuyển dụng không?"
+      ],
+      "questionsColumn2": [
+        "Được học những môn học gì ở IUH?",
+        "Số tín chỉ, học phí, thời gian học?",
+        ""
+      ]
+    },
+    "overview": "",
+    "jobPositions": [
       {
-        "year": "Năm 1",
-        "content": ""
+        "title": "DevOps",
+        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
-        "year": "Năm 2",
-        "content": ""
+        "title": "Developer",
+        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
-        "year": "Năm 3",
-        "content": ""
+        "title": "Tester",
+        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
-        "year": "Năm 4",
-        "content": ""
+        "title": "Software Engineer",
+        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+      },
+      {
+        "title": "Product Owner",
+        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+      },
+      {
+        "title": "Systems Analyst",
+        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }
-    ]
+    ],
+    "careerOpportunities": "",
+    "recruitmentNeeds": "",
+    "studyInfo": {
+      "years": [
+        {
+          "year": "Năm 1",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Nhập môn tin học",
+                "Nhập môn lập trình"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Kĩ thuật lập trình",
+                "Hệ thống máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 2",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Cấu trúc dữ liệu",
+                "Lập trình hướng đối tượng"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Cơ sở dữ liệu",
+                "Mạng máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 3",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Hệ điều hành",
+                "Phát triển phần mềm"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Phân tích thiết kế hệ thống",
+                "Kiểm thử phần mềm"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 4",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Đồ án chuyên ngành",
+                "Thực tập doanh nghiệp"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Khóa luận tốt nghiệp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   },
   {
-    "id": "khdl",
-    "name": "Khoa học dữ liệu",
-    "overview": "Tổng quan về chuyên ngành Khoa học dữ liệu",
-    "jobIds": [
-      "devops",
-      "se",
-      "da"
-    ],
-    "careerOpportunities": "Cơ hội việc làm trong ngành Hệ thống & Bảo trì",
-    "recruitmentDemand": "Nhu cầu tuyển dụng trong ngành Hệ thống & Bảo trì",
-    "training": [
+    "id": "cntt",
+    "icon": "/FE/assets/images/section3/carbon_data-1.svg",
+    "questions": {
+      "questionsColumn1": [
+        "Học xong sau này ra làm gì?",
+        "Nhà tuyển dụng cần gì ở bạn?",
+        "Đến 2030, còn ai tuyển dụng không?"
+      ],
+      "questionsColumn2": [
+        "Được học những môn học gì ở IUH?",
+        "Số tín chỉ, học phí, thời gian học?",
+        ""
+      ]
+    },
+    "overview": "",
+    "jobPositions": [
       {
-        "year": "Năm 1",
-        "content": ""
+        "title": "DevOps",
+        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
-        "year": "Năm 2",
-        "content": ""
+        "title": "Developer",
+        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
-        "year": "Năm 3",
-        "content": ""
+        "title": "Tester",
+        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
-        "year": "Năm 4",
-        "content": ""
+        "title": "Software Engineer",
+        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+      },
+      {
+        "title": "Product Owner",
+        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+      },
+      {
+        "title": "Systems Analyst",
+        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }
-    ]
+    ],
+    "careerOpportunities": "",
+    "recruitmentNeeds": "",
+    "studyInfo": {
+      "years": [
+        {
+          "year": "Năm 1",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Nhập môn tin học",
+                "Nhập môn lập trình"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Kĩ thuật lập trình",
+                "Hệ thống máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 2",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Cấu trúc dữ liệu",
+                "Lập trình hướng đối tượng"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Cơ sở dữ liệu",
+                "Mạng máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 3",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Hệ điều hành",
+                "Phát triển phần mềm"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Phân tích thiết kế hệ thống",
+                "Kiểm thử phần mềm"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 4",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Đồ án chuyên ngành",
+                "Thực tập doanh nghiệp"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Khóa luận tốt nghiệp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "httt",
+    "icon": "/FE/assets/images/section3/Mask-group.svg",
+    "questions": {
+      "questionsColumn1": [
+        "Học xong sau này ra làm gì?",
+        "Nhà tuyển dụng cần gì ở bạn?",
+        "Đến 2030, còn ai tuyển dụng không?"
+      ],
+      "questionsColumn2": [
+        "Được học những môn học gì ở IUH?",
+        "Số tín chỉ, học phí, thời gian học?",
+        ""
+      ]
+    },
+    "overview": "",
+    "jobPositions": [
+      {
+        "title": "DevOps",
+        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
+      },
+      {
+        "title": "Developer",
+        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
+      },
+      {
+        "title": "Tester",
+        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
+      },
+      {
+        "title": "Software Engineer",
+        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+      },
+      {
+        "title": "Product Owner",
+        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+      },
+      {
+        "title": "Systems Analyst",
+        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
+      }
+    ],
+    "careerOpportunities": "",
+    "recruitmentNeeds": "",
+    "studyInfo": {
+      "years": [
+        {
+          "year": "Năm 1",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Nhập môn tin học",
+                "Nhập môn lập trình"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Kĩ thuật lập trình",
+                "Hệ thống máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 2",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Cấu trúc dữ liệu",
+                "Lập trình hướng đối tượng"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Cơ sở dữ liệu",
+                "Mạng máy tính"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 3",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Hệ điều hành",
+                "Phát triển phần mềm"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Phân tích thiết kế hệ thống",
+                "Kiểm thử phần mềm"
+              ]
+            }
+          ]
+        },
+        {
+          "year": "Năm 4",
+          "semesters": [
+            {
+              "title": "Học kỳ 1",
+              "subjects": [
+                "Đồ án chuyên ngành",
+                "Thực tập doanh nghiệp"
+              ]
+            },
+            {
+              "title": "Học kỳ 2",
+              "subjects": [
+                "Khóa luận tốt nghiệp"
+              ]
+            }
+          ]
+        }
+      ]
+    }
   }
 ]

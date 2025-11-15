@@ -15,7 +15,7 @@ export default function Homepage(){
             <div class="section2__selection">
                 <div class="section2__selection-ch">
                     <img src="./assets/images/section2/Vector.svg" alt="" class="section2__selection-ch--icon">
-                    <div class="section2__selection-ch--text unbounded-400">Tôi chưa rõ mình  hợp với vị trí nào</div>
+                    <div class="section2__selection-ch--text unbounded-400">Tôi chưa rõ mình  hợp với công việc nào</div>
                 </div>
                 <div class="section2__selection-ch">
                     <img src="./assets/images/section2/Vector.svg" alt="" class="section2__selection-ch--icon">

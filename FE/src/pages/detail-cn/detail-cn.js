@@ -1,63 +1,40 @@
-import "./effect-detail-cn.js";
-
-
-export default function DetailsMajor(){
+export default function DetailsMajor(data){
     return (
     `<div class="details-major">
         <div class="box">
         <div class="box-title" id="box-title"></div>
         <div class="box-content-description">
             <div class="box-content-description-text">
-                <div class="box-content-description-text-child">Học xong sau này ra làm gì?</div>
-                <div class="box-content-description-text-child">Nhà tuyển dụng cần gì ở bạn?</div>
-                <div class="box-content-description-text-child">Đến 2030, còn ai tuyển dụng không?</div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn1[0]}</div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn1[1]}</div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn1[2]}</div>
             </div>
             <div class="box-content-description-text">
-                <div class="box-content-description-text-child">Được học những môn học gì ở IUH?</div>
-                <div class="box-content-description-text-child">Số tín chỉ, học phí, thời gian học?</div>
-                <div class="box-content-description-text-child"></div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn2[0]}</div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn2[1]}</div>
+                <div class="box-content-description-text-child">${data.questions.questionsColumn2[2]}</div>
             </div>
         </div>
     </div>
     <div class="title-container"><div class="title">Tổng quan chuyên ngành</div></div>
     <div class="box">
+    ${data.overview}
     </div>
     <div class="title-container"><div class="title">Vị trí công việc</div></div>
-    <div class="box">
-        <div class="box-content">
-            <img src="/FE/assets/images/page/KTPM/icon-1.svg" alt="" class="box-content-image" id="box-content-image-1">
-            <div class="box-content-title" id="box-content-title-1">DevOps</div>
-        </div>
-        <div class="box-content">
-            <img src="./assets/images/page/KTPM/icon-2.svg" alt="" class="box-content-image" id="box-content-image-2">
-            <div class="box-content-title" id="box-content-title-2">Developer</div>
-        </div>
-        <div class="box-content">
-            <img src="./assets/images/page/KTPM/icon-3.svg" alt="" class="box-content-image" id="box-content-image-3">
-            <div class="box-content-title" id="box-content-title-3">Tester</div>
-        </div>
-        <div class="box-content">
-            <img src="./assets/images/page/KTPM/icon-4.svg" alt="" class="box-content-image" id="box-content-image-4">
-            <div class="box-content-title" id="box-content-title-4">Software Enginer</div>
-        </div>
-        <div class="box-content">
-            <img src="./assets/images/page/KTPM/icon-5.svg" alt="" class="box-content-image" id="box-content-image-5">
-            <div class="box-content-title" id="box-content-title-5">Product Owner</div>
-        </div>
-        <div class="box-content">
-            <img src="./assets/images/page/KTPM/icon-6.svg" alt="" class="box-content-image" id="box-content-image-6">
-            <div class="box-content-title" id="box-content-title-6">Systems Analyst</div>
-        </div>
+    <div class="box cn-jobs-position">
+
     </div>
     <div class="title-container"><div class="title">Cơ hội việc làm</div></div>
     <div class="box">
+    ${data.careerOpportunities}
     </div>
     <div class="title-container"><div class="title">Nhu cầu tuyển dụng</div></div>
     <div class="box">
+    ${data.recruitmentNeeds}
     </div>
     <div class="title-container"><div class="title">Thông tin học tập</div></div>
     <div class="box">
-        <div onclick="previousYear()" class="previous-page"><img src="./assets/images/previous-page.png" width="47" height="99.37"></div>
+        <div class="previous-page"><img src="./assets/images/previous-page.png" width="47" height="99.37"></div>
         <div class="page">
             <div id="year-text" class="page-number">Năm 1</div>
             <div class="line"></div>
@@ -73,9 +50,8 @@ export default function DetailsMajor(){
                 </div>
             </div>
         </div>
-        <div onclick="nextYear()" class="next-page"><img src="./assets/images/next-page.png" width="47" height="99.37"></div>
+        <div class="next-page"><img src="./assets/images/next-page.png" width="47" height="99.37"></div>
     </div>
-    
     </div>`
     )
 }

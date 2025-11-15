@@ -312,3 +312,16 @@ function enableSwipeOnPage() {
     pageEl.classList.remove('is-dragging');
   });
 }
+
+const nextPageIcon = document.querySelector('.next-page');
+nextPageIcon.addEventListener('click',(e) => {
+  e.stopPropagation();
+  nextYear();
+})
+
+const previousPageIcon = document.querySelector('.previous-page');
+previousPageIcon.addEventListener('click',(e) => {
+  e.stopPropagation();
+  previousYear();
+})
+

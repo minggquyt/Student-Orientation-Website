@@ -258,11 +258,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .section3__logo--child:hover {
-    transform: scale(1.3);
+    transform: scale(1.3) rotateX(45deg);
 }
 
 /* SECTION 4 */
@@ -372,7 +372,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .section4__group--logo:hover {
@@ -587,6 +587,12 @@ body {
     padding: 0 110px;
 }
 
-/* @media only screen and (max-width: 1024px) {
 
-} */
+.test{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

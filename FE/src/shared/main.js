@@ -1,10 +1,6 @@
 import postInfo from "../services/login/authenLogin.js";
-import Homepage from "../pages/homepage/homepage.js";
 import Header from "../components/header/header.js";
 import Footer from "../components/footer/footer.js";
-import CNOverview from "../pages/cn-overview/cn-overview.js";
-import CVOverview from "../pages/cv-overview/cv-overview.js";
-import DetailsMajor from "../pages/detail-cn/detail-cn.js";
 
 function renderHeader(app) {
     const header = document.createElement("div");
@@ -70,31 +66,6 @@ function postInfoFromForm(formElement) {
     });
 }
 
-function rerenderBody(renderFuncComponent) {
-    const rootElement = document.querySelector('.body');
-    rootElement.innerHTML = renderFuncComponent();
-}
-
-function addEventRenderMajorDetailPage() {
-    const KTPM = document.querySelector("#KTPM");
-    KTPM.addEventListener('click', (e) => {
-        e.stopPropagation();
-        e.preventDefault();
-        rerenderBody(DetailsMajor);
-    })
-}
-
-function addEventRenderJobDetailPage() {
-    const jobs = document.querySelectorAll(".section4__group--logo");
-    jobs.forEach((job) => {
-        job.addEventListener("click", (e) => {
-            e.stopPropagation();
-            e.preventDefault();
-            rerenderBody(DetailsMajor);
-        })
-    })
-}
-
 function main() {
 
     const app = document.querySelector('.app');
@@ -110,9 +81,9 @@ function main() {
 main();
 
 // Công việc của ngày hôm nay:
-// 1. Merge code 
-// 2. Tổ chức lại các page component 
-// 2. Tổ chức lại data cho web 
+// 3. Làm hiệu ứng carousel ở trang chủ  + merge code
+// 4. Làm CRUD cho admin 
+// 5. Deploy BE + fix bug liên quan 
 
 // Lỗi 1: Khi gắn script để render bằng String -> trình duyệt sẽ không load script JS như việc trả về bằng file HTML 
 // Lỗi 2: Khi import bằngJS module -> function chạy trong scope module của JS, không phải global scope của window

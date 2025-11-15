@@ -5,21 +5,39 @@ import DetailsMajor from "../pages/detail-cn/detail-cn.js";
 import DetailsJob from "../pages/detail-cv/detail-cv.js";
 import getJobsData from "../services/data/fetchData.js";
 import { getMajorsData } from "../services/data/fetchData.js";
-
+import renderOVCN from "../services/render/render-overview-cn.js";
+import { renderOVCV } from "../services/render/render-overview-cn.js";
 
 const divBody = document.querySelector('.body');
 
-function renderPage(pageName,id = null) {
+function renderPage(pageName, id = null) {
     switch (pageName) {
         case "details-major":
-            divBody.innerHTML = DetailsMajor();
-            const script = document.createElement("script");
-            script.src = "/FE/src/pages/detail-cn/effect-detail-cn.js";
-            document.body.appendChild(script);
+            getMajorsData()
+                .then((result) => {
+                    const filteredData = result.find((job) => job.id == id);
+                    divBody.innerHTML = DetailsMajor(filteredData);
+
+                    const renderJobs = document.querySelector(".cn-jobs-position");
+                    filteredData.jobPositions.forEach((job) => {
+                        renderJobs.innerHTML += `
+                        <div class="box-content">
+                             <img src=${job.image} alt="" class="box-content-image" id="box-content-image-1">
+                             <div class="box-content-title" id="box-content-title-1">${job.title}</div>
+                        </div>
+                        `
+                    })
+
+                    const scriptElement = document.createElement("script");
+                    scriptElement.src = "/FE/src/pages/detail-cn/effect-detail-cn.js"
+                    scriptElement.type = "module";
+
+                    document.querySelector(".details-major").appendChild(scriptElement);
+                })
             break;
         case "details-job":
             getJobsData()
-                .then((result)=> {
+                .then((result) => {
                     const filteredData = result.find((job) => job.id == id);
                     divBody.innerHTML = DetailsJob(filteredData);
                 })
@@ -28,22 +46,16 @@ function renderPage(pageName,id = null) {
             getMajorsData()
                 .then((result) => {
                     divBody.innerHTML = CNOverview();
-                    console.log(result);
+                    const renderDiv = document.querySelector(".section3__logo--row");
+                    renderOVCN(renderDiv, result);
                 });
             break;
         case "overview-cv":
             getJobsData()
-                .then((result)=> {
+                .then((result) => {
                     divBody.innerHTML = CVOverview();
-                    const div = document.querySelector('.section4__group-ch');
-                    result.forEach((element,index) => {
-                        div.innerHTML += 
-                        `<div data-link="details-job" data-id=${element.id} class="section4__group--logo section4__group--logo${index+1}">
-                            <a href="">
-                                <img src=${element.icon} alt="">
-                            </a>
-                        </div>`
-                    });
+                    const renderDiv = document.querySelector('.section4__group-ch');
+                    renderOVCV(renderDiv,result);
                 })
             break;
         case "contact":
@@ -51,6 +63,16 @@ function renderPage(pageName,id = null) {
             break;
         default:
             divBody.innerHTML = Homepage();
+            getMajorsData()
+                .then((result) => {
+                    const renderDiv = document.querySelector(".section3__logo--row");
+                    renderOVCN(renderDiv, result);
+                });
+            getJobsData()
+                .then((result) => {
+                    const renderDiv = document.querySelector('.section4__group-ch');
+                    renderOVCV(renderDiv,result);
+                })
     }
 
     localStorage.setItem("currentPage", pageName);
@@ -61,18 +83,18 @@ window.addEventListener("load", () => {
     const savedPage = localStorage.getItem("currentPage") || "homepage";
     const savedID = localStorage.getItem("currentId") || null;
 
-    renderPage(savedPage,savedID);
+    renderPage(savedPage, savedID);
 });
 
 document.addEventListener("click", (e) => {
     const linkDiv = e.target.closest("[data-link]");
 
     if (linkDiv) {
-        e.preventDefault(); 
+        e.preventDefault();
         e.stopPropagation();
         const page = linkDiv.getAttribute("data-link");
-        const id = linkDiv.getAttribute("data-id"); 
+        const id = linkDiv.getAttribute("data-id");
 
-        renderPage(page,id);
+        renderPage(page, id);
     }
 });
