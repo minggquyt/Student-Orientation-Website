@@ -190,7 +190,7 @@ body {
 .box:nth-child(11) .page .line {
     max-width: 800px;
     width: 100%;
-    height: 7px;
+    padding: 3.5px 0 3.5px 0;
     background-color: #FFFFFF;
 }
 .box:nth-child(11) .page .page-content {
@@ -201,7 +201,9 @@ body {
 }
 .box:nth-child(11) .page .page-container-content {
     display: flex;
-    gap: 140px
+    justify-content: center;
+    gap: 10.5%;
+    width: 100%;
 }
 .title-container {
     max-width: 1195px;
@@ -236,6 +238,10 @@ body {
     justify-content: flex-start;
     margin-left: 20px;
     margin-bottom: 5px;
+}
+.box-image-11 {
+    height: 418.12890625px;
+    width: 317px;
 }
 .title {
     max-width: 562px;
@@ -319,6 +325,9 @@ body {
     }
     .box:nth-child(11) .page .page-content {
         height: 554px;
+    }
+    .box-image-11 {
+        display: none;
     }
     .box:nth-child(1) .box-title {
         font-size: 22px;
