@@ -7,6 +7,7 @@ import getJobsData from "../services/data/fetchData.js";
 import { getMajorsData } from "../services/data/fetchData.js";
 import renderOVCN from "../services/render/render-overview-cn.js";
 import { renderOVCV } from "../services/render/render-overview-cn.js";
+import effectFlipCard from "./effect.js";
 
 const divBody = document.querySelector('.body');
 
@@ -21,10 +22,15 @@ function renderPage(pageName, id = null) {
                     const renderJobs = document.querySelector(".cn-jobs-position");
                     filteredData.jobPositions.forEach((job) => {
                         renderJobs.innerHTML += `
-                        <div class="box-content">
-                             <img src=${job.image} alt="" class="box-content-image" id="box-content-image-1">
-                             <div class="box-content-title" id="box-content-title-1">${job.title}</div>
-                        </div>
+                            <div class="box-content">
+                                <div class="card-container">
+                                    <div class="front">
+                                        <img src=${job.image} alt="" class="box-content-image" id="box-content-image-1">
+                                        <div class="box-content-title" id="box-content-title-1">${job.title}</div>
+                                    </div>
+                                    <div class="back"></div>
+                                </div>
+                            </div>
                         `
                     })
 
@@ -33,6 +39,8 @@ function renderPage(pageName, id = null) {
                     scriptElement.type = "module";
 
                     document.querySelector(".details-major").appendChild(scriptElement);
+
+                    effectFlipCard();   
                 })
             break;
         case "details-job":

@@ -65,5 +65,23 @@ function main(){
         removeEffectLogin(e.detail.renderElement,e.detail.loginClass);
     });
 }
+
 main();
 
+// Module
+export default function effectFlipCard(){
+    const allBoxes = document.querySelectorAll('.box-content');
+    console.log(allBoxes);
+
+    allBoxes.forEach(function(box) {
+    
+    box.addEventListener('click', function() {
+        
+        const cardContainer = box.querySelector('.card-container');
+
+        if (cardContainer) { 
+        cardContainer.classList.toggle('is-flipped');
+        }
+    });
+    });
+}
