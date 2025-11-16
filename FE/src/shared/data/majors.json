@@ -17,26 +17,32 @@
     "overview": "Giới thiệu tổng quan về chuyên ngành",
     "jobPositions": [
       {
+        "id": "ui-ux",
         "title": "DevOps",
         "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Developer",
         "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Tester",
         "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Software Engineer",
         "image": "/FE/assets/images/page/KTPM/icon-4.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Product Owner",
         "image": "/FE/assets/images/page/KTPM/icon-5.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Systems Analyst",
         "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }
@@ -265,26 +271,32 @@
     "overview": "",
     "jobPositions": [
       {
+        "id": "ui-ux",
         "title": "DevOps",
         "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Developer",
         "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Tester",
         "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Software Engineer",
         "image": "/FE/assets/images/page/KTPM/icon-4.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Product Owner",
         "image": "/FE/assets/images/page/KTPM/icon-5.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Systems Analyst",
         "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }
@@ -389,26 +401,32 @@
     "overview": "",
     "jobPositions": [
       {
+        "id": "ui-ux",
         "title": "DevOps",
         "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Developer",
         "image": "/FE/assets/images/page/KTPM/icon-2.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Tester",
         "image": "/FE/assets/images/page/KTPM/icon-3.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Software Engineer",
         "image": "/FE/assets/images/page/KTPM/icon-4.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Product Owner",
         "image": "/FE/assets/images/page/KTPM/icon-5.svg"
       },
       {
+        "id": "ui-ux",
         "title": "Systems Analyst",
         "image": "/FE/assets/images/page/KTPM/icon-6.svg"
       }

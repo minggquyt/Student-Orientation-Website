@@ -22,7 +22,7 @@ function renderPage(pageName, id = null) {
                     const renderJobs = document.querySelector(".cn-jobs-position");
                     filteredData.jobPositions.forEach((job) => {
                         renderJobs.innerHTML += `
-                            <div class="box-content">
+                            <div class="box-content" data-link="details-job" data-id=${job.id} >
                                 <div class="card-container">
                                     <div class="front">
                                         <img src=${job.image} alt="" class="box-content-image" id="box-content-image-1">

@@ -64,8 +64,6 @@ function addEffectButtonHompage(){
         const image = document.querySelectorAll('.section2__selection-ch > img');
         const desc = document.querySelectorAll('.section2__selection-ch--desc');
 
-        console.log(desc);
-
         buttons.forEach((button,index) => {
             button.addEventListener('mouseenter', (e) => {
                 e.stopPropagation();
@@ -95,7 +93,6 @@ main();
 
 export default function effectFlipCard() {
     const allBoxes = document.querySelectorAll('.box-content');
-    console.log(allBoxes);
 
     allBoxes.forEach(function (box) {
 
