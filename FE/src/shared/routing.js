@@ -66,9 +66,6 @@ function renderPage(pageName, id = null) {
                     renderOVCV(renderDiv,result);
                 })
             break;
-        case "contact":
-            divBody.innerHTML = CNOverview();
-            break;
         default:
             divBody.innerHTML = Homepage();
             getMajorsData()
@@ -87,12 +84,13 @@ function renderPage(pageName, id = null) {
     if (id) localStorage.setItem("currentId", id);
 }
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
     const savedPage = localStorage.getItem("currentPage") || "homepage";
     const savedID = localStorage.getItem("currentId") || null;
 
     renderPage(savedPage, savedID);
 });
+
 
 document.addEventListener("click", (e) => {
     const linkDiv = e.target.closest("[data-link]");

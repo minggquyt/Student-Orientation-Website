@@ -14,17 +14,37 @@ export default function Homepage(){
             <div class="section2__text unbounded-400">Mỗi sinh viên đều có hành trình khác nhau.<br>Mức độ định hướng hiện tại của bạn như thế nào? </div>
             <div class="section2__selection">
                 <div class="section2__selection-ch">
-                    <img src="./assets/images/section2/Vector.svg" alt="" class="section2__selection-ch--icon">
-                    <div class="section2__selection-ch--text unbounded-400">Tôi chưa rõ mình  hợp với công việc nào</div>
+                    <img src="/FE/assets/images/section2/vector-2.png" alt="" class="section2__selection-ch--icon">
+                    <div>
+                        <div class="section2__selection-ch--text unbounded-400">Tôi chưa rõ mình hợp với công việc nào</div>
+                        <div class="section2__selection-ch--desc unbounded-400">
+                            <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
+                            Tìm hiểu thêm ...
+                        </div>
+                    </div>
                 </div>
                 <div class="section2__selection-ch">
-                    <img src="./assets/images/section2/Vector.svg" alt="" class="section2__selection-ch--icon">
-                    <div class="section2__selection-ch--text unbounded-400">Tôi đã có ý tưởng sơ bộ về hướng đi</div>
+                    <img src="/FE/assets/images/section2/vector-2.png" alt="" class="section2__selection-ch--icon">
+                    <div>
+                        <div class="section2__selection-ch--text unbounded-400">Tôi đã có ý tưởng sơ bộ về hướng đi</div>
+                        <div class="section2__selection-ch--desc unbounded-400">
+                            <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
+                            Tìm hiểu thêm ...
+                        </div>
+                    </div>
                 </div>
                 <div class="section2__selection-ch">
-                    <img src="./assets/images/section2/Vector.svg" alt="" class="section2__selection-ch--icon">
-                    <div class="section2__selection-ch--text unbounded-400">Tôi đã xác định được mục tiêu nghề nghiệp</div>
+                    <img src="/FE/assets/images/section2/vector-2.png" alt="" class="section2__selection-ch--icon">
+                    <div>
+                        <div class="section2__selection-ch--text unbounded-400">Tôi đã xác định được mục tiêu nghề nghiệp</div>
+                        <div class="section2__selection-ch--desc unbounded-400">
+                            <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
+                            Tìm hiểu thêm ...
+                        </div>
+                    </div>
                 </div>
+                
+                
             </div>
         </section>
         <hr>
