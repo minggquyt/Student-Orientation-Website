@@ -243,6 +243,18 @@ body {
     height: 418.12890625px;
     width: 317px;
 }
+.box {
+    display: flex;
+    justify-content: center;
+}
+#box-content-1, #box-content-2, #box-content-3 {
+    width: 90%;
+    height: auto;
+    padding: 25px 0 25px 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Space Grotesk';
+}
 .title {
     max-width: 562px;
     width: 100%;
@@ -280,6 +292,11 @@ body {
     .box:nth-child(5) .box-content {
         width: clamp(200px, 27vw, 257px);
         flex: 1 1 auto;
+    }   
+}
+@media (max-width: 750px) {
+    .box:nth-child(3), .box:nth-child(7), .box:nth-child(9) {
+        height: auto;
     }
 }
 @media (max-width: 600px) {
