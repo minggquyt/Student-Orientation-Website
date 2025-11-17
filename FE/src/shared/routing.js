@@ -35,7 +35,7 @@ function renderPage(pageName, id = null) {
                     })
 
                     const scriptElement = document.createElement("script");
-                    scriptElement.src = "../pages/detail-cn/effect-detail-cn.js"
+                    scriptElement.src = "./FE/src/pages/detail-cn/effect-detail-cn.js"
                     scriptElement.type = "module";
 
                     document.querySelector(".details-major").appendChild(scriptElement);
