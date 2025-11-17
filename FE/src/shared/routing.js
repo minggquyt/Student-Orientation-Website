@@ -3,6 +3,7 @@ import CNOverview from "../pages/cn-overview/cn-overview.js";
 import CVOverview from "../pages/cv-overview/cv-overview.js";
 import DetailsMajor from "../pages/detail-cn/detail-cn.js";
 import DetailsJob from "../pages/detail-cv/detail-cv.js";
+import SLDC from "../pages/sldc/sldc.js";
 import getJobsData from "../services/data/fetchData.js";
 import { getMajorsData } from "../services/data/fetchData.js";
 import renderOVCN from "../services/render/render-overview-cn.js";
@@ -12,6 +13,7 @@ import effectFlipCard from "./effect.js";
 const divBody = document.querySelector('.body');
 
 function renderPage(pageName, id = null) {
+    console.log(pageName);
     switch (pageName) {
         case "details-major":
             getMajorsData()
@@ -65,6 +67,9 @@ function renderPage(pageName, id = null) {
                     const renderDiv = document.querySelector('.section4__group-ch');
                     renderOVCV(renderDiv,result);
                 })
+            break;
+        case "sldc":
+            divBody.innerHTML = SLDC();
             break;
         default:
             divBody.innerHTML = Homepage();
