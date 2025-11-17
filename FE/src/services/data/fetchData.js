@@ -1,5 +1,5 @@
 export default function getJobsData() {
-    return fetch("/FE/src/shared/data/jobs.json")
+    return fetch("/FE/assets/data/jobs.json")
         .then((response) => {
             return response.json();
         })
@@ -12,7 +12,7 @@ export default function getJobsData() {
 }
 
 export function getMajorsData(){
-    return fetch("/FE/src/shared/data/majors.json")
+    return fetch("/FE/assets/data/majors.json")
         .then(response => response.json())
         .then(data => data)
         .catch((err) => console.log(err))
