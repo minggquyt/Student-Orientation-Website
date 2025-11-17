@@ -5,9 +5,9 @@ export default function Homepage(){
     return (
         `<section class="section1">
             <div class="section1__content">
-                <img src="./assets/images/section1/decor-item1.svg" alt="" class="section1__decor section1__decor1">
+                <img src="/FE/assets/images/section1/decor-item1.svg" alt="" class="section1__decor section1__decor1">
                 <div class="section1__content--text space-grotesk-500">Hãy để chúng mình giúp bạn tìm hướng đi trong ngành CNTT!</div>
-                <img src="./assets/images/section1/decor-item2.svg" alt="" class="section1__decor section1__decor2">
+                <img src="/FE/assets/images/section1/decor-item2.svg" alt="" class="section1__decor section1__decor2">
             </div>
         </section>
         <section class="section2">
@@ -78,7 +78,7 @@ export default function Homepage(){
                     </div>
                     <button class="section5__form--button unbounded-500">Gửi</button>
                 </div>
-                <img src="./assets/images/section5/Illustration.svg" alt="">
+                <img src="/FE/assets/images/section5/Illustration.svg" alt="">
             </div>
         </section>`
     )

@@ -34,7 +34,7 @@ export default function DetailsMajor(data){
     </div>
     <div class="title-container"><div class="title">Thông tin học tập</div></div>
     <div class="box">
-        <div class="previous-page"><img src="./assets/images/previous-page.png" width="47" height="99.37"></div>
+        <div class="previous-page"><img src="/FE/assets/images/previous-page.png" width="47" height="99.37"></div>
         <div class="page">
             <div id="year-text" class="page-number">Năm 1</div>
             <div class="line"></div>
@@ -50,7 +50,7 @@ export default function DetailsMajor(data){
                 </div>
             </div>
         </div>
-        <div class="next-page"><img src="./assets/images/next-page.png" width="47" height="99.37"></div>
+        <div class="next-page"><img src="/FE/assets/images/next-page.png" width="47" height="99.37"></div>
     </div>
     </div>`
     )

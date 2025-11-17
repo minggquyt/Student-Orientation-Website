@@ -16,7 +16,7 @@ export default function CNOverview(){
                     </div>
                 </div>
                 <div class="section3__frame--decor">
-                    <img src="./assets/images/section3/decor-item6.svg" alt="">
+                    <img src="/FE/assets/images/section3/decor-item6.svg" alt="">
                 </div>
             </div>
         </section>`

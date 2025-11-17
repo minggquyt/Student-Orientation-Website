@@ -3,12 +3,12 @@ export default function Footer(){
         `<div class="footer__container">
                 <div class="footer__container--child">
                     <div class="footer__section1">
-                        <img src="./assets/images/INVINC!BLE-footer.svg" alt="" class="footer__section1--logo">
+                        <img src="/FE/assets/images/INVINC!BLE-footer.svg" alt="" class="footer__section1--logo">
                         <div class="footer__social">
                             <div class="in-social">
-                                <img src="./assets/images/linkedin.svg" alt="" class="footer__social--img">
+                                <img src="/FE/assets/images/linkedin.svg" alt="" class="footer__social--img">
                             </div>
-                            <img src="./assets/images/facebook.svg" alt="" class="footer__social--img">
+                            <img src="/FE/assets/images/facebook.svg" alt="" class="footer__social--img">
                         </div>
                     </div>
                     <div class="footer__section2">
