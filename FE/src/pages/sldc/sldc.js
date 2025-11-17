@@ -1,3 +1,5 @@
+import BackFooter from "../../components/back-footer/back-footer.js";
+
 export default function SLDC(){
     return (
     `<div class="sdlc-container">
@@ -53,13 +55,7 @@ export default function SLDC(){
             </div>
             
         </div>
-        <div class="sdlc-section3">
-            <div class="sdlc-section3__child">
-                <img src="/FE/assets/images/pages/back.svg" alt="">
-                &nbsp;
-                <div class="sdlc-section3__title space-grotesk-500">Trở về</div>
-            </div>
-        </div>
+        ${BackFooter("overview-cv")}
     </div>`
     )
 }

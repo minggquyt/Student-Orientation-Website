@@ -13,7 +13,6 @@ import effectFlipCard from "./effect.js";
 const divBody = document.querySelector('.body');
 
 function renderPage(pageName, id = null) {
-    console.log(pageName);
     switch (pageName) {
         case "details-major":
             getMajorsData()

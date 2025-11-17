@@ -1,3 +1,5 @@
+import BackFooter from "../../components/back-footer/back-footer.js"
+
 export default function DetailsJob(data) {
     return (
     `<div class="job-section1">
@@ -49,12 +51,7 @@ export default function DetailsJob(data) {
     </div>
     <div class="job-section3">
         <div class="job-section3--child">
-            <div class="job-section3__line"></div>
-            <div class="job-section3__back space-grotesk-500">
-                <img src="/FE/assets/images/pages/back.svg" alt="" class="section__back--icon">
-                &nbsp;
-                Trở về
-            </div>
+            ${BackFooter("overview-cv")}
         </div>
     </div>`
     )

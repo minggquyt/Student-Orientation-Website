@@ -1,0 +1,26 @@
+.back-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.back-footer__child {
+    max-width: 1334px;
+    width: 100%;
+    border-top: 5px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding-top: 18px;
+    margin: 164px 0 23px 0;
+}
+
+.back-footer__child:hover{
+    cursor: pointer;
+}
+
+.back-footer__title {
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
