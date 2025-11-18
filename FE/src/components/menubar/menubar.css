@@ -1,0 +1,49 @@
+.menu {
+    width: 300px;
+    height: 100%;
+    background-color: #00CD80;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.menu_title{
+    display: flex;
+    justify-content: space-between;
+}
+.menu_list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.menu_title > h1{
+    color: white;
+}
+.menu_list >a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+.menu_list >a:hover{
+    color: #00C9FF;
+}
+.fade_container{
+    width: 100vw;
+    height: 100%;
+    background-color: rgb(124, 123, 123);
+    opacity: 0.3;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+.menu-effect{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

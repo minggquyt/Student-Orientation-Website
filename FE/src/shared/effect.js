@@ -1,4 +1,5 @@
 import Login from "../components/login/login.js";
+import MenuBar from "../components/menubar/menubar.js";
 
 function addEffectLogin(triggerElement, renderElement, loginFunction) {
     const triggerE = document.querySelector(triggerElement);
@@ -58,18 +59,18 @@ function handleEventLoginSucceed(settingButton, loginButton) {
     loginButton.classList.add('unactive');
 }
 
-function addEffectButtonHompage(){
+function addEffectButtonHompage() {
     window.addEventListener('load', (e) => {
         const buttons = document.querySelectorAll('.section2__selection-ch');
         const image = document.querySelectorAll('.section2__selection-ch > img');
         const desc = document.querySelectorAll('.section2__selection-ch--desc');
 
-        buttons.forEach((button,index) => {
+        buttons.forEach((button, index) => {
             button.addEventListener('mouseenter', (e) => {
                 e.stopPropagation();
                 desc[index].style.opacity = 1;
             })
-            button.addEventListener("mouseleave",(e) => {
+            button.addEventListener("mouseleave", (e) => {
                 e.stopPropagation();
                 desc[index].style.opacity = 0;
             })
@@ -106,3 +107,42 @@ export default function effectFlipCard() {
         });
     });
 }
+
+const menuIcon = document.querySelector('.header__menu-bar');
+menuIcon.addEventListener("click", (e) => {
+    e.stopPropagation();
+    e.preventDefault();
+
+    const  body = document.querySelector("body");  
+    const divMenuEffect = document.createElement('div');
+    divMenuEffect.classList.add("menu-effect");
+    divMenuEffect.innerHTML += MenuBar();
+    body.appendChild(divMenuEffect);
+
+    const closeIcon = document.querySelector('.menu_title--close');
+    closeIcon.addEventListener('click',(e) => {
+        e.stopPropagation();
+        body.removeChild(divMenuEffect);
+    })
+
+    document.querySelector('.fade_container').addEventListener('click',(e) => {
+        e.stopPropagation();
+        body.removeChild(divMenuEffect);
+    })
+
+    const elements = document.querySelectorAll('.menu_list > a');
+    elements.forEach((element) => {
+        element.addEventListener("click",() => {
+            e.stopPropagation();
+            body.removeChild(divMenuEffect);
+        })
+    })
+    
+})
+
+const button = document.querySelector(".language");
+button.addEventListener("click",(e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    console.log(e.currentTarget.textContent == 'VN');
+})

@@ -78,7 +78,6 @@ body {
     border: 5px solid #92FE9D;
     background-color: #FFFFFF;
     border-radius: 55px;
-    margin-top: 54px;
     font-size: 30px;
     font-weight: 400;
     color: #000000;
@@ -215,9 +214,8 @@ body {
 .box:nth-child(11) .page {
     max-width: 1000px;
     width: 100%;
-    height: 600px;
+    height: auto;
     border-radius: 101px;
-    background-color: rgba(160, 160, 160, 0.3);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -233,16 +231,23 @@ body {
     text-align: center;
 }
 .box:nth-child(11) .page .line {
-    max-width: 800px;
+    max-width: 840px;
     width: 100%;
-    height: 7px;
+    padding: 3.5px 0 3.5px 0;
     background-color: #FFFFFF;
 }
 .box:nth-child(11) .page .page-content {
-    max-width: 875px;
+    max-width: 840px;
     width: 100%;
-    height: 347px;
+    height: auto;
     border-radius: 55px;
+}
+.box:nth-child(11) .page .page-container-content {
+    display: flex;
+    justify-content: center;
+    gap: 10.5%;
+    width: 100%;
+    height: 520px;
 }
 .title-container {
     max-width: 1195px;
@@ -255,24 +260,66 @@ body {
     font-weight: 500;
     color: #FFFFFF;
     font-family: 'Unbounded';
-    margin-left: 20px;
     color:#000000;
-    margin-bottom: 30px;
 }
 .sub-item {
     font-size: 30px;
     font-weight: 400;
-    margin-left: 20px;
     color: #000000;
     font-family: 'Unbounded';
     margin-top: 10px;
 }
 .text {
-    font-size: 40px;
-    font-weight: 500;
-    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 400;
+    color: #92FE9D;
     font-family: 'Unbounded';
     text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.text-1 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Unbounded';
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.subject-list {
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Unbounded';
+    list-style-type: disc;
+    width: 98%;
+}
+.big {
+    font-size: 40px;
+    font-weight: 700;
+}
+.box-image-11 {
+    height: 418.12890625px;
+    width: 317px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+}
+#box-content-1, #box-content-2, #box-content-3 {
+    width: 90%;
+    height: auto;
+    padding: 25px 0 25px 0;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Space Grotesk';
+}
+li {
+    width: 90%;
 }
 .title {
     max-width: 562px;
@@ -311,6 +358,11 @@ body {
     .box:nth-child(5) .box-content {
         width: clamp(200px, 27vw, 257px);
         flex: 1 1 auto;
+    }   
+}
+@media (max-width: 750px) {
+    .box:nth-child(3), .box:nth-child(7), .box:nth-child(9) {
+        height: auto;
     }
 }
 @media (max-width: 600px) {
@@ -357,6 +409,9 @@ body {
     .box:nth-child(11) .page .page-content {
         height: 554px;
     }
+    .box-image-11 {
+        display: none;
+    }
     .box:nth-child(1) .box-title {
         font-size: 22px;
     }
@@ -382,6 +437,7 @@ body {
     will-change: transform, opacity;
     transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1), opacity 0.4s ease;
     backface-visibility: hidden;
+    height: 745px;
   }
 
   /* Khi đang vuốt: thu nhỏ + giảm độ sáng */

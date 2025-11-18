@@ -4,6 +4,7 @@ import CVOverview from "../pages/cv-overview/cv-overview.js";
 import DetailsMajor from "../pages/detail-cn/detail-cn.js";
 import DetailsJob from "../pages/detail-cv/detail-cv.js";
 import SLDC from "../pages/sldc/sldc.js";
+import Contact from "../pages/contact/contact.js";
 import getJobsData from "../services/data/fetchData.js";
 import { getMajorsData } from "../services/data/fetchData.js";
 import renderOVCN from "../services/render/render-overview-cn.js";
@@ -69,6 +70,9 @@ function renderPage(pageName, id = null) {
             break;
         case "sldc":
             divBody.innerHTML = SLDC();
+            break;
+        case "contact":
+            divBody.innerHTML = Contact();
             break;
         default:
             divBody.innerHTML = Homepage();
