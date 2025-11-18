@@ -26,52 +26,6 @@ body {
     display: none;
 }
 
-.header {
-    max-width: 1460px;
-    margin: auto;
-    width: 100%;
-    height: 192px;
-    background-color: var(--primary-color);
-    display: flex;
-    gap: 42px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 62.5px 100px 42px 100px;
-}
-
-.header>img {
-    width: 255px;
-    height: 50px;
-}
-
-.header__logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 49px;
-}
-
-.header>nav {
-    display: flex;
-    align-items: center;
-    gap: 42px;
-}
-
-.header>nav>a {
-    color: #FFFFFF;
-    text-decoration: unset;
-}
-
-.header>nav>button {
-    width: 265px;
-    height: 78px;
-    background-color: var(--primary-color);
-    border: 2px solid #FFFFFF;
-    border-radius: 15px;
-    color: #2BC20E;
-    font-size: 30px;
-}
-
 /* SECTION 1 */
 .section1 {
     background-color: var(--primary-color);
