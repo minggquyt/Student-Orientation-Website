@@ -723,7 +723,7 @@ body {
     }
 
     .footer{
-        padding: 9;
+        padding: 0;
     }
     .footer__section1 {
         flex-direction: column;
