@@ -200,6 +200,9 @@ body {
     align-items: center;
     margin: 81px 0 37px 0;
 }
+.section__cloud > img{
+   width: 100%;
+}
 
 .ux__title {
     justify-content: flex-end;

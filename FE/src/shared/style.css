@@ -687,6 +687,19 @@ body {
         font-size: 12px;
     }
 
+    .section1__decor {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .section1__decor1 {
+        right: 0;
+    }
+
+    .section1__decor2 {
+        left: 0;
+    }
+
     .section3__frame--decor {
         display: none;
     }
@@ -700,6 +713,7 @@ body {
     }
 
     .section4 {
+        padding-inline: 10px;
         gap: 172px;
     }
 
@@ -727,18 +741,21 @@ body {
         padding-top: 20px;
     }
 
-    .footer{
+    .footer {
         padding: 0;
     }
+
     .footer__section1 {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
         margin-bottom: 20px;
     }
-    .footer__social{
+
+    .footer__social {
         gap: 10px;
     }
+
     .footer__section1>img {
         width: 100%;
         min-width: 0;
