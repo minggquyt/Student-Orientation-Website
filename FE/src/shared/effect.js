@@ -78,6 +78,63 @@ function addEffectButtonHompage() {
     })
 }
 
+function switchLangEffect() {
+    const button = document.querySelector(".language");
+    button.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const img = document.createElement("img");
+        img.width = 48
+        img.height = 29
+
+        if (e.currentTarget.childNodes[1].nodeValue == 'VN') {
+            img.src = '/FE/assets/images/header/en.jpg';
+            e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
+            e.currentTarget.childNodes[1].nodeValue = 'EN';
+        }
+        else {
+            img.src = '/FE/assets/images/header/vn.png';
+            e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
+            e.currentTarget.childNodes[1].nodeValue = 'VN';
+        }
+    })
+
+}
+
+function menuBarEffect() {
+    const menuIcon = document.querySelector('.header__menu-bar');
+    menuIcon.addEventListener("click", (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+
+        const body = document.querySelector("body");
+        const divMenuEffect = document.createElement('div');
+        divMenuEffect.classList.add("menu-effect");
+        divMenuEffect.innerHTML += MenuBar();
+        body.appendChild(divMenuEffect);
+
+        const closeIcon = document.querySelector('.menu_title--close');
+        closeIcon.addEventListener('click', (e) => {
+            e.stopPropagation();
+            body.removeChild(divMenuEffect);
+        })
+
+        document.querySelector('.fade_container').addEventListener('click', (e) => {
+            e.stopPropagation();
+            body.removeChild(divMenuEffect);
+        })
+
+        const elements = document.querySelectorAll('.menu_list > a');
+        elements.forEach((element) => {
+            element.addEventListener("click", () => {
+                e.stopPropagation();
+                body.removeChild(divMenuEffect);
+            })
+        })
+
+    })
+}
 
 function main() {
     createEffectLogin('.header__navbar > button', 'body', Login);
@@ -88,6 +145,10 @@ function main() {
     });
 
     addEffectButtonHompage();
+
+    switchLangEffect();
+
+    menuBarEffect();
 }
 
 main();
@@ -108,41 +169,5 @@ export default function effectFlipCard() {
     });
 }
 
-const menuIcon = document.querySelector('.header__menu-bar');
-menuIcon.addEventListener("click", (e) => {
-    e.stopPropagation();
-    e.preventDefault();
 
-    const  body = document.querySelector("body");  
-    const divMenuEffect = document.createElement('div');
-    divMenuEffect.classList.add("menu-effect");
-    divMenuEffect.innerHTML += MenuBar();
-    body.appendChild(divMenuEffect);
 
-    const closeIcon = document.querySelector('.menu_title--close');
-    closeIcon.addEventListener('click',(e) => {
-        e.stopPropagation();
-        body.removeChild(divMenuEffect);
-    })
-
-    document.querySelector('.fade_container').addEventListener('click',(e) => {
-        e.stopPropagation();
-        body.removeChild(divMenuEffect);
-    })
-
-    const elements = document.querySelectorAll('.menu_list > a');
-    elements.forEach((element) => {
-        element.addEventListener("click",() => {
-            e.stopPropagation();
-            body.removeChild(divMenuEffect);
-        })
-    })
-    
-})
-
-const button = document.querySelector(".language");
-button.addEventListener("click",(e) => {
-    e.preventDefault();
-    e.stopPropagation();
-    console.log(e.currentTarget.textContent == 'VN');
-})

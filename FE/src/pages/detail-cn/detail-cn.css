@@ -12,7 +12,6 @@ body {
     max-width: 1393px;
     width: 100%;
     align-items: center;
-    margin: 0 auto;
 }
 .details-major{
     display: flex;

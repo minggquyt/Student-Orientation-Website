@@ -8,7 +8,7 @@
     gap: 42px;
     justify-content: space-between;
     align-items: center;
-    padding: 3.906rem 6.25rem 2.625rem 6.25rem;
+    padding: 3.906rem 1.25rem 2.625rem 1.25rem;
 }
 
 .header__logo {
@@ -97,6 +97,6 @@
 
 @media only screen and (max-width: 600px) {
     .header {
-        padding-inline: 20px;
+        padding-inline: 10px;
     }
 }
