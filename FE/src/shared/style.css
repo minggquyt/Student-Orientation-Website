@@ -574,6 +574,9 @@ body {
 }
 
 .footer__section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     margin-bottom: 44.5px;
 }
 
@@ -737,10 +740,5 @@ body {
     .footer__section1>img {
         width: 100%;
         min-width: 0;
-    }
-    .footer__section2{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
     }
 }
