@@ -2,7 +2,9 @@ export default function DetailsMajor(data){
     return (
     `<div class="details-major">
         <div class="box">
-        <div class="box-title" id="box-title"></div>
+        <div class="box-title" id="box-title">
+        ${data.pageTitle}
+        </div>
         <div class="box-content-description">
             <div class="box-content-description-text">
                 <div class="box-content-description-text-child">${data.questions.questionsColumn1[0]}</div>
@@ -17,7 +19,7 @@ export default function DetailsMajor(data){
         </div>
     </div>
     <div class="title-container"><div class="title">Tổng quan chuyên ngành</div></div>
-    <div class="box">
+    <div class="box space-grotesk-500">
     ${data.overview}
     </div>
     <div class="title-container"><div class="title">Vị trí công việc</div></div>
@@ -25,11 +27,11 @@ export default function DetailsMajor(data){
 
     </div>
     <div class="title-container"><div class="title">Cơ hội việc làm</div></div>
-    <div class="box">
+    <div class="box space-grotesk-500">
     ${data.careerOpportunities}
     </div>
     <div class="title-container"><div class="title">Nhu cầu tuyển dụng</div></div>
-    <div class="box">
+    <div class="box space-grotesk-500">
     ${data.recruitmentNeeds}
     </div>
     <div class="title-container"><div class="title">Thông tin học tập</div></div>
