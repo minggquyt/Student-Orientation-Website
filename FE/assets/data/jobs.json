@@ -10,7 +10,7 @@
                 "image": "/FE/assets/images/pages/nb-requirements_analysis/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Phân tích yêu cầu",
-                "firstdesc": "Mọi thứ bắt đầu từ một câu hỏi:<br>&nbsp&nbsp&nbsp&nbsp&nbsp“Người dùng thật sự cần gì?”<br><br>Nếu không trả lời được câu hỏi này, thì dù code đẹp đến đâu, phần mềm cũng chẳng có ý nghĩa.<br><br>Trong giai đoạn phân tích yêu cầu, nhóm phát triển sẽ lắng nghe, tìm hiểu và thu thập thông tin từ khách hàng, người dùng, hay thậm chí từ thị trường. Họ cần hiểu rõ vấn đề mà phần mềm sẽ giải quyết, những tính năng cốt lõi là gì, và đâu là điều người dùng mong đợi nhất.<br><br>Tất cả dữ liệu này được ghi lại trong một tài liệu gọi là SRS (Software Requirement Specification) — coi như “bản hợp đồng kỹ thuật” giữa khách hàng và đội phát triển.",
+                "firstdesc": "Mọi thứ bắt đầu từ một câu hỏi:<br>&nbsp&nbsp&nbsp&nbsp&nbsp“Người dùng thật sự cần gì?”<br><br>Nếu không trả lời được câu hỏi này, thì dù code đẹp đến đâu, phần mềm cũng chẳng có ý nghĩa.<br><br>Trong giai đoạn phân tích yêu cầu, nhóm phát triển sẽ lắng nghe, tìm hiểu và thu thập thông tin từ khách hàng, người dùng, hay thậm chí từ thị trường. Họ cần hiểu rõ vấn đề mà phần mềm sẽ giải quyết, những tính năng cốt lõi là gì, và đâu là điều người dùng mong đợi nhất.<br><br>Tất cả dữ liệu này được ghi lại trong một tài liệu gọi là SRS (Software Requirement Specification) — coi như “bản hợp đồng kỹ thuật” giữa khách hàng và đội phát triển.<br><br>Ví dụ, nếu bạn đang phát triển một ứng dụng đặt đồ ăn, bạn phải biết:<br>&nbsp&nbsp- Người dùng cần tìm quán ăn gần nhất.<br>&nbsp&nbsp- Họ muốn thanh toán online hay tiền mặt.<br>&nbsp&nbsp- Cần có chức năng theo dõi đơn hàng theo thời gian thực.<br><br>Nếu bạn bỏ qua giai đoạn này, phần mềm có thể “đẹp mà sai mục đích”.=> Đây chính là nền móng cho toàn bộ dự án.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
@@ -23,16 +23,16 @@
                 "firsttitle": "UI là gì",
                 "firstdesc": "Định nghĩa: UI hay User Interface là phần “nhìn thấy” của sản phẩm: nút bấm, màu sắc, layout, icon, font, hình ảnh — tất cả yếu tố trực quan mà người dùng chạm và nhìn thấy.",
                 "secondtitle": "UX là gì",
-                "seconddesc": "#"
+                "seconddesc": " Định nghĩa: UX hay User eXperiecnce là tổng thể cảm nhận của người dùng khi dùng sản phẩm — từ lúc mở app/web đến lúc hoàn thành mục tiêu: dễ tìm, ít rối, thao tác logic, ít tốn công sức."
             },
             {
                 "id": "developer",
-                "title": "Developer",
+                "title": "Lập trình",
                 "icon": "/FE/assets/images/pages/developer/Vector.svg",
-                "image": "/FE/assets/images/pages/developer/content.svg",
+                "image": "/FE/assets/images/pages/nb-dev/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Developer là gì?",
-                "firstdesc": "Định nghĩa:Là chuyên gia thiết kế, lập trình và bảo trì phần mềm, website; chịu trách nhiệm biến yêu cầu nghiệp vụ hoặc ý tưởng sản phẩm thành mã nguồn có thể vận hành được. Developer có thể làm việc ở nhiều mảng như Frontend, Backend, Fullstack, Android, hoặc iOS, tùy vào nền tảng và công nghệ phát triển. <br>Mục tiêu cốt lõi: Tạo ra sản phẩm phần mềm ổn định, tối ưu và dễ sử dụng, đáp ứng đúng nhu cầu người dùng và mục tiêu kinh doanh, đồng thời đảm bảo khả năng mở rộng, bảo trì và tích hợp trong tương lai.",
+                "firsttitle": "Lập trình",
+                "firstdesc": "Đây giai đoạn mà những dòng code đầu tiên được viết ra.<br><br>Dựa trên bản thiết kế, các lập trình viên sẽ chọn ngôn ngữ lập trình phù hợp (C++, Python, Java, JavaScript…) và bắt đầu xây dựng từng module.<br><br>Mỗi người trong nhóm có thể phụ trách phần khác nhau: người viết giao diện, người viết backend, người thiết kế database… tất cả đều phối hợp nhịp nhàng như một cỗ máy.<br><br>Ví dụ, trong app học trực tuyến:<br>&nbsp&nbsp- Frontend developer tạo trang đăng nhập và lớp học ảo.<br>&nbsp&nbsp- Backend developer xử lý việc lưu trữ bài giảng, xác thực tài khoản.<br>&nbsp&nbsp- Database engineer thiết kế nơi lưu điểm số và tiến trình học.<br><br>Đây là giai đoạn tốn nhiều thời gian nhất, nơi phần mềm “sống dậy” từ bản thiết kế và trở thành sản phẩm thật.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
@@ -43,7 +43,7 @@
                 "image": "/FE/assets/images/pages/nb-tester/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Kiểm thử là gì",
-                "firstdesc": "Sau khi lập trình xong, liệu phần mềm đã sẵn sàng để tung ra?<br>&nbsp&nbsp&nbspCâu trả lời là chưa.<br>Chúng ta cần đảm bảo rằng phần mềm hoạt động đúng như mong đợi, không lỗi và ổn định.<br><br>Trong giai đoạn kiểm thử, đội tester sẽ thực hiện hàng loạt bài kiểm tra:<br>&nbsp&nbsp-Chức năng có chạy đúng không (unit test).<br>&nbsp&nbsp-Các phần của hệ thống có kết nối trơn tru không <br>&nbsp&nbsp-Có lỗi bảo mật hay tốc độ phản hồi chậm không <br><br>Kiểm thử là lớp “lá chắn” cuối cùng bảo vệ chất lượng sản phẩm, giúp tránh tình huống phần mềm lỗi khi người dùng thật sự trải nghiệm.",
+                "firstdesc": "Sau khi lập trình xong, liệu phần mềm đã sẵn sàng để tung ra?<br>&nbsp&nbsp&nbspCâu trả lời là chưa.<br>Chúng ta cần đảm bảo rằng phần mềm hoạt động đúng như mong đợi, không lỗi và ổn định.<br><br>Trong giai đoạn kiểm thử, đội tester sẽ thực hiện hàng loạt bài kiểm tra:<br>&nbsp&nbsp- Chức năng có chạy đúng không (unit test).<br>&nbsp&nbsp- Các phần của hệ thống có kết nối trơn tru không<br>&nbsp&nbsp- Có lỗi bảo mật hay tốc độ phản hồi chậm không<br><br>Kiểm thử là lớp “lá chắn” cuối cùng bảo vệ chất lượng sản phẩm, giúp tránh tình huống phần mềm lỗi khi người dùng thật sự trải nghiệm.<br><br>Kiểm thử là lớp “lá chắn” cuối cùng bảo vệ chất lượng sản phẩm, giúp tránh tình huống phần mềm lỗi khi người dùng thật sự trải nghiệm.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
@@ -54,7 +54,7 @@
                 "image": "/FE/assets/images/pages/nb-deploy/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Triển khai là gì",
-                "firstdesc": "Sau khi kiểm thử kỹ lưỡng, phần mềm đã sẵn sàng để ra mắt.  Đây là giai đoạn mà sản phẩm được cài đặt lên server, cloud hoặc phát hành ra store (App Store, Google Play,…).<br><br>Tùy quy mô dự án, có thể triển khai theo từng giai đoạn:<br>&nbsp&nbsp-Triển khai thử (beta): chỉ cho một nhóm nhỏ người dùng dùng thử.<br>&nbsp&nbsp-Triển khai chính thức: công bố rộng rãi khi mọi thứ ổn định.<br><br>Đây cũng là lúc các  DevOps Engineer hoặc Cloud Engineer  đảm bảo hệ thống chạy mượt, ổn định và dễ mở rộng khi lượng người dùng tăng.",
+                "firstdesc": "Sau khi kiểm thử kỹ lưỡng, phần mềm đã sẵn sàng để ra mắt. Đây là giai đoạn mà sản phẩm được cài đặt lên server, cloud hoặc phát hành ra store (App Store, Google Play,…).<br><br>Tùy quy mô dự án, có thể triển khai theo từng giai đoạn:<br>&nbsp&nbsp- Triển khai thử (beta): chỉ cho một nhóm nhỏ người dùng dùng thử.<br>&nbsp&nbsp- Triển khai chính thức: công bố rộng rãi khi mọi thứ ổn định.<br><br>Đây cũng là lúc các DevOps Engineer hoặc Cloud Engineer đảm bảo hệ thống chạy mượt, ổn định và dễ mở rộng khi lượng người dùng tăng.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
@@ -66,7 +66,7 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Ops là gì",
                 "firstdesc": "Phần mềm không kết thúc sau khi ra mắt — thực tế, đây mới là lúc hành trình dài bắt đầu.<br><br>Các kỹ sư phải liên tục giám sát hệ thống, phát hiện lỗi, cập nhật bảo mật, và tối ưu hiệu năng.<br><br>Nếu có lỗi phát sinh trong môi trường thực tế, đội ngũ kỹ thuật sẽ nhanh chóng vá lỗi và cập nhật bản vá (patch).<br><br>Đồng thời, khi công nghệ thay đổi (ví dụ: framework mới, phiên bản OS mới), phần mềm cũng cần được cập nhật để tương thích.<br><br>Giống như việc “bảo dưỡng xe” — bạn không thể cứ chạy mãi mà không thay nhớt hay kiểm tra động cơ.",
-                "secondtitle": "Security là gì",
+                "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
@@ -87,9 +87,20 @@
                 "image": "/FE/assets/images/pages/dev_ops/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "DevOps Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia kỹ thuật chịu trách nhiệm tự động hóa và tối ưu hóa các quy trình trong toàn bộ vòng đời phát triển phần mềm, từ code đến triển khai và vận hành. <br>Mục tiêu cốt lõi: Tăng tốc độ, tần suất và độ tin cậy của việc phát hành phần mềm. Đảm bảo sự hợp tác liền mạch giữa đội ngũ Phát triển (Dev) và Vận hành (Ops) thông qua tự động hóa và quản lý cơ sở hạ tầng.",
+                "firstdesc": "Định nghĩa: Là chuyên gia kỹ thuật chịu trách nhiệm tự động hóa và tối ưu hóa các quy trình trong toàn bộ vòng đời phát triển phần mềm, từ code đến triển khai và vận hành.<br><br>Mục tiêu cốt lõi: Tăng tốc độ, tần suất và độ tin cậy của việc phát hành phần mềm. Đảm bảo sự hợp tác liền mạch giữa đội ngũ Phát triển (Dev) và Vận hành (Ops) thông qua tự động hóa và quản lý cơ sở hạ tầng.",
                 "secondtitle": "",
                 "seconddesc": ""
+            },
+            {
+                "id": "dev",
+                "title": "Developer",
+                "icon": "/FE/assets/images/pages/developer/Vector.svg",
+                "image": "/FE/assets/images/pages/developer/content.svg",
+                "seperator": "/FE/assets/images/pages/cloud.svg",
+                "firsttitle": "Developer là gì?",
+                "firstdesc": "Định nghĩa:Là chuyên gia thiết kế, lập trình và bảo trì phần mềm, website; chịu trách nhiệm biến yêu cầu nghiệp vụ hoặc ý tưởng sản phẩm thành mã nguồn có thể vận hành được. Developer có thể làm việc ở nhiều mảng như Frontend, Backend, Fullstack, Android, hoặc iOS, tùy vào nền tảng và công nghệ phát triển.<br><br>Mục tiêu cốt lõi: Tạo ra sản phẩm phần mềm ổn định, tối ưu và dễ sử dụng, đáp ứng đúng nhu cầu người dùng và mục tiêu kinh doanh, đồng thời đảm bảo khả năng mở rộng, bảo trì và tích hợp trong tương lai.",
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "software_tester",
@@ -98,7 +109,7 @@
                 "image": "/FE/assets/images/pages/software_tester/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Software Tester là gì?",
-                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm kiểm tra, đánh giá và xác minh chất lượng của một sản phẩm phần mềm. <br>Mục tiêu cốt lõi: Phát hiện, ghi nhận và đảm bảo khắc phục lỗi để xác nhận phần mềm hoạt động đúng chức năng, ổn định, hiệu suất cao và đáp ứng tiêu chuẩn chất lượng trước khi đến tay người dùng.",
+                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm kiểm tra, đánh giá và xác minh chất lượng của một sản phẩm phần mềm.<br><br>Mục tiêu cốt lõi: Phát hiện, ghi nhận và đảm bảo khắc phục lỗi để xác nhận phần mềm hoạt động đúng chức năng, ổn định, hiệu suất cao và đáp ứng tiêu chuẩn chất lượng trước khi đến tay người dùng.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -109,7 +120,7 @@
                 "image": "/FE/assets/images/pages/software_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Software Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và bảo trì phần mềm bằng cách áp dụng nguyên lý kỹ thuật, mô hình và quy trình chuẩn trong phát triển phần mềm. Họ chịu trách nhiệm biến yêu cầu của người dùng thành hệ thống phần mềm hoàn chỉnh, đảm bảo tính logic, ổn định và khả năng mở rộng. Đây là vị trí rất đặc biệt do nó đòi hỏi người làm phải có skillset đáp ứng đầy đủ các giai đoạn trong mô hình SDLC và cũng vì thế mà thường được trả lương cao hơn. <br>Mục tiêu cốt lõi:Tạo ra phần mềm chất lượng cao, hiệu năng tốt, đáp ứng đúng yêu cầu kỹ thuật và nghiệp vụ, đồng thời dễ bảo trì và mở rộng trong tương lai; qua đó góp phần nâng cao năng suất, độ tin cậy và tính bền vững của sản phẩm công nghệ.",
+                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và bảo trì phần mềm bằng cách áp dụng nguyên lý kỹ thuật, mô hình và quy trình chuẩn trong phát triển phần mềm. Họ chịu trách nhiệm biến yêu cầu của người dùng thành hệ thống phần mềm hoàn chỉnh, đảm bảo tính logic, ổn định và khả năng mở rộng. Đây là vị trí rất đặc biệt do nó đòi hỏi người làm phải có skillset đáp ứng đầy đủ các giai đoạn trong mô hình SDLC và cũng vì thế mà thường được trả lương cao hơn.<br><br>Mục tiêu cốt lõi:Tạo ra phần mềm chất lượng cao, hiệu năng tốt, đáp ứng đúng yêu cầu kỹ thuật và nghiệp vụ, đồng thời dễ bảo trì và mở rộng trong tương lai; qua đó góp phần nâng cao năng suất, độ tin cậy và tính bền vững của sản phẩm công nghệ.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -120,7 +131,7 @@
                 "image": "/FE/assets/images/pages/product_owner/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Product Owner là gì?",
-                "firstdesc": "Định nghĩa: Chịu trách nhiệm giải quyết các vấn đề thực tế của người dùng khi họ sử dụng sản phẩm. Đồng thời, PO vận hành, cải tiến và tối ưu hóa sản phẩm để đạt được mục tiêu kinh doanh của công ty. <br>Mục tiêu cốt lõi:Đảm bảo sản phẩm phần mềm phù hợp với nhu cầu người dùng, mục tiêu kinh doanh và tầm nhìn chiến lược, bằng cách quản lý Product Backlog, ưu tiên tính năng hợp lý và phối hợp chặt chẽ với nhóm kỹ thuật để đưa ra quyết định đúng đắn, kịp thời trong quá trình phát triển.",
+                "firstdesc": "Định nghĩa: Chịu trách nhiệm giải quyết các vấn đề thực tế của người dùng khi họ sử dụng sản phẩm. Đồng thời, PO vận hành, cải tiến và tối ưu hóa sản phẩm để đạt được mục tiêu kinh doanh của công ty.<br><br>Mục tiêu cốt lõi:Đảm bảo sản phẩm phần mềm phù hợp với nhu cầu người dùng, mục tiêu kinh doanh và tầm nhìn chiến lược, bằng cách quản lý Product Backlog, ưu tiên tính năng hợp lý và phối hợp chặt chẽ với nhóm kỹ thuật để đưa ra quyết định đúng đắn, kịp thời trong quá trình phát triển.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -131,7 +142,7 @@
                 "image": "/FE/assets/images/pages/system_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Analyst là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia CNTT chịu trách nhiệm phân tích, thiết kế và triển khai các hệ thống thông tin. Họ đánh giá xem hệ thống có đáp ứng được mục tiêu đề ra hay không, đồng thời làm việc với người dùng cuối, nhà cung cấp phần mềm và lập trình viên để đạt kết quả tốt nhất. Nhà phân tích hệ thống sử dụng các kỹ thuật phân tích và thiết kế để giải quyết vấn đề kinh doanh bằng công nghệ, đồng thời đóng vai trò là người thúc đẩy thay đổi,  thiết kế hệ thống cho những thay đổi đó và hướng dẫn người khác sử dụng hệ thống hiệu quả. <br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
+                "firstdesc": "Định nghĩa: Là chuyên gia CNTT chịu trách nhiệm phân tích, thiết kế và triển khai các hệ thống thông tin. Họ đánh giá xem hệ thống có đáp ứng được mục tiêu đề ra hay không, đồng thời làm việc với người dùng cuối, nhà cung cấp phần mềm và lập trình viên để đạt kết quả tốt nhất. Nhà phân tích hệ thống sử dụng các kỹ thuật phân tích và thiết kế để giải quyết vấn đề kinh doanh bằng công nghệ, đồng thời đóng vai trò là người thúc đẩy thay đổi,  thiết kế hệ thống cho những thay đổi đó và hướng dẫn người khác sử dụng hệ thống hiệu quả.<br><br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -142,7 +153,7 @@
                 "image": "/FE/assets/images/pages/ai_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "AI  Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là người chịu trách nhiệm thiết kế, huấn luyện, và tích hợp các mô hình Học máy và Học sâu vào sản phẩm phần mềm để tạo ra các tính năng thông minh và tự động. <br>Mục tiêu cốt lõi: Đảm bảo mô hình AI được triển khai thành công vào môi trường sản xuất, hoạt động ổn định và có thể mở rộng.",
+                "firstdesc": "Định nghĩa: Là người chịu trách nhiệm thiết kế, huấn luyện, và tích hợp các mô hình Học máy và Học sâu vào sản phẩm phần mềm để tạo ra các tính năng thông minh và tự động.<br><br>Mục tiêu cốt lõi: Đảm bảo mô hình AI được triển khai thành công vào môi trường sản xuất, hoạt động ổn định và có thể mở rộng.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -153,7 +164,7 @@
                 "image": "/FE/assets/images/pages/cyber_secuirty_specialist/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Cybersecuirty Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, triển khai và duy trì các biện pháp bảo mật nhằm bảo vệ hệ thống, mạng và dữ liệu của tổ chức khỏi các cuộc tấn công mạng, truy cập trái phép hoặc rò rỉ thông tin. <br>Mục tiêu cốt lõi: Đảm bảo tính bảo mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn sàng (availability) của hệ thống thông tin, qua đó ngăn chặn, phát hiện và ứng phó hiệu quả với các mối đe dọa an ninh mạng, giúp doanh nghiệp vận hành an toàn và bền vững trong môi trường số.",
+                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, triển khai và duy trì các biện pháp bảo mật nhằm bảo vệ hệ thống, mạng và dữ liệu của tổ chức khỏi các cuộc tấn công mạng, truy cập trái phép hoặc rò rỉ thông tin.<br><br>Mục tiêu cốt lõi: Đảm bảo tính bảo mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn sàng (availability) của hệ thống thông tin, qua đó ngăn chặn, phát hiện và ứng phó hiệu quả với các mối đe dọa an ninh mạng, giúp doanh nghiệp vận hành an toàn và bền vững trong môi trường số.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -164,7 +175,7 @@
                 "image": "/FE/assets/images/pages/cloud_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Cloud Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, xây dựng, triển khai và quản lý cơ sở hạ tầng và dịch vụ trên các nền tảng điện toán đám mây công cộng (như AWS, Azure, GCP). <br>Mục tiêu cốt lõi: Đảm bảo hệ thống được triển khai trên đám mây hiệu quả, bảo mật, có khả năng mở rộng và được tối ưu hóa chi phí. Chuyển đổi quy trình vận hành truyền thống sang môi trường đám mây tự động.",
+                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, xây dựng, triển khai và quản lý cơ sở hạ tầng và dịch vụ trên các nền tảng điện toán đám mây công cộng (như AWS, Azure, GCP).<br><br>Mục tiêu cốt lõi: Đảm bảo hệ thống được triển khai trên đám mây hiệu quả, bảo mật, có khả năng mở rộng và được tối ưu hóa chi phí. Chuyển đổi quy trình vận hành truyền thống sang môi trường đám mây tự động.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -175,7 +186,7 @@
                 "image": "/FE/assets/images/pages/game_developer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Game Developer là gì?",
-                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm viết code và lập trình các tính năng, cơ chế chơi (gameplay) và logic của trò chơi điện tử. <br>Mục tiêu cốt lõi: Biến các ý tưởng thiết kế (design) thành sản phẩm game có thể chơi được, đảm bảo trò chơi hoạt động ổn định, có hiệu suất cao và mang lại trải nghiệm thú vị cho người chơi.",
+                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm viết code và lập trình các tính năng, cơ chế chơi (gameplay) và logic của trò chơi điện tử.<br><br>Mục tiêu cốt lõi: Biến các ý tưởng thiết kế (design) thành sản phẩm game có thể chơi được, đảm bảo trò chơi hoạt động ổn định, có hiệu suất cao và mang lại trải nghiệm thú vị cho người chơi.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -186,7 +197,7 @@
                 "image": "/FE/assets/images/pages/blockchain_developer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Blockchain Developer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và triển khai các ứng dụng hoặc hệ thống dựa trên công nghệ Blockchain, bao gồm việc xây dựng smart contract, tạo và quản lý giao dịch phi tập trung, cũng như tích hợp blockchain vào sản phẩm phần mềm nhằm đảm bảo tính minh bạch và an toàn dữ liệu. <br>Mục tiêu cốt lõi: Xây dựng và duy trì các hệ thống phi tập trung (decentralized systems) có khả năng bảo mật cao, minh bạch, và chống giả mạo dữ liệu, qua đó tăng tính tin cậy, giảm phụ thuộc vào bên trung gian, và mở rộng khả năng ứng dụng blockchain trong các lĩnh vực như tài chính, chuỗi cung ứng, hay quản lý danh tính số.",
+                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và triển khai các ứng dụng hoặc hệ thống dựa trên công nghệ Blockchain, bao gồm việc xây dựng smart contract, tạo và quản lý giao dịch phi tập trung, cũng như tích hợp blockchain vào sản phẩm phần mềm nhằm đảm bảo tính minh bạch và an toàn dữ liệu.<br><br>Mục tiêu cốt lõi: Xây dựng và duy trì các hệ thống phi tập trung (decentralized systems) có khả năng bảo mật cao, minh bạch, và chống giả mạo dữ liệu, qua đó tăng tính tin cậy, giảm phụ thuộc vào bên trung gian, và mở rộng khả năng ứng dụng blockchain trong các lĩnh vực như tài chính, chuỗi cung ứng, hay quản lý danh tính số.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -197,7 +208,7 @@
                 "image": "/FE/assets/images/pages/computer_vision_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Computer Vision Engineer là gì?",
-                "firstdesc": "Định nghĩa:Là người phân tích nhu cầu của khách hàng hoặc người dùng, rồi chuyển những yêu cầu đó thành bản mô tả kỹ thuật rõ ràng để lập trình viên có thể hiểu và xây dựng hệ thống đúng như mong muốn. Họ giống như “người phiên dịch” giữa người dùng và kỹ sư phần mềm. <br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
+                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế và phát triển các hệ thống giúp máy tính “nhìn thấy” và hiểu được thông tin từ hình ảnh hoặc video. Họ xây dựng các thuật toán để phát hiện, phân loại và diễn giải các mẫu thị giác, từ đó giúp máy móc đưa ra quyết định hoặc hành động dựa trên những gì chúng quan sát được.<br><br>Mục tiêu cốt lõi:Đảm bảo máy móc có thể trích xuất thông tin trực quan một cách chính xác, đáng tin cậy và hiệu quả. Nói cách khác, họ giúp máy tính “hiểu những gì chúng nhìn thấy”, chứ không chỉ “xử lý từng điểm ảnh”.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -207,8 +218,8 @@
                 "icon": "/FE/assets/images/pages/technical_support_specialist/Vector.svg",
                 "image": "/FE/assets/images/pages/technical_support_specialist/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "CTechnical Support Specialist là gì?",
-                "firstdesc": "Định nghĩa: Là người hỗ trợ người dùng cuối giải quyết các vấn đề kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống mạng. Họ là cầu nối giữa người dùng và đội ngũ kỹ thuật, giúp đảm bảo sản phẩm hoặc dịch vụ công nghệ hoạt động trơn tru. <br>Mục tiêu cốt lõi:Giúp người dùng khắc phục sự cố nhanh chóng, sử dụng sản phẩm hiệu quả, đồng thời thu thập phản hồi về lỗi và trải nghiệm người dùng để nhóm phát triển cải tiến sản phẩm.",
+                "firsttitle": "Technical Support Specialist là gì?",
+                "firstdesc": "Định nghĩa: Là người hỗ trợ người dùng cuối giải quyết các vấn đề kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống mạng. Họ là cầu nối giữa người dùng và đội ngũ kỹ thuật, giúp đảm bảo sản phẩm hoặc dịch vụ công nghệ hoạt động trơn tru.<br><br>Mục tiêu cốt lõi:Giúp người dùng khắc phục sự cố nhanh chóng, sử dụng sản phẩm hiệu quả, đồng thời thu thập phản hồi về lỗi và trải nghiệm người dùng để nhóm phát triển cải tiến sản phẩm.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -219,7 +230,7 @@
                 "image": "/FE/assets/images/pages/database_administrator/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Database Administrator là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, quản lý, bảo trì và đảm bảo hiệu suất của các hệ thống cơ sở dữ liệu (Database Systems) của tổ chức. <br>Mục tiêu cốt lõi: Đảm bảo tính toàn vẹn, bảo mật và khả năng sẵn có (Availability) của dữ liệu. Thực hiện các quy trình sao lưu, phục hồi và tối ưu hóa truy vấn để hệ thống hoạt động nhanh và đáng tin cậy.",
+                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, quản lý, bảo trì và đảm bảo hiệu suất của các hệ thống cơ sở dữ liệu (Database Systems) của tổ chức.<br><br>Mục tiêu cốt lõi: Đảm bảo tính toàn vẹn, bảo mật và khả năng sẵn có (Availability) của dữ liệu. Thực hiện các quy trình sao lưu, phục hồi và tối ưu hóa truy vấn để hệ thống hoạt động nhanh và đáng tin cậy.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -230,7 +241,7 @@
                 "image": "/FE/assets/images/pages/technical_writer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Technical Writer là gì?",
-                "firstdesc": "Định nghĩa:Là người tạo và quản lý các tài liệu hướng dẫn, sổ tay, hướng dẫn sử dụng và tài liệu kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống, giúp người dùng và đội kỹ thuật hiểu và vận hành sản phẩm đúng cách. Mặc dù làm việc chủ yếu trong giai đoạn phát triển nhưng công việc của họ lại không quá liên quan đến việc lập trình. <br>Mục tiêu cốt lõi:Đảm bảo thông tin kỹ thuật được truyền đạt rõ ràng, chính xác và dễ hiểu, giúp người dùng sử dụng sản phẩm hiệu quả và giúp nhóm kỹ thuật giảm lỗi, tiết kiệm thời gian hỗ trợ.",
+                "firstdesc": "Định nghĩa:Là người tạo và quản lý các tài liệu hướng dẫn, sổ tay, hướng dẫn sử dụng và tài liệu kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống, giúp người dùng và đội kỹ thuật hiểu và vận hành sản phẩm đúng cách. Mặc dù làm việc chủ yếu trong giai đoạn phát triển nhưng công việc của họ lại không quá liên quan đến việc lập trình.<br><br>Mục tiêu cốt lõi:Đảm bảo thông tin kỹ thuật được truyền đạt rõ ràng, chính xác và dễ hiểu, giúp người dùng sử dụng sản phẩm hiệu quả và giúp nhóm kỹ thuật giảm lỗi, tiết kiệm thời gian hỗ trợ.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -241,7 +252,7 @@
                 "image": "/FE/assets/images/pages/it_consultant/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "IT Consultant là gì?",
-                "firstdesc": "Định nghĩa: Là những chuyên gia được công ty thuê để phân tích các vấn đề kinh doanh (ví dụ: quy trình làm việc chậm, hệ thống cũ kỹ) và đưa ra lời khuyên (giải pháp). <br>Mục tiêu cốt lõi: Xác định chính xác vấn đề và đưa ra các giải pháp công nghệ tối ưu, giúp công ty đạt được mục tiêu kinh doanh (ví dụ: tăng doanh thu, giảm chi phí vận hành).Đảm bảo rằng việc đầu tư vào công nghệ là phù hợp và mang lại hiệu quả cho chiến lược kinh doanh tổng thể của khách hàng.",
+                "firstdesc": "Định nghĩa: Là những chuyên gia được công ty thuê để phân tích các vấn đề kinh doanh (ví dụ: quy trình làm việc chậm, hệ thống cũ kỹ) và đưa ra lời khuyên (giải pháp).<br><br>Mục tiêu cốt lõi: Xác định chính xác vấn đề và đưa ra các giải pháp công nghệ tối ưu, giúp công ty đạt được mục tiêu kinh doanh (ví dụ: tăng doanh thu, giảm chi phí vận hành).Đảm bảo rằng việc đầu tư vào công nghệ là phù hợp và mang lại hiệu quả cho chiến lược kinh doanh tổng thể của khách hàng.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -252,7 +263,7 @@
                 "image": "/FE/assets/images/pages/chief_technology_officer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "CTO là gì?",
-                "firstdesc": "CTO là người định hướng chiến lược công nghệ và kiến trúc hệ thống của công ty, đảm bảo công nghệ hỗ trợ mục tiêu kinh doanh và đổi mới sản phẩm. Khác với CIO, người tập trung vào hệ thống CNTT nội bộ và vận hành công nghệ, CTO hướng tới sản phẩm, R&D và đổi mới thị trường. <br>Mục tiêu cốt lõi:Đảm bảo công ty sử dụng công nghệ hiệu quả, sáng tạo và cạnh tranh, đồng thời hướng dẫn đội ngũ kỹ thuật phát triển sản phẩm và giải pháp phù hợp chiến lược doanh nghiệp.",
+                "firstdesc": "CTO là người định hướng chiến lược công nghệ và kiến trúc hệ thống của công ty, đảm bảo công nghệ hỗ trợ mục tiêu kinh doanh và đổi mới sản phẩm. Khác với CIO, người tập trung vào hệ thống CNTT nội bộ và vận hành công nghệ, CTO hướng tới sản phẩm, R&D và đổi mới thị trường.<br><br>Mục tiêu cốt lõi:Đảm bảo công ty sử dụng công nghệ hiệu quả, sáng tạo và cạnh tranh, đồng thời hướng dẫn đội ngũ kỹ thuật phát triển sản phẩm và giải pháp phù hợp chiến lược doanh nghiệp.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -263,7 +274,7 @@
                 "image": "/FE/assets/images/pages/project_manager/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Project Manager là gì?",
-                "firstdesc": "Định nghĩa: Là vị trí quản lý quy trình và nguồn lực, chịu trách nhiệm lập kế hoạch, tổ chức, điều phối và kiểm soát toàn bộ quá trình thực hiện một dự án CNTT (ví dụ: xây dựng phần mềm, triển khai hệ thống). <br>Mục tiêu cốt lõi: Đảm bảo dự án được hoàn thành đúng phạm vi, trong ngân sách và đúng thời hạn đã được phê duyệt. Quản lý rủi ro và các bên liên quan để đạt được kết quả cuối cùng theo yêu cầu kinh doanh.",
+                "firstdesc": "Định nghĩa: Là vị trí quản lý quy trình và nguồn lực, chịu trách nhiệm lập kế hoạch, tổ chức, điều phối và kiểm soát toàn bộ quá trình thực hiện một dự án CNTT (ví dụ: xây dựng phần mềm, triển khai hệ thống).<br><br>Mục tiêu cốt lõi: Đảm bảo dự án được hoàn thành đúng phạm vi, trong ngân sách và đúng thời hạn đã được phê duyệt. Quản lý rủi ro và các bên liên quan để đạt được kết quả cuối cùng theo yêu cầu kinh doanh.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -274,7 +285,7 @@
                 "image": "/FE/assets/images/pages/system_administrator/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Administrator là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, vận hành và duy trì cơ sở hạ tầng CNTT trong toàn bộ vòng đời hệ thống, bao gồm máy chủ, hệ điều hành, mạng và các ứng dụng doanh nghiệp, đảm bảo hệ thống sẵn sàng, ổn định và bảo mật. <br>Mục tiêu cốt lõi:Đảm bảo tính sẵn sàng, hiệu suất và bảo mật của hệ thống , xử lý sự cố kịp thời và cung cấp hỗ trợ kỹ thuật liên tục để vận hành sản phẩm và quy trình kinh doanh không gián đoạn.",
+                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, vận hành và duy trì cơ sở hạ tầng CNTT trong toàn bộ vòng đời hệ thống, bao gồm máy chủ, hệ điều hành, mạng và các ứng dụng doanh nghiệp, đảm bảo hệ thống sẵn sàng, ổn định và bảo mật.<br><br>Mục tiêu cốt lõi:Đảm bảo tính sẵn sàng, hiệu suất và bảo mật của hệ thống , xử lý sự cố kịp thời và cung cấp hỗ trợ kỹ thuật liên tục để vận hành sản phẩm và quy trình kinh doanh không gián đoạn.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -285,7 +296,7 @@
                 "image": "/FE/assets/images/pages/network_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Network Engineer là gì?",
-                "firstdesc": "Là chuyên gia chịu trách nhiệm thiết kế, triển khai, cấu hình và quản lý cơ sở hạ tầng mạng trong toàn bộ vòng đời hệ thống, bao gồm mạng có dây và không dây, đảm bảo kết nối ổn định, bảo mật và hiệu quả giữa người dùng, máy chủ và dịch vụ. <br>Mục tiêu cốt lõi:Đảm bảo hệ thống mạng hoạt động liên tục và tin cậy , hỗ trợ vận hành, phát triển và triển khai sản phẩm, đồng thời tăng hiệu suất và bảo mật cho toàn bộ cơ sở hạ tầng CNTT.",
+                "firstdesc": "Là chuyên gia chịu trách nhiệm thiết kế, triển khai, cấu hình và quản lý cơ sở hạ tầng mạng trong toàn bộ vòng đời hệ thống, bao gồm mạng có dây và không dây, đảm bảo kết nối ổn định, bảo mật và hiệu quả giữa người dùng, máy chủ và dịch vụ.<br><br>Mục tiêu cốt lõi:Đảm bảo hệ thống mạng hoạt động liên tục và tin cậy , hỗ trợ vận hành, phát triển và triển khai sản phẩm, đồng thời tăng hiệu suất và bảo mật cho toàn bộ cơ sở hạ tầng CNTT.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -296,7 +307,7 @@
                 "image": "/FE/assets/images/pages/chief_information_officer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "CIO là gì?",
-                "firstdesc": "Định nghĩa: Là vị trí quản lý cấp cao chịu trách nhiệm về toàn bộ hệ thống và chiến lược công nghệ thông tin (IT) trong doanh nghiệp, đảm bảo các hệ thống CNTT vận hành ổn định, an toàn và hỗ trợ đầy đủ các quy trình kinh doanh trong suốt vòng đời phát triển phần mềm và hệ thống. <br>Mục tiêu cốt lõi:Dẫn dắt chuyển đổi số, giám sát, bảo trì và cải tiến liên tục hệ thống CNTT, tối ưu hóa việc sử dụng công nghệ để nâng cao hiệu quả vận hành, bảo mật và khả năng cạnh tranh của doanh nghiệp.",
+                "firstdesc": "Định nghĩa: Là vị trí quản lý cấp cao chịu trách nhiệm về toàn bộ hệ thống và chiến lược công nghệ thông tin (IT) trong doanh nghiệp, đảm bảo các hệ thống CNTT vận hành ổn định, an toàn và hỗ trợ đầy đủ các quy trình kinh doanh trong suốt vòng đời phát triển phần mềm và hệ thống.<br><br>Mục tiêu cốt lõi:Dẫn dắt chuyển đổi số, giám sát, bảo trì và cải tiến liên tục hệ thống CNTT, tối ưu hóa việc sử dụng công nghệ để nâng cao hiệu quả vận hành, bảo mật và khả năng cạnh tranh của doanh nghiệp.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -307,7 +318,7 @@
                 "image": "/FE/assets/images/pages/systems_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, tích hợp và quản lý toàn bộ hệ thống phần mềm, phần cứng và mạng lưới trong tổ chức. Họ nhìn nhận dự án từ góc độ toàn cảnh. <br>Mục tiêu cốt lõi: Đảm bảo tất cả các thành phần kỹ thuật hoạt động cùng nhau một cách nhất quán, hiệu quả và đáp ứng các yêu cầu ở cấp độ hệ thống lớn, quản lý độ phức tạp và rủi ro xuyên suốt dự án.",
+                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, tích hợp và quản lý toàn bộ hệ thống phần mềm, phần cứng và mạng lưới trong tổ chức. Họ nhìn nhận dự án từ góc độ toàn cảnh.<br><br>Mục tiêu cốt lõi: Đảm bảo tất cả các thành phần kỹ thuật hoạt động cùng nhau một cách nhất quán, hiệu quả và đáp ứng các yêu cầu ở cấp độ hệ thống lớn, quản lý độ phức tạp và rủi ro xuyên suốt dự án.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -318,7 +329,7 @@
                 "image": "/FE/assets/images/pages/business_intelligence_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "BIA là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia sử dụng các công cụ và kỹ thuật phân tích dữ liệu để xây dựng báo cáo (reports) và bảng điều khiển (dashboards), giúp tổ chức theo dõi hiệu suất và hiểu rõ xu hướng kinh doanh. <br>Mục tiêu cốt lõi: Chuyển đổi dữ liệu thô thành thông tin chi tiết (insights) hành động được, hỗ trợ các nhà quản lý trong việc đánh giá tình hình hiện tại và đưa ra các quyết định chiến lược hoặc điều chỉnh kịp thời.",
+                "firstdesc": "Định nghĩa: Là chuyên gia sử dụng các công cụ và kỹ thuật phân tích dữ liệu để xây dựng báo cáo (reports) và bảng điều khiển (dashboards), giúp tổ chức theo dõi hiệu suất và hiểu rõ xu hướng kinh doanh.<br><br>Mục tiêu cốt lõi: Chuyển đổi dữ liệu thô thành thông tin chi tiết (insights) hành động được, hỗ trợ các nhà quản lý trong việc đánh giá tình hình hiện tại và đưa ra các quyết định chiến lược hoặc điều chỉnh kịp thời.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -329,7 +340,7 @@
                 "image": "/FE/assets/images/pages/qa_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "QA Analyst là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thực hiện các hoạt động kiểm thử theo kế hoạch (ví dụ: kiểm thử chức năng, kiểm thử hồi quy) để tìm ra lỗi (bugs) và các vấn đề về chất lượng trong sản phẩm phần mềm. <br>Mục tiêu cốt lõi: Đảm bảo sản phẩm hoạt động đúng theo yêu cầu thiết kế và đạt được mức độ chất lượng chấp nhận được trước khi phát hành, qua đó giảm thiểu rủi ro và tăng sự tin cậy của người dùng.",
+                "firstdesc": "Định nghĩa: Là chuyên gia thực hiện các hoạt động kiểm thử theo kế hoạch (ví dụ: kiểm thử chức năng, kiểm thử hồi quy) để tìm ra lỗi (bugs) và các vấn đề về chất lượng trong sản phẩm phần mềm.<br><br>Mục tiêu cốt lõi: Đảm bảo sản phẩm hoạt động đúng theo yêu cầu thiết kế và đạt được mức độ chất lượng chấp nhận được trước khi phát hành, qua đó giảm thiểu rủi ro và tăng sự tin cậy của người dùng.",
                 "secondtitle": "",
                 "seconddesc": ""
             }
@@ -341,78 +352,78 @@
         "jobs": [
             {
                 "id": "requirements_analyst",
-                "title": "Phân tích yêu cầu",
+                "title": "Requirements Analysis",
                 "icon": "/FE/assets/images/pages/Vector-headp.svg",
                 "image": "/FE/assets/images/pages/nb-requirements_analysis/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Phân tích yêu cầu",
-                "firstdesc": "#",
+                "firsttitle": "Requirements Analysis",
+                "firstdesc": "Everything begins with a single question:<br>&nbsp&nbsp&nbsp&nbsp&nbspWhat does the user truly need?<br><br>If this question cannot be answered, no matter how elegant the code is, the software will be meaningless.<br><br>In the Requirements Analysis phase, the development team will listen, research, and gather information from customers, users, or even the market. They need to clearly understand the problem the software will solve, what the core features are, and what the users expect the most.<br><br>All this data is recorded in a document called the SRS (Software Requirement Specification)—which serves as the 'technical contract' between the customer and the development team.<br><br>For example, if you are developing a food ordering application, you must know:<br>&nbsp&nbsp- The user needs to find the nearest restaurant.<br>&nbsp&nbsp- They want to pay online or with cash.<br>&nbsp&nbsp- There needs to be a feature for real-time order tracking.<br><br>If you skip this phase, the software might be “beautiful but wrong for the purpose”.=> This phase is the foundation for the entire project.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
                 "id": "ui-ux",
-                "title": "Thiết kế hệ thống và giao diện",
+                "title": "System and Interface Design",
                 "icon": "/FE/assets/images/pages/Vector-ui-ux.svg",
                 "image": "/FE/assets/images/pages/nb-ui-ux/content1.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "UI là gì",
-                "firstdesc": "#",
+                "firsttitle": "What is UI?",
+                "firstdesc": "Definition: UI (User Interface) is the “visible” part of the product: buttons, colors, layout, icons, fonts, images—all the visual elements that users touch and see.",
                 "secondtitle": "UX là gì",
-                "seconddesc": "#"
+                "seconddesc": "Definition: UX (User eXperience) is the overall feeling or perception of the user when using the product—from opening the app/website until the goal is achieved: easy to find, uncluttered, logical operations, and minimal effort required."
             },
             {
                 "id": "developer",
-                "title": "Developer",
+                "title": "Development",
                 "icon": "/FE/assets/images/pages/developer/Vector.svg",
-                "image": "/FE/assets/images/pages/developer/content.svg",
+                "image": "/FE/assets/images/pages/nb-dev/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Developer là gì?",
-                "firstdesc": "Định nghĩa:Là chuyên gia thiết kế, lập trình và bảo trì phần mềm, website; chịu trách nhiệm biến yêu cầu nghiệp vụ hoặc ý tưởng sản phẩm thành mã nguồn có thể vận hành được. Developer có thể làm việc ở nhiều mảng như Frontend, Backend, Fullstack, Android, hoặc iOS, tùy vào nền tảng và công nghệ phát triển. <br>Mục tiêu cốt lõi: Tạo ra sản phẩm phần mềm ổn định, tối ưu và dễ sử dụng, đáp ứng đúng nhu cầu người dùng và mục tiêu kinh doanh, đồng thời đảm bảo khả năng mở rộng, bảo trì và tích hợp trong tương lai.",
+                "firsttitle": "Development",
+                "firstdesc": "This is the phase where the first lines of code are written.<br><br>Based on the design blueprint, developers select the appropriate programming languages (C++, Python, Java, JavaScript, etc.) and begin building each module.<br><br>Each person in the team may be responsible for different parts: some write the interface, others write the backend, others design the database... all coordinating smoothly like a machine.<br><br>For example, in an online learning application:<br>&nbsp&nbsp- Frontend developer creates the login page and virtual classroom.<br>&nbsp&nbsp- Backend developer handles lecture storage and account authentication.<br>&nbsp&nbsp- Database engineer designs the storage for scores and learning progress.<br><br>This is the most time-consuming phase, where the software “comes to life” from the design and becomes a real product.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
                 "id": "tester",
-                "title": "Kiểm thử",
+                "title": "Testing",
                 "icon": "/FE/assets/images/pages/Vector-check.svg",
                 "image": "/FE/assets/images/pages/nb-tester/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Kiểm thử là gì",
-                "firstdesc": "#",
+                "firsttitle": "Testing",
+                "firstdesc": "After the programming is complete, is the software ready to be launched?<br>&nbsp&nbsp&nbsp The answer is No.<br>We need to ensure that the software operates as expected, is bug-free, and stable.<br><br>During the testing phase, the tester team will conduct a series of tests:<br>&nbsp&nbsp-Is the function working correctly? (Unit testing)<br>&nbsp&nbsp- Are the parts of the system connecting smoothly? (Integration testing)<br>&nbsp&nbsp- Are there any security vulnerabilities or slow response times? (Security and Performance testing).<br><br>Testing is the final “shield” protecting product quality, helping avoid situations where the software fails when real users experience it.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
                 "id": "deploy",
-                "title": "Triển khai",
+                "title": "Deployment",
                 "icon": "/FE/assets/images/pages/Vector-code.svg",
                 "image": "/FE/assets/images/pages/nb-deploy/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Triển khai là gì",
-                "firstdesc": "#",
+                "firsttitle": "Deployment",
+                "firstdesc": "After thorough testing, the software is ready for launch. This is the phase where the product is installed on servers, the cloud, or released to stores (App Store, Google Play, etc.).<br><br>Depending on the project's scale, deployment can occur in stages:<br>&nbsp&nbsp- Beta Deployment: Released only to a small group of users for trial use.<br>&nbsp&nbsp- Official Deployment: Publicly announced when everything is stable.<br><br>This is also when DevOps Engineers or Cloud Engineers ensure the system runs smoothly, stably, and is easily scalable as the user base grows.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
                 "id": "ops-security",
-                "title": "Giám sát & Bảo trì",
+                "title": "Monitoring and Maintenance",
                 "icon": "/FE/assets/images/pages/Vector-p.svg",
                 "image": "/FE/assets/images/pages/nb-ops-security/content1.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Ops là gì",
-                "firstdesc": "#",
-                "secondtitle": "Security là gì",
+                "firsttitle": "Monitoring and Maintenance",
+                "firstdesc": "The software journey doesn't end after launch—in fact, this is when the long journey truly begins.<br><br>Engineers must constantly monitor the system, detect errors, apply security updates, and optimize performance.<br><br>If a bug arises in the real-world environment, the technical team will quickly fix the error and deploy a patch.<br><br>At the same time, as technology changes (e.g., new frameworks, new OS versions), the software also needs to be updated for compatibility.<br><br>This is similar to “car maintenance”—you cannot drive forever without changing the oil or checking the engine.",
+                "secondtitle": "#",
                 "seconddesc": "#"
             },
             {
                 "id": "collect-improve",
-                "title": "Thu thập và cải tiến",
+                "title": "Feedback Collection and Improvement",
                 "icon": "/FE/assets/images/pages/Vector-leaf.svg",
                 "image": "/FE/assets/images/pages/nb-collect-improve/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Thu thập và cải tiến là gì",
-                "firstdesc": "Cuối cùng, sau khi phần mềm đi vào hoạt động ổn định, nhóm phát triển cần lắng nghe người dùng.<br><br>Phản hồi của họ là kim chỉ nam cho việc phát triển phiên bản tiếp theo.<br><br>Các nhóm sẽ:<br>&nbsp&nbsp-Thu thập dữ liệu sử dụng thực tế.<br>&nbsp&nbsp-Đánh giá xem tính năng nào hữu ích, tính năng nào không.<br>&nbsp&nbsp-Ghi nhận đề xuất cải tiến và đưa vào kế hoạch cho vòng đời tiếp theo.",
+                "firsttitle": "Feedback Collection and Improvement",
+                "firstdesc": "Finally, once the software is operating stably, the development team needs to listen to the users.<br><br>Their feedback is the guiding compass for developing the next version.<br><br>The teams will:<br>&nbsp&nbsp- Collect real-world usage data.<br>&nbsp&nbsp- Evaluate which features are useful and which are not.<br>&nbsp&nbsp- Record suggestions for improvement and incorporate them into the plan for the next cycle.",
                 "secondtitle": "#",
                 "seconddesc": "#"
             },
@@ -422,10 +433,21 @@
                 "icon": "/FE/assets/images/pages/dev_ops/Vector.svg",
                 "image": "/FE/assets/images/pages/dev_ops/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "DevOps Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia kỹ thuật chịu trách nhiệm tự động hóa và tối ưu hóa các quy trình trong toàn bộ vòng đời phát triển phần mềm, từ code đến triển khai và vận hành. <br>Mục tiêu cốt lõi: Tăng tốc độ, tần suất và độ tin cậy của việc phát hành phần mềm. Đảm bảo sự hợp tác liền mạch giữa đội ngũ Phát triển (Dev) và Vận hành (Ops) thông qua tự động hóa và quản lý cơ sở hạ tầng.",
+                "firsttitle": "What is a DevOps Engineer?",
+                "firstdesc": "Definition: A DevOps Engineer is a technical specialist responsible for automating and optimizing processes across the entire software development lifecycle, from coding to deployment and operations.<br><br>Core Objectives: To increase the speed, frequency, and reliability of software releases. To ensure seamless collaboration between the Development (Dev) and Operations (Ops) teams through automation and infrastructure management.",
                 "secondtitle": "",
                 "seconddesc": ""
+            },
+            {
+                "id": "dev",
+                "title": "Developer",
+                "icon": "/FE/assets/images/pages/developer/Vector.svg",
+                "image": "/FE/assets/images/pages/developer/content.svg",
+                "seperator": "/FE/assets/images/pages/cloud.svg",
+                "firsttitle": "What is a Developer?",
+                "firstdesc": "Definition: A Developer is a specialist who designs, programs, and maintains software and websites; responsible for transforming business requirements or product ideas into executable source code. Developers can work in various areas such as Frontend, Backend, Fullstack, Android, or iOS, depending on the platform and development technology.<br><br>Core Objectives: To build software products that are stable, optimized, and easy to use, meeting both user needs and business goals while ensuring scalability, maintainability, and future integration capabilities.",
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "software_tester",
@@ -433,8 +455,8 @@
                 "icon": "/FE/assets/images/pages/software_tester/Vector.svg",
                 "image": "/FE/assets/images/pages/software_tester/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Software Tester là gì?",
-                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm kiểm tra, đánh giá và xác minh chất lượng của một sản phẩm phần mềm. <br>Mục tiêu cốt lõi: Phát hiện, ghi nhận và đảm bảo khắc phục lỗi để xác nhận phần mềm hoạt động đúng chức năng, ổn định, hiệu suất cao và đáp ứng tiêu chuẩn chất lượng trước khi đến tay người dùng.",
+                "firsttitle": "What is a Software Tester?",
+                "firstdesc": "Definition: A Software Tester is a professional responsible for testing, evaluating, and verifying the quality of a software product.<br><br>Core Objectives: To detect, document, and ensure the resolution of defects to confirm that the software is fully functional, stable, high-performing, and meets quality standards before reaching the end-user.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -444,8 +466,8 @@
                 "icon": "/FE/assets/images/pages/software_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/software_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Software Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và bảo trì phần mềm bằng cách áp dụng nguyên lý kỹ thuật, mô hình và quy trình chuẩn trong phát triển phần mềm. Họ chịu trách nhiệm biến yêu cầu của người dùng thành hệ thống phần mềm hoàn chỉnh, đảm bảo tính logic, ổn định và khả năng mở rộng. Đây là vị trí rất đặc biệt do nó đòi hỏi người làm phải có skillset đáp ứng đầy đủ các giai đoạn trong mô hình SDLC và cũng vì thế mà thường được trả lương cao hơn. <br>Mục tiêu cốt lõi:Tạo ra phần mềm chất lượng cao, hiệu năng tốt, đáp ứng đúng yêu cầu kỹ thuật và nghiệp vụ, đồng thời dễ bảo trì và mở rộng trong tương lai; qua đó góp phần nâng cao năng suất, độ tin cậy và tính bền vững của sản phẩm công nghệ.",
+                "firsttitle": "What is a Software Engineer? ",
+                "firstdesc": "Definition: A Software Engineer is a specialist who designs, develops, and maintains software by applying engineering principles, standardized models, and processes in software development. They are responsible for transforming user requirements into a complete software system, ensuring logic, stability, and scalability. This is a highly distinctive role because it requires the professional to possess a skillset that fully addresses all phases of the SDLC (Software Development Life Cycle) model, and is thus often compensated higher.<br><br>Core Objectives: To create high-quality, high-performing software that accurately meets technical and business requirements, while also being easy to maintain and scalable in the future; thereby contributing to the improvement of the product's productivity, reliability, and sustainability.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -455,8 +477,8 @@
                 "icon": "/FE/assets/images/pages/product_owner/Vector.svg",
                 "image": "/FE/assets/images/pages/product_owner/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Product Owner là gì?",
-                "firstdesc": "Định nghĩa: Chịu trách nhiệm giải quyết các vấn đề thực tế của người dùng khi họ sử dụng sản phẩm. Đồng thời, PO vận hành, cải tiến và tối ưu hóa sản phẩm để đạt được mục tiêu kinh doanh của công ty. <br>Mục tiêu cốt lõi:Đảm bảo sản phẩm phần mềm phù hợp với nhu cầu người dùng, mục tiêu kinh doanh và tầm nhìn chiến lược, bằng cách quản lý Product Backlog, ưu tiên tính năng hợp lý và phối hợp chặt chẽ với nhóm kỹ thuật để đưa ra quyết định đúng đắn, kịp thời trong quá trình phát triển.",
+                "firsttitle": "What is a Product Owner ?",
+                "firstdesc": "Definition: A Product Owner (PO) is responsible for resolving real-world problems encountered by users when utilizing the product. Concurrently, the PO operates, improves, and optimizes the product to achieve the company's business objectives.<br><br>Core Objectives: To ensure the software product aligns with user needs, business goals, and strategic vision by managing the Product Backlog, prioritizing features rationally, and collaborating closely with the technical team to make timely and sound decisions during the development process.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -466,8 +488,8 @@
                 "icon": "/FE/assets/images/pages/system_analyst/Vector.svg",
                 "image": "/FE/assets/images/pages/system_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "System Analyst là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia CNTT chịu trách nhiệm phân tích, thiết kế và triển khai các hệ thống thông tin. Họ đánh giá xem hệ thống có đáp ứng được mục tiêu đề ra hay không, đồng thời làm việc với người dùng cuối, nhà cung cấp phần mềm và lập trình viên để đạt kết quả tốt nhất. Nhà phân tích hệ thống sử dụng các kỹ thuật phân tích và thiết kế để giải quyết vấn đề kinh doanh bằng công nghệ, đồng thời đóng vai trò là người thúc đẩy thay đổi,  thiết kế hệ thống cho những thay đổi đó và hướng dẫn người khác sử dụng hệ thống hiệu quả. <br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
+                "firsttitle": "What is a System Analyst?",
+                "firstdesc": "Definition: A System Analyst is an IT professional responsible for analyzing, designing, and implementing information systems. They evaluate whether the system meets its stated objectives and work with end-users, software vendors, and developers to achieve the best results. System Analysts use analysis and design techniques to solve business problems with technology, while also acting as a catalyst for change, designing systems for those changes, and guiding others to use the system effectively.<br><br>Core Objectives: To ensure the software is designed for the right purpose, suitable for real-world needs, and easy to deploy and maintain. In other words, they help “build the right thing” not just “build the thing right.”",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -477,8 +499,8 @@
                 "icon": "/FE/assets/images/pages/ai_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/ai_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "AI  Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là người chịu trách nhiệm thiết kế, huấn luyện, và tích hợp các mô hình Học máy và Học sâu vào sản phẩm phần mềm để tạo ra các tính năng thông minh và tự động. <br>Mục tiêu cốt lõi: Đảm bảo mô hình AI được triển khai thành công vào môi trường sản xuất, hoạt động ổn định và có thể mở rộng.",
+                "firsttitle": "What is an AI  Engineer?",
+                "firstdesc": "Definition: An AI Engineer is responsible for designing, training, and integrating Machine Learning and Deep Learning models into software products to create intelligent and automated features.<br><br>Core Objectives: To ensure that the AI models are successfully deployed into the production environment, operating stably and being scalable.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -488,8 +510,8 @@
                 "icon": "/FE/assets/images/pages/cyber_secuirty_specialist/Vector.svg",
                 "image": "/FE/assets/images/pages/cyber_secuirty_specialist/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Cybersecuirty Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, triển khai và duy trì các biện pháp bảo mật nhằm bảo vệ hệ thống, mạng và dữ liệu của tổ chức khỏi các cuộc tấn công mạng, truy cập trái phép hoặc rò rỉ thông tin. <br>Mục tiêu cốt lõi: Đảm bảo tính bảo mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn sàng (availability) của hệ thống thông tin, qua đó ngăn chặn, phát hiện và ứng phó hiệu quả với các mối đe dọa an ninh mạng, giúp doanh nghiệp vận hành an toàn và bền vững trong môi trường số.",
+                "firsttitle": "What is a Cybersecuirty Engineer?",
+                "firstdesc": "Definition: A Cybersecurity Specialist is an expert responsible for designing, implementing, and maintaining security measures to protect an organization's systems, networks, and data from cyberattacks, unauthorized access, or information leakage.<br><br>Core Objectives: To ensure the confidentiality, integrity, and availability (CIA) of information systems, thereby effectively preventing, detecting, and responding to cyber threats, helping the business operate safely and sustainably in the digital environment.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -499,8 +521,8 @@
                 "icon": "/FE/assets/images/pages/cloud_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/cloud_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Cloud Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, xây dựng, triển khai và quản lý cơ sở hạ tầng và dịch vụ trên các nền tảng điện toán đám mây công cộng (như AWS, Azure, GCP). <br>Mục tiêu cốt lõi: Đảm bảo hệ thống được triển khai trên đám mây hiệu quả, bảo mật, có khả năng mở rộng và được tối ưu hóa chi phí. Chuyển đổi quy trình vận hành truyền thống sang môi trường đám mây tự động.",
+                "firsttitle": "What is a Cloud Engineer?",
+                "firstdesc": "Definition: A Cloud Engineer is a specialist who designs, builds, deploys, and manages infrastructure and services on public cloud computing platforms (such as AWS, Azure, GCP).<br><br>Core Objectives: To ensure that the systems deployed on the cloud are efficient, secure, scalable, and cost-optimized. To transition traditional operational processes into an automated cloud environment.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -510,8 +532,8 @@
                 "icon": "/FE/assets/images/pages/game_developer/Vector.svg",
                 "image": "/FE/assets/images/pages/game_developer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Game Developer là gì?",
-                "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm viết code và lập trình các tính năng, cơ chế chơi (gameplay) và logic của trò chơi điện tử. <br>Mục tiêu cốt lõi: Biến các ý tưởng thiết kế (design) thành sản phẩm game có thể chơi được, đảm bảo trò chơi hoạt động ổn định, có hiệu suất cao và mang lại trải nghiệm thú vị cho người chơi.",
+                "firsttitle": "What is a Game Developer?",
+                "firstdesc": "Definition: A Game Programmer is a professional responsible for writing code and programming the features, gameplay mechanics, and logic of video games.<br><br>Core Objectives: To transform design ideas into a playable game product, ensuring the game operates stably, achieves high performance, and delivers an enjoyable experience for players.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -521,8 +543,8 @@
                 "icon": "/FE/assets/images/pages/blockchain_developer/Vector.svg",
                 "image": "/FE/assets/images/pages/blockchain_developer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Blockchain Developer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và triển khai các ứng dụng hoặc hệ thống dựa trên công nghệ Blockchain, bao gồm việc xây dựng smart contract, tạo và quản lý giao dịch phi tập trung, cũng như tích hợp blockchain vào sản phẩm phần mềm nhằm đảm bảo tính minh bạch và an toàn dữ liệu. <br>Mục tiêu cốt lõi: Xây dựng và duy trì các hệ thống phi tập trung (decentralized systems) có khả năng bảo mật cao, minh bạch, và chống giả mạo dữ liệu, qua đó tăng tính tin cậy, giảm phụ thuộc vào bên trung gian, và mở rộng khả năng ứng dụng blockchain trong các lĩnh vực như tài chính, chuỗi cung ứng, hay quản lý danh tính số.",
+                "firsttitle": "What is a Blockchain Developer?",
+                "firstdesc": "Definition: A Blockchain Developer is an expert who designs, develops, and deploys applications or systems based on Blockchain technology, including building smart contracts, creating and managing decentralized transactions, and integrating blockchain into software products to ensure data transparency and security.<br><br>Core Objectives: To build and maintain decentralized systems that are highly secure, transparent, and tamper-proof, thereby increasing trustworthiness, reducing reliance on intermediaries, and expanding the applicability of blockchain in sectors like finance, supply chain, or digital identity management.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -532,8 +554,8 @@
                 "icon": "/FE/assets/images/pages/computer_vision_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/computer_vision_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Computer Vision Engineer là gì?",
-                "firstdesc": "Định nghĩa:Là người phân tích nhu cầu của khách hàng hoặc người dùng, rồi chuyển những yêu cầu đó thành bản mô tả kỹ thuật rõ ràng để lập trình viên có thể hiểu và xây dựng hệ thống đúng như mong muốn. Họ giống như “người phiên dịch” giữa người dùng và kỹ sư phần mềm. <br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
+                "firsttitle": "What is a Computer Vision Engineer ?",
+                "firstdesc": "Definition: A Computer Vision Engineer is the specialist who designs and develops systems that enable computers to “see” and understand visual information from images or videos. They build algorithms that detect, classify, and interpret visual patterns so machines can make decisions or perform actions based on what they perceive.<br><br>Core Objective: Ensure that machines can extract meaningful insights from visual data accurately, reliably, and efficiently. In other words, they help computers “understand what they see,” not just “process pixels.”",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -543,8 +565,8 @@
                 "icon": "/FE/assets/images/pages/technical_support_specialist/Vector.svg",
                 "image": "/FE/assets/images/pages/technical_support_specialist/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "CTechnical Support Specialist là gì?",
-                "firstdesc": "Định nghĩa: Là người hỗ trợ người dùng cuối giải quyết các vấn đề kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống mạng. Họ là cầu nối giữa người dùng và đội ngũ kỹ thuật, giúp đảm bảo sản phẩm hoặc dịch vụ công nghệ hoạt động trơn tru. <br>Mục tiêu cốt lõi:Giúp người dùng khắc phục sự cố nhanh chóng, sử dụng sản phẩm hiệu quả, đồng thời thu thập phản hồi về lỗi và trải nghiệm người dùng để nhóm phát triển cải tiến sản phẩm.",
+                "firsttitle": "What is a Technical Support Specialist?",
+                "firstdesc": "Definition: A Technical Support Specialist is a professional who assists end-users in resolving technical issues related to software, hardware, or network systems. They act as a bridge between users and the technical team, helping ensure the technology product or service operates smoothly.<br><br>Core Objectives: To help users resolve issues quickly and use the product effectively, while also collecting feedback on bugs and user experience for the development team to improve the product.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -554,8 +576,8 @@
                 "icon": "/FE/assets/images/pages/database_administrator/Vector.svg",
                 "image": "/FE/assets/images/pages/database_administrator/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Database Administrator là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, quản lý, bảo trì và đảm bảo hiệu suất của các hệ thống cơ sở dữ liệu (Database Systems) của tổ chức. <br>Mục tiêu cốt lõi: Đảm bảo tính toàn vẹn, bảo mật và khả năng sẵn có (Availability) của dữ liệu. Thực hiện các quy trình sao lưu, phục hồi và tối ưu hóa truy vấn để hệ thống hoạt động nhanh và đáng tin cậy.",
+                "firsttitle": "What is a Database Administrator?",
+                "firstdesc": "Definition: A Database Administrator (DBA) is a specialist responsible for installing, configuring, managing, maintaining, and ensuring the performance of an organization's Database Systems.<br><br>Core Objectives: To ensure the integrity, security, and availability of data. To execute backup, recovery procedures, and query optimization so that the system operates quickly and reliably.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -565,8 +587,8 @@
                 "icon": "/FE/assets/images/pages/technical_writer/Vector.svg",
                 "image": "/FE/assets/images/pages/technical_writer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Technical Writer là gì?",
-                "firstdesc": "Định nghĩa:Là người tạo và quản lý các tài liệu hướng dẫn, sổ tay, hướng dẫn sử dụng và tài liệu kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống, giúp người dùng và đội kỹ thuật hiểu và vận hành sản phẩm đúng cách. Mặc dù làm việc chủ yếu trong giai đoạn phát triển nhưng công việc của họ lại không quá liên quan đến việc lập trình. <br>Mục tiêu cốt lõi:Đảm bảo thông tin kỹ thuật được truyền đạt rõ ràng, chính xác và dễ hiểu, giúp người dùng sử dụng sản phẩm hiệu quả và giúp nhóm kỹ thuật giảm lỗi, tiết kiệm thời gian hỗ trợ.",
+                "firsttitle": "What is a Technical Writer ?",
+                "firstdesc": "Definition: A Technical Writer is a professional who creates and manages instructional documents, manuals, user guides, and technical documentation related to software, hardware, or systems, helping users and technical teams understand and operate the product correctly. Although they primarily work during the development phase, their job is not directly related to programming.<br><br>Core Objectives: To ensure technical information is communicated clearly, accurately, and understandably, helping users utilize the product effectively and enabling the technical team to reduce errors and save support time.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -576,8 +598,8 @@
                 "icon": "/FE/assets/images/pages/it_consultant/Vector.svg",
                 "image": "/FE/assets/images/pages/it_consultant/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "IT Consultant là gì?",
-                "firstdesc": "Định nghĩa: Là những chuyên gia được công ty thuê để phân tích các vấn đề kinh doanh (ví dụ: quy trình làm việc chậm, hệ thống cũ kỹ) và đưa ra lời khuyên (giải pháp). <br>Mục tiêu cốt lõi: Xác định chính xác vấn đề và đưa ra các giải pháp công nghệ tối ưu, giúp công ty đạt được mục tiêu kinh doanh (ví dụ: tăng doanh thu, giảm chi phí vận hành).Đảm bảo rằng việc đầu tư vào công nghệ là phù hợp và mang lại hiệu quả cho chiến lược kinh doanh tổng thể của khách hàng.",
+                "firsttitle": "What is an IT Consultant?",
+                "firstdesc": "Definition: An IT Consultant is an expert hired by a company to analyze business problems (e.g., slow workflows, outdated systems) and provide advice (solutions).<br><br>Core Objectives: To accurately identify the problem and propose optimal technology solutions, helping the company achieve its business objectives (e.g., increasing revenue, reducing operating costs). To ensure that technology investment is appropriate and delivers value for the client's overall business strategy.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -587,8 +609,8 @@
                 "icon": "/FE/assets/images/pages/chief_technology_officer/Vector.svg",
                 "image": "/FE/assets/images/pages/chief_technology_officer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "CTO là gì?",
-                "firstdesc": "CTO là người định hướng chiến lược công nghệ và kiến trúc hệ thống của công ty, đảm bảo công nghệ hỗ trợ mục tiêu kinh doanh và đổi mới sản phẩm. Khác với CIO, người tập trung vào hệ thống CNTT nội bộ và vận hành công nghệ, CTO hướng tới sản phẩm, R&D và đổi mới thị trường. <br>Mục tiêu cốt lõi:Đảm bảo công ty sử dụng công nghệ hiệu quả, sáng tạo và cạnh tranh, đồng thời hướng dẫn đội ngũ kỹ thuật phát triển sản phẩm và giải pháp phù hợp chiến lược doanh nghiệp.",
+                "firsttitle": "What is a CTO?",
+                "firstdesc": "Definition: A CTO is the person who guides the technology strategy and system architecture of the company, ensuring that technology supports business objectives and product innovation. Unlike the CIO (Chief Information Officer), who focuses on internal IT systems and technology operations, the CTO is geared towards product, R&D, and market innovation.<br><br>Core Objectives: To ensure the company utilizes technology effectively, innovatively, and competitively, while guiding the technical team to develop products and solutions that align with the corporate strategy.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -598,8 +620,8 @@
                 "icon": "/FE/assets/images/pages/project_manager/Vector.svg",
                 "image": "/FE/assets/images/pages/project_manager/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Project Manager là gì?",
-                "firstdesc": "Định nghĩa: Là vị trí quản lý quy trình và nguồn lực, chịu trách nhiệm lập kế hoạch, tổ chức, điều phối và kiểm soát toàn bộ quá trình thực hiện một dự án CNTT (ví dụ: xây dựng phần mềm, triển khai hệ thống). <br>Mục tiêu cốt lõi: Đảm bảo dự án được hoàn thành đúng phạm vi, trong ngân sách và đúng thời hạn đã được phê duyệt. Quản lý rủi ro và các bên liên quan để đạt được kết quả cuối cùng theo yêu cầu kinh doanh.",
+                "firsttitle": "What is a Project Manager?",
+                "firstdesc": "Definition: A Project Manager is a position responsible for managing processes and resources, tasked with planning, organizing, coordinating, and controlling the entire execution process of an IT project (e.g., software construction, system implementation).<br><br>Core Objectives: To ensure the project is completed within the approved scope, budget, and timeline. To manage risks and stakeholders to achieve the final outcome aligned with business requirements.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -609,8 +631,8 @@
                 "icon": "/FE/assets/images/pages/system_administrator/Vector.svg",
                 "image": "/FE/assets/images/pages/system_administrator/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "System Administrator là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, vận hành và duy trì cơ sở hạ tầng CNTT trong toàn bộ vòng đời hệ thống, bao gồm máy chủ, hệ điều hành, mạng và các ứng dụng doanh nghiệp, đảm bảo hệ thống sẵn sàng, ổn định và bảo mật. <br>Mục tiêu cốt lõi:Đảm bảo tính sẵn sàng, hiệu suất và bảo mật của hệ thống , xử lý sự cố kịp thời và cung cấp hỗ trợ kỹ thuật liên tục để vận hành sản phẩm và quy trình kinh doanh không gián đoạn.",
+                "firsttitle": "What is a System Administrator?",
+                "firstdesc": "Definition: A System Administrator (SysAdmin) is a specialist responsible for installing, configuring, operating, and maintaining the IT infrastructure throughout the entire system lifecycle, including servers, operating systems, networks, and enterprise applications, ensuring the system is available, stable, and secure.<br><br>Core Objectives: To ensure the availability, performance, and security of the system, promptly troubleshoot issues, and provide continuous technical support to ensure uninterrupted business processes and product operations.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -620,8 +642,8 @@
                 "icon": "/FE/assets/images/pages/network_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/network_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "Network Engineer là gì?",
-                "firstdesc": "Là chuyên gia chịu trách nhiệm thiết kế, triển khai, cấu hình và quản lý cơ sở hạ tầng mạng trong toàn bộ vòng đời hệ thống, bao gồm mạng có dây và không dây, đảm bảo kết nối ổn định, bảo mật và hiệu quả giữa người dùng, máy chủ và dịch vụ. <br>Mục tiêu cốt lõi:Đảm bảo hệ thống mạng hoạt động liên tục và tin cậy , hỗ trợ vận hành, phát triển và triển khai sản phẩm, đồng thời tăng hiệu suất và bảo mật cho toàn bộ cơ sở hạ tầng CNTT.",
+                "firsttitle": "What is a Network Engineer?",
+                "firstdesc": "Definition: A Network Engineer is a specialist responsible for designing, deploying, configuring, and managing the network infrastructure throughout the entire system lifecycle, including wired and wireless networks, ensuring stable, secure, and efficient connectivity between users, servers, and services.<br><br>Core Objectives: To ensure continuous and reliable network operation, supporting product operation, development, and deployment, while simultaneously enhancing the performance and security of the entire IT infrastructure.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -631,8 +653,8 @@
                 "icon": "/FE/assets/images/pages/chief_information_officer/Vector.svg",
                 "image": "/FE/assets/images/pages/chief_information_officer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "CIO là gì?",
-                "firstdesc": "Định nghĩa: Là vị trí quản lý cấp cao chịu trách nhiệm về toàn bộ hệ thống và chiến lược công nghệ thông tin (IT) trong doanh nghiệp, đảm bảo các hệ thống CNTT vận hành ổn định, an toàn và hỗ trợ đầy đủ các quy trình kinh doanh trong suốt vòng đời phát triển phần mềm và hệ thống. <br>Mục tiêu cốt lõi:Dẫn dắt chuyển đổi số, giám sát, bảo trì và cải tiến liên tục hệ thống CNTT, tối ưu hóa việc sử dụng công nghệ để nâng cao hiệu quả vận hành, bảo mật và khả năng cạnh tranh của doanh nghiệp.",
+                "firsttitle": "What is a CIO?",
+                "firstdesc": "Definition: A Chief Information Officer (CIO) is a senior management position responsible for the entire information technology (IT) system and strategy within the enterprise, ensuring that IT systems operate stably, securely, and fully support business processes throughout the software and system development lifecycle.<br><br>Core Objectives: To lead digital transformation, oversee, maintain, and continuously improve IT systems, and optimize the use of technology to enhance the operational efficiency, security, and competitiveness of the business.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -642,8 +664,8 @@
                 "icon": "/FE/assets/images/pages/systems_engineer/Vector.svg",
                 "image": "/FE/assets/images/pages/systems_engineer/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "System Engineer là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, tích hợp và quản lý toàn bộ hệ thống phần mềm, phần cứng và mạng lưới trong tổ chức. Họ nhìn nhận dự án từ góc độ toàn cảnh. <br>Mục tiêu cốt lõi: Đảm bảo tất cả các thành phần kỹ thuật hoạt động cùng nhau một cách nhất quán, hiệu quả và đáp ứng các yêu cầu ở cấp độ hệ thống lớn, quản lý độ phức tạp và rủi ro xuyên suốt dự án.",
+                "firsttitle": "What is a System Engineer?",
+                "firstdesc": "Definition: A System Architect is a specialist responsible for designing, integrating, and managing the entire system of software, hardware, and networks within an organization. They view the project from a holistic perspective.<br><br>Core Objectives: To ensure that all technical components work together cohesively, efficiently, and meet large-scale system requirements, managing complexity and risk throughout the project lifecycle.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -653,8 +675,8 @@
                 "icon": "/FE/assets/images/pages/business_intelligence_analyst/Vector.svg",
                 "image": "/FE/assets/images/pages/business_intelligence_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "BIA là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia sử dụng các công cụ và kỹ thuật phân tích dữ liệu để xây dựng báo cáo (reports) và bảng điều khiển (dashboards), giúp tổ chức theo dõi hiệu suất và hiểu rõ xu hướng kinh doanh. <br>Mục tiêu cốt lõi: Chuyển đổi dữ liệu thô thành thông tin chi tiết (insights) hành động được, hỗ trợ các nhà quản lý trong việc đánh giá tình hình hiện tại và đưa ra các quyết định chiến lược hoặc điều chỉnh kịp thời.",
+                "firsttitle": "What is a BIA ?",
+                "firstdesc": "Definition: A Business Intelligence (BI) Analyst is a specialist who uses data analysis tools and techniques to build reports and dashboards, helping organizations monitor performance and understand business trends.<br><br>Core Objectives: To transform raw data into actionable insights, supporting managers in evaluating the current situation and making timely strategic decisions or adjustments.",
                 "secondtitle": "",
                 "seconddesc": ""
             },
@@ -664,8 +686,8 @@
                 "icon": "/FE/assets/images/pages/qa_analyst/Vector.svg",
                 "image": "/FE/assets/images/pages/qa_analyst/content.svg",
                 "seperator": "/FE/assets/images/pages/cloud.svg",
-                "firsttitle": "QA Analyst là gì?",
-                "firstdesc": "Định nghĩa: Là chuyên gia thực hiện các hoạt động kiểm thử theo kế hoạch (ví dụ: kiểm thử chức năng, kiểm thử hồi quy) để tìm ra lỗi (bugs) và các vấn đề về chất lượng trong sản phẩm phần mềm. <br>Mục tiêu cốt lõi: Đảm bảo sản phẩm hoạt động đúng theo yêu cầu thiết kế và đạt được mức độ chất lượng chấp nhận được trước khi phát hành, qua đó giảm thiểu rủi ro và tăng sự tin cậy của người dùng.",
+                "firsttitle": "What is a QA Analyst?",
+                "firstdesc": "Definition: A QA Analyst is a specialist who executes planned testing activities (e.g., functional testing, regression testing) to find bugs and quality issues in the software product.<br><br>Core Objectives: To ensure the product functions correctly according to design requirements and achieves an acceptable quality level before release, thereby mitigating risks and increasing user confidence.",
                 "secondtitle": "",
                 "seconddesc": ""
             }

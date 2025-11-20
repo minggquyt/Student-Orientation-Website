@@ -89,6 +89,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-transform: uppercase;
 }
 .box:nth-child(1) .box-content-description {
     max-width: 1046px;
