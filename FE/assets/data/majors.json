@@ -5,6 +5,11 @@
     "majors": [
       {
         "id": "ktpm",
+        "title1": "Tổng quan các chuyên ngành",
+        "title2": "Vị trí công việc",
+        "title3": "Cơ hội việc làm",
+        "title4": "Nhu cầu tuyển dụng",
+        "title5": "Thông tin học tập",
         "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
         "pageTitle": "CHUYÊN NGÀNH KĨ THUẬT PHẦN MỀM Ở IUH",
         "questions": {
@@ -72,7 +77,6 @@
                   "subjects": [
                     "Kĩ thuật lập trình",
                     "Hệ thống máy tính",
-                    
                     "Phương pháp tính",
                     "Hàm phức và phép biến đổi Laplace",
                     "Toán ứng dụng",
@@ -91,7 +95,6 @@
                     "Cấu trúc dữ liệu và giải thuật",
                     "Hệ cơ sở dữ liệu",
                     "Lập trình hướng đối tượng",
-                    
                     "Công nghệ thông tin trong chuyển đổi số"
                   ]
                 },
@@ -102,7 +105,6 @@
                     "Hệ thống và Công nghệ Web",
                     "Phân tích thiết kế hệ thống",
                     "Hệ quản trị cơ sở dữ liệu NoSQL MongoDB",
-                    
                     "Lập trình hướng sự kiện với công nghệ .NET",
                     "Lập trình hướng sự kiện với công nghệ Java",
                     "Lập trình GUI với Qt Framework"
@@ -120,7 +122,6 @@
                     "Phát triển ứng dụng",
                     "Mô hình hóa dữ liệu NoSQL MongoDB",
                     "Tư duy thiết kế và Trải nghiệm người dùng",
-                    
                     "Khai thác dữ liệu và ứng dụng ",
                     "Kỹ thuật điện tử ",
                     "Nhập môn phân tích dữ liệu và AI",
@@ -136,7 +137,6 @@
                     "Công nghệ phần mềm",
                     "Thống kê máy tính và ứng dụng",
                     "Phát triển giao diện ứng dụng",
-                    
                     "Lập trình phân tán với công nghệ .NET",
                     "Lập trình phân tán với công nghệ Java",
                     "Lập trình mạng với Qt Framework"
@@ -152,7 +152,6 @@
                   "subjects": [
                     "Lập trình cho thiết bị di động",
                     "Đảm bảo chất lượng và Kiểm thử phần mềm",
-                    
                     "Lập trình IoTs",
                     "Lập trình WWW (.Net)",
                     "Phát triển ứng dụng Web với Qt Engine",
@@ -164,7 +163,6 @@
                   "subjects": [
                     "Kiến trúc và Thiết kế Phần mềm",
                     "Công nghệ mới trong phát triển ứng dụng CNTT",
-
                     "Automat & Ngôn ngữ hình thức",
                     "Nhập môn Dữ liệu lớn",
                     "Lập trình Di động nâng cao",
@@ -180,6 +178,11 @@
       },
       {
         "id": "khmt",
+        "title1": "Tổng quan các chuyên ngành",
+        "title2": "Vị trí công việc",
+        "title3": "Cơ hội việc làm",
+        "title4": "Nhu cầu tuyển dụng",
+        "title5": "Thông tin học tập",
         "icon": "/FE/assets/images/section3/Group.svg",
         "pageTitle": "CHUYÊN NGÀNH KHOA HỌC MÁY TINH Ở IUH",
         "questions": {
@@ -247,7 +250,6 @@
                   "subjects": [
                     "Kĩ thuật lập trình",
                     "Hệ thống máy tính",
-
                     "Phương pháp tính",
                     "Hàm phức và phép biến đổi Laplace",
                     "Toán ứng dụng",
@@ -266,7 +268,6 @@
                     "Cấu trúc dữ liệu và giải thuật",
                     "Hệ cơ sở dữ liệu",
                     "Lập trình hướng đối tượng",
-
                     "Tính toán số & Matlab",
                     "Ngôn ngữ Python",
                     "Ngôn ngữ R"
@@ -279,7 +280,6 @@
                     "Trí tuệ nhân tạo",
                     "Hệ thống và Công nghệ Web",
                     "Phân tích thiết kế hệ thống",
-
                     "Công nghệ thông tin trong chuyển đổi số",
                     "Nhập môn dữ liệu lớn",
                     "Nhập môn an toàn thông tin",
@@ -299,7 +299,6 @@
                     "Mạng máy tính",
                     "Xử lý ảnh",
                     "Máy học",
-
                     "Lập trình hướng đối tượng với công nghệ .NET",
                     "Lập trình hướng sự kiện với công nghệ JAVA",
                     "Lập trình GUI với Qt Framework"
@@ -312,7 +311,6 @@
                     "Khai thác dữ liệu và ứng dụng",
                     "Học sâu",
                     "Phát triển ứng dụng",
-
                     "Tương tác người máy",
                     "Quản lý dự án CNTT",
                     "Đồ họa máy tính"
@@ -328,7 +326,6 @@
                   "subjects": [
                     "Công nghệ mới trong phát triển ứng dụng CNTT",
                     "Xử lý ngôn ngữ tự nhiên",
-
                     "Automat & Ngôn ngữ hình thức",
                     "CSDL NoSQL MongoDB",
                     "Công nghệ Phần mềm",
@@ -343,7 +340,6 @@
                     "Thị giác máy tính và ứng dụng",
                     "Công nghệ IoT hiện đại",
                     "Phân tích thiết kế giải thuật",
-
                     "Đảm bảo chất lượng và Kiểm thử phần mềm ",
                     "Ngôn ngữ lập trình",
                     "Phân tích và quản lý yêu cầu ",
@@ -357,6 +353,11 @@
       },
       {
         "id": "cntt",
+        "title1": "Tổng quan các chuyên ngành",
+        "title2": "Vị trí công việc",
+        "title3": "Cơ hội việc làm",
+        "title4": "Nhu cầu tuyển dụng",
+        "title5": "Thông tin học tập",
         "icon": "/FE/assets/images/section3/carbon_data-1.svg",
         "pageTitle": "CHUYÊN NGÀNH CÔNG NGHỆ THÔNG TIN Ở IUH",
         "questions": {
@@ -424,7 +425,6 @@
                   "subjects": [
                     "Kĩ thuật lập trình",
                     "Hệ thống máy tính",
-
                     "Phương pháp tính",
                     "Hàm phức và phép biến đổi Laplace",
                     "Toán ứng dụng",
@@ -442,7 +442,6 @@
                     "Cấu trúc rời rạc",
                     "Mạng máy tính",
                     "Lập trình trong CNTT với Java",
-
                     "Công nghệ thông tin trong chuyển đổi số"
                   ]
                 },
@@ -453,7 +452,6 @@
                     "Hệ thống và Công nghệ Web",
                     "Xác định yêu cầu hệ thống",
                     "Thống kê máy tính và ứng dụng",
-
                     "Lý thuyết đồ thị",
                     "Ngôn ngữ lập trình",
                     "Phân tích và quản lý yêu cầu"
@@ -473,7 +471,6 @@
                     "Phát triển Hệ thống Đa phương tiện",
                     "Công cụ Web & Website hướng Dữ liệu",
                     "Hệ thống & Dịch vụ Ảo hóa",
-
                     "Hệ quản trị cơ sở dữ liệu",
                     "Kiến trúc và cài đặt hệ quản trị CSDL",
                     "Cơ sở dữ liệu phân tán"
@@ -486,7 +483,6 @@
                     "Phát triển hệ thống tích hợp",
                     "Quản trị mạng và hỗ trợ kỹ thuật",
                     "Hệ thống ảo và Khả năng mở rộng dữ liệu",
-
                     "Kiến trúc lưu trữ phân tán",
                     "Điện toán đám mây",
                     "Điện toán cực"
@@ -502,7 +498,6 @@
                   "subjects": [
                     "Kiến trúc và tích hợp hệ thống",
                     "Định tuyến và chuyển mạch",
-
                     "Truyền Số liệu",
                     "Quản trị Mạng",
                     "Kiến trúc & Lập trình Web nâng cao",
@@ -518,7 +513,6 @@
                     "Công nghệ và lập trình tích hợp hợp năng cao",
                     "Kiến trúc và lập trình di động",
                     "Phân tích thiết kế mạng",
-
                     "Trí tuệ nhân tạo",
                     "Lập trình phân tích dữ liệu 1",
                     "Phát triển hệ thống phân tán"
@@ -531,6 +525,11 @@
       },
       {
         "id": "httt",
+        "title1": "Tổng quan các chuyên ngành",
+        "title2": "Vị trí công việc",
+        "title3": "Cơ hội việc làm",
+        "title4": "Nhu cầu tuyển dụng",
+        "title5": "Thông tin học tập",
         "icon": "/FE/assets/images/section3/Mask-group.svg",
         "pageTitle": "CHUYÊN NGÀNH HỆ THỐNG THÔNG TIN Ở IUH",
         "questions": {
@@ -598,7 +597,6 @@
                   "subjects": [
                     "Kĩ thuật lập trình",
                     "Hệ thống máy tính",
-
                     "Phương pháp tính",
                     "Hàm phức và phép biến đổi Laplace",
                     "Toán ứng dụng",
@@ -616,7 +614,6 @@
                     "Hệ cơ sở dữ liệu",
                     "Lập trình hướng đối tượng",
                     "Thống kê máy tính và ứng dụng",
-
                     "Công nghệ thông tin trong chuyển đổi số"
                   ]
                 },
@@ -642,7 +639,6 @@
                     "Hệ thống và Công nghệ Web",
                     "Phân tích thiết kế hệ thống",
                     "Nhập môn phân tích dữ liệu và AI",
-
                     "Giao diện định lượng",
                     "Tương tác người máy",
                     "Quản trị cơ sở dữ liệu NoSQL"
@@ -654,7 +650,6 @@
                     "Bảo mật cơ sở dữ liệu",
                     "Thương mại điện tử",
                     "Phát triển ứng dụng Web",
-
                     "Nguyên lý mô hình hóa định lượng",
                     "Nhập môn dữ liệu lớn",
                     "Phân tích định lượng"
@@ -671,7 +666,6 @@
                     "Phát triển ứng dụng",
                     "Quản trị tác nghiệp thương mại điện tử",
                     "Kiến trúc dịch vụ và điện toán phí máy chủ",
-
                     "Tiếp thị điện tử",
                     "Các hệ thống thông minh doanh nghiệp",
                     "Khai thác dữ liệu và ứng dụng",
@@ -684,7 +678,6 @@
                     "Hoạch định tài nguyên doanh nghiệp",
                     "Công nghệ mới trong phát triển ứng dụng CNTT",
                     "Quản lý dự án Hệ thống thông tin",
-
                     "Cơ sở dữ liệu nâng cao",
                     "Phát triển ứng dụng trí tuệ nhân tạo",
                     "Đám mây và phát triển vận hành",
@@ -704,6 +697,11 @@
     "majors": [
       {
         "id": "ktpm",
+        "title1": "Majors overview",
+        "title2": "Jobs position",
+        "title3": "Career opportunities",
+        "title4": "Recruitment needs",
+        "title5": "Study Infomation",
         "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
         "pageTitle": "Software Engineering (SE) Major at IUH",
         "questions": {
@@ -771,7 +769,6 @@
                   "subjects": [
                     "Programming Techniques",
                     "Computer Systems",
-
                     "Numerical Methods",
                     "Complex Functions and Laplace Transform",
                     "Applied mathematics",
@@ -786,12 +783,11 @@
                 {
                   "title": "Semester 3",
                   "subjects": [
-                     "Discrete Mathematics",
-                     "Data Structures and Algorithms",
-                     "Database Systems",
-                     "Object-Oriented Programming",
-
-                     "IT in Digital Transformation"
+                    "Discrete Mathematics",
+                    "Data Structures and Algorithms",
+                    "Database Systems",
+                    "Object-Oriented Programming",
+                    "IT in Digital Transformation"
                   ]
                 },
                 {
@@ -801,7 +797,6 @@
                     "Web Systems and Technology",
                     "Systems Analysis",
                     "NoSQL Database Management System: MongoDB",
-
                     "Event-Driven Programming with .NET Technology",
                     "Event-Driven Programming with Java Technology",
                     "GUI Programming with Qt Framework"
@@ -819,8 +814,6 @@
                     "Application Development",
                     "NoSQL Data Modeling with MongoDB",
                     "Design Thinking and User Experience (UX)",
-
-
                     "Data Mining and Applications",
                     "Electronic Engineering",
                     "Introduction to Data Analysis and AI",
@@ -836,7 +829,6 @@
                     "Software Technology",
                     "Computational Statistics and Applications",
                     "Application Development",
-
                     "Distributed Programming with .NET",
                     "Distributed Programming with Java",
                     "Network Programming with Qt Framework"
@@ -852,7 +844,6 @@
                   "subjects": [
                     "Mobile Application Development",
                     "Software Quality Assurance (QA) and Testing",
-
                     "IoT Programming",
                     "WWW Programming (.NET)",
                     "Web Application Development with Qt Engine",
@@ -864,7 +855,6 @@
                   "subjects": [
                     "Software Architecture and Design",
                     "Emerging Technologies in IT Application Development",
-
                     "Automata and Formal Languages",
                     "Introduction to Big Data",
                     "Advanced Mobile Programming",
@@ -880,6 +870,11 @@
       },
       {
         "id": "khmt",
+        "title1": "Majors overview",
+        "title2": "Jobs position",
+        "title3": "Career opportunities",
+        "title4": "Recruitment needs",
+        "title5": "Study Infomation",
         "icon": "/FE/assets/images/section3/Group.svg",
         "pageTitle": "Computer Science Major at IUH",
         "questions": {
@@ -947,7 +942,6 @@
                   "subjects": [
                     "Programming Techniques",
                     "Computer Systems",
-
                     "Numerical Methods",
                     "Complex Functions and Laplace Transform",
                     "Applied mathematics",
@@ -966,7 +960,6 @@
                     "Data Structures and Algorithmss",
                     "Database Systems",
                     "Object-Oriented Programming",
-
                     "Numerical Methods & Matlab",
                     "Python Programming Language",
                     "R Programming Language"
@@ -979,7 +972,6 @@
                     "Artificial Intelligence (AI)",
                     "Web Systems and Technology",
                     "Systems Analysis and Design",
-
                     "IT in Digital Transformation",
                     "Introduction to Big Data",
                     "Introduction to Cybersecurity",
@@ -999,7 +991,6 @@
                     "Computer Networking",
                     "Image Processing",
                     "Machine Learning (ML)",
-
                     "Object-Oriented Programming with .NET",
                     "Event-Driven Programming with JAVAs",
                     "GUI Programming with Qt Framework"
@@ -1012,7 +1003,6 @@
                     "Data Mining and Applications",
                     "Deep Learning",
                     "Application Development",
-
                     "Human-Computer Interaction",
                     "IT Project Management",
                     "Computer Graphics"
@@ -1028,7 +1018,6 @@
                   "subjects": [
                     "Emerging Technologies in IT Application Development",
                     "Natural Language Processing (NLP)",
-
                     "Automata and Formal Languages",
                     "NoSQL Databases and MongoDB",
                     "Software Engineering",
@@ -1043,7 +1032,6 @@
                     "Computer Vision and Applications",
                     "Modern IoT Technologies",
                     "Algorithm Analysis and Design",
-
                     "Software Quality Assurance (QA) and Testing",
                     "Programming Languages",
                     "Requirements Analysis and Management",
@@ -1057,6 +1045,11 @@
       },
       {
         "id": "cntt",
+        "title1": "Majors overview",
+        "title2": "Jobs position",
+        "title3": "Career opportunities",
+        "title4": "Recruitment needs",
+        "title5": "Study Infomation",
         "icon": "/FE/assets/images/section3/carbon_data-1.svg",
         "pageTitle": "Information Technology Major at IUH",
         "questions": {
@@ -1124,7 +1117,6 @@
                   "subjects": [
                     "Programming Techniques",
                     "Computer Systems",
-
                     "Numerical Methods",
                     "Complex Functions and Laplace Transform",
                     "Applied mathematics",
@@ -1142,7 +1134,6 @@
                     "Discrete Structures",
                     "Computer Networking",
                     "Programming in IT with Java",
-
                     "Information Technology in Digital Transformation"
                   ]
                 },
@@ -1153,7 +1144,6 @@
                     "Web Systems and Technology",
                     "System Requirements Elicitation",
                     "Computational Statistics and Applications",
-
                     "Graph Theory",
                     "Programming Languages",
                     "Requirements Analysis and Management"
@@ -1173,7 +1163,6 @@
                     "Multimedia System Development",
                     "Web Tools and Data-Driven Websites",
                     "Virtualization Systems and Services",
-
                     "Database Management Systems",
                     "Database Management System Architecture and Implementation",
                     "Distributed Databases"
@@ -1186,7 +1175,6 @@
                     "Integrated Systems Development",
                     "Network Administration and Technical Support",
                     "Virtual Systems and Data Scalability",
-
                     "Distributed Storage Architecture",
                     "Cloud Computing",
                     "Edge Computing"
@@ -1202,7 +1190,6 @@
                   "subjects": [
                     "System Architecture and Integration",
                     "Routing and Switching",
-
                     "Data Communication",
                     "Network Administration",
                     "Advanced Web Architecture and Programming",
@@ -1218,7 +1205,6 @@
                     "High-Performance Compuiting and Programming",
                     "Mobile Architecture and Programming",
                     "Network Analysis and Design",
-
                     "Artificial Intelligence (AI)",
                     "Data Analytics Programming 1",
                     "Distributed Systems Development"
@@ -1231,6 +1217,11 @@
       },
       {
         "id": "httt",
+        "title1": "Majors overview",
+        "title2": "Jobs position",
+        "title3": "Career opportunities",
+        "title4": "Recruitment needs",
+        "title5": "Study Infomation",
         "icon": "/FE/assets/images/section3/Mask-group.svg",
         "pageTitle": "Information System Major at IUH",
         "questions": {
@@ -1298,7 +1289,6 @@
                   "subjects": [
                     "Programming Techniques",
                     "Computer Systems",
-
                     "Numerical Methods",
                     "Complex Functions and Laplace Transform",
                     "Applied mathematics",
@@ -1316,7 +1306,6 @@
                     "Database Systems",
                     "Object-Oriented Programming (OOP)",
                     "Computational Statistics and Applications",
-
                     "IT in Digital Transformation"
                   ]
                 },
@@ -1342,7 +1331,6 @@
                     "Web Systems and Technology",
                     "Systems Analysis and Design",
                     "Introduction to Data Analysis and AI",
-
                     "Quantitative Interface",
                     "Human-Computer Interaction (HCI)",
                     "NoSQL Database Administration"
@@ -1354,7 +1342,6 @@
                     "Database Security",
                     "Electronic Commerce",
                     "Web Application Development",
-
                     "Principles of Quantitative Modeling",
                     "Introduction to Big Data",
                     "Quantitative Analysis"
@@ -1371,7 +1358,6 @@
                     "Application Development",
                     "E-commerce Operations Management",
                     "Service Architecture and Serverless Computing",
-
                     "Digital Marketing",
                     "Business Intelligence Systems",
                     "Data Mining and Applications",
@@ -1384,7 +1370,6 @@
                     "Enterprise Resource Planning (ERP)",
                     "Emerging Technologies in IT Application Development",
                     "Information Systems Project Management",
-
                     "Advanced Databases",
                     "AI Application Development",
                     "Cloud and DevOps",

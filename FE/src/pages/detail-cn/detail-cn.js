@@ -1,4 +1,5 @@
 export default function DetailsMajor(data){
+    console.log(data);
     return (
     `<div class="details-major">
         <div class="box">
@@ -18,23 +19,23 @@ export default function DetailsMajor(data){
             </div>
         </div>
     </div>
-    <div class="title-container"><div class="title">Tổng quan chuyên ngành</div></div>
+    <div class="title-container"><div class="title">${data.title1}</div></div>
     <div class="box space-grotesk-500">
     ${data.overview}
     </div>
-    <div class="title-container"><div class="title">Vị trí công việc</div></div>
+    <div class="title-container"><div class="title">${data.title2}</div></div>
     <div class="box cn-jobs-position">
 
     </div>
-    <div class="title-container"><div class="title">Cơ hội việc làm</div></div>
+    <div class="title-container"><div class="title">${data.title3}</div></div>
     <div class="box space-grotesk-500">
     ${data.careerOpportunities}
     </div>
-    <div class="title-container"><div class="title">Nhu cầu tuyển dụng</div></div>
+    <div class="title-container"><div class="title">${data.title4}</div></div>
     <div class="box space-grotesk-500">
     ${data.recruitmentNeeds}
     </div>
-    <div class="title-container"><div class="title">Thông tin học tập</div></div>
+    <div class="title-container"><div class="title">${data.title5}</div></div>
     <div class="box">
         <div class="previous-page"><img src="/FE/assets/images/previous-page.png" width="47" height="99.37"></div>
         <div class="page">
