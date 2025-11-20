@@ -79,15 +79,29 @@ function addEffectButtonHompage() {
 }
 
 function switchLangEffect() {
-    const button = document.querySelector(".language");
-    button.addEventListener("click", (e) => {
+    const currentLang = localStorage.getItem("currentLang") || "VN";
+    const switchButton = document.querySelector(".language");
+
+    // logic render button 
+    const img = document.createElement("img");
+    img.width = 48
+    img.height = 29
+    if (currentLang == 'VN') {
+        console.log("render ra thành công ")
+        img.src = '/FE/assets/images/header/vn.png';
+        switchButton.replaceChild(img, switchButton.childNodes[0]);
+        switchButton.childNodes[1].nodeValue = 'VN';
+    }
+    else {
+        img.src = '/FE/assets/images/header/en.jpg';
+        switchButton.replaceChild(img, switchButton.childNodes[0]);
+        switchButton.childNodes[1].nodeValue = 'EN';
+    }
+
+    // onclick logic
+    switchButton.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
-
-        const img = document.createElement("img");
-        img.width = 48
-        img.height = 29
-
         if (e.currentTarget.childNodes[1].nodeValue == 'VN') {
             img.src = '/FE/assets/images/header/en.jpg';
             e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
@@ -98,8 +112,14 @@ function switchLangEffect() {
             e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
             e.currentTarget.childNodes[1].nodeValue = 'VN';
         }
-    })
 
+        // logic lưu vào local storage 
+        localStorage.setItem("currentLang",e.currentTarget.childNodes[1].nodeValue);
+
+        // Dispatch event để render lại trang 
+        const event = new CustomEvent("switchEffectActive");
+        document.dispatchEvent(event);
+    })
 }
 
 function menuBarEffect() {
@@ -132,7 +152,6 @@ function menuBarEffect() {
                 body.removeChild(divMenuEffect);
             })
         })
-
     })
 }
 
@@ -147,6 +166,7 @@ function main() {
     addEffectButtonHompage();
 
     switchLangEffect();
+
 
     menuBarEffect();
 }

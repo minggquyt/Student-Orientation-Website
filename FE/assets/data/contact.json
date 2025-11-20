@@ -1,0 +1,18 @@
+[
+    {
+        "id": "vn",
+        "title": "Liện hệ ngay với chúng tôi",
+        "input1": "Tên tài Khoản",
+        "input2": "Email",
+        "input3": "Tin nhắn",
+        "button": "Gửi"
+    },
+    {
+        "id": "en",
+        "title": "Contact us right away",
+        "input1": "Account Name",
+        "input2": "Email",
+        "input3": "Message",
+        "button": "Send"
+    }
+]

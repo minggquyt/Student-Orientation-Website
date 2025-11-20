@@ -18,21 +18,6 @@
             "buttonDesc3": "Tôi đã xác định được mục tiêu nghề nghiệp",
             "buttonHoverDesc": "Tìm hiểu thêm"
         },
-        "section3": {
-            "title": "Chuyên ngành CNTT"
-        },
-        "section4": {
-            "title": "Vị Trí Công Việc",
-            "sldc": "Vòng đời phát triển SP",
-            "buttonTitle": "Chi tiết"
-        },
-        "section5": {
-            "title": "Liện hệ ngay với chúng tôi",
-            "input1": "Tạo tài Khoản",
-            "input2": "Email",
-            "input3": "Tin nhắn",
-            "button": "Gửi"
-        },
         "footer": {
             "title": "Mọi thắc mắc xin liên hệ tại:"
         }
@@ -55,21 +40,6 @@
             "buttonDesc2": "I have a preliminary idea about my career path",
             "buttonDesc3": "I have determined my career goals",
             "buttonHoverDesc": "Find more"
-        },
-        "section3": {
-            "title": "IT Majors"
-        },
-        "section4": {
-            "title": "Job Positions",
-            "sldc": "Software Development Life Cycle",
-            "buttonTitle": "Details"
-        },
-        "section5": {
-            "title": "Contact us right away",
-            "input1": "Create Account",
-            "input2": "Email",
-            "input3": "Message",
-            "button": "Send"
         },
         "footer": {
             "title": "For any inquiries, please contact:"

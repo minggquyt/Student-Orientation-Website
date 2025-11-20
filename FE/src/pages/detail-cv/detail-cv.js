@@ -22,7 +22,7 @@ export default function DetailsJob(data) {
         </div>
         <div class="job-section2__content">
             <div class="job-section2__box">
-                <div class="job-section2__box--text">
+                <div class="job-section2__box--text space-grotesk-500">
                     ${data.firstdesc}
                 </div>
             </div>
@@ -43,7 +43,7 @@ export default function DetailsJob(data) {
         <div class="job-section2b__content">
             <img src="/FE/assets/images/pages/ops-security/content2.svg" alt="">
             <div class="job-section2b__box">
-                <div class="job-section2b__box--text">
+                <div class="job-section2b__box--text space-grotesk-500">
                     ${data.seconddesc}
                 </div>
             </div>

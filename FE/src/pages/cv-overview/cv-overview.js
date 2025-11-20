@@ -1,9 +1,10 @@
-export default function CVOverview(){
+export default function CVOverview(data){
+    console.log(data);
 
     return (
         `<section class="section4">
             <div class="section4__content">
-                <div class="section4__content--text unbounded-500">Vị Trí Công Việc</div>
+                <div class="section4__content--text unbounded-500">${data.title}</div>
                 <img src="/FE/assets/images/section4/decor-item9.svg" alt="" class="section4__decor section4__decor4">
                 <img src="/FE/assets/images/section4/decor-item10.svg" alt="" class="section4__decor section4__decor5">
             </div>

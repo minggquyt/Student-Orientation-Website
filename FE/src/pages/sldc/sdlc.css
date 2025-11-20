@@ -134,13 +134,13 @@ body {
 .sdlc-section2__box1 {
     max-width: 1133px;
     width: 100%;
-    height: 380px;
+    height: max-content;
 }
 
 .sdlc-section2__box2 {
     max-width: 708px;
     width: 100%;
-    height: 273px;
+    height: max-content;
 }
 
 .sdlc-section2__box--detail {

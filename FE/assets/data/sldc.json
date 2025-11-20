@@ -1,0 +1,55 @@
+[
+    {
+        "id": "vn",
+        "title": "Vòng đời phát triển phần mềm",
+        "content": {
+            "title1": "SLDC Là gì ?",
+            "boxContent1": [
+                "Khi nhắc đến lập trình, nhiều bạn chỉ nghĩ ngay đến việc viết code. Nhưng trong thế giới chuyên nghiệp, code chỉ là một phần nhỏ của một bức tranh lớn hơn nhiều.",
+                "Trước khi một phần mềm xuất hiện trên điện thoại hay máy tính của bạn, nó phải trải qua một hành trình có trật tự, có kế hoạch rõ ràng — gọi là SDLC (Software Development Life Cycle), hay còn gọi là Vòng đời phát triển phần mềm.",
+                "Hãy tưởng tượng bạn muốn xây một ngôi nhà. Bạn không thể cứ cầm gạch và bắt đầu xây mà không biết nhà mình có mấy tầng, bao nhiêu phòng, cần vật liệu gì. Phần mềm cũng vậy: nó cần được hiểu rõ, thiết kế kỹ, kiểm thử cẩn thận và cải tiến liên tục.",
+                "SDLC chính là “bản đồ toàn diện” giúp mọi kỹ sư, từ nhà phân tích, lập trình viên đến tester, hiểu rõ mình đang ở đâu và cần làm gì tiếp theo."
+            ],
+            "boxContent2": {
+                "title": "Quy trình SDLC gồm 7 giai đoạn nối tiếp nhau. Gồm:",
+                "content": [
+                    "Phân tích yêu cầu",
+                    "Thiết kế hệ thống và giao diện",
+                    "Lập trình",
+                    "kiểm thử",
+                    "Triển khai",
+                    "Giám sát và bảo trì",
+                    "Thu thập phản hồi và cải tiến",
+                    "Thu thập phản hồi và cải tiến"
+                ]
+            },
+            "image": "/FE/assets/images/pages/sdlc/content.svg"
+        }
+    },
+    {
+        "id": "en",
+        "title": "Software Development Lifecycle",
+        "content": {
+            "title1": "What is SDLC ?",
+            "boxContent1": [
+                "When it comes to programming, many people immediately think of writing code. But in the professional world, code is just a small part of a much larger picture.",
+                "Before a software appears on your phone or computer, it must go through an orderly journey with a clear plan — called SDLC (Software Development Life Cycle), also known as the Software Development Life Cycle.",
+                "Imagine you want to build a house. You can't just pick up bricks and start building without knowing how many floors your house will have, how many rooms, and what materials are needed. Software is the same: it needs to be understood clearly, designed carefully, tested meticulously, and continuously improved.",
+                "SDLC is the 'comprehensive map' that helps every engineer, from analysts, programmers to testers, understand where they are and what they need to do next."
+            ],
+            "boxContent2": {
+                "title": "The SDLC process consists of 7 sequential stages. Including:",
+                "content": [
+                    "Requirements Analysis",
+                    "System and Interface Design",
+                    "Programming",
+                    "Testing",
+                    "Deployment",
+                    "Monitoring and Maintenance",
+                    "Feedback Collection and Improvement"
+                ]
+            },
+            "image": "/FE/assets/images/pages/sdlc/content.svg"
+        }
+    }
+]

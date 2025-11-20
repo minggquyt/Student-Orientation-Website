@@ -1,8 +1,9 @@
-export default function CNOverview(){
+export default function CNOverview(data){
+    console.log(data);
     return (
         `<section class="section3">
             <div class="section3__content">
-                <div class="section3__content--text unbounded-500">Chuyên Ngành CNTT</div>
+                <div class="section3__content--text unbounded-500">${data.title}</div>
                     <img src="/FE/assets/images/section3/decor-item3.svg" alt="" class="section3__decor section3__decor1"> 
                     <img src="/FE/assets/images/section3/decor-item4.svg" alt="" class="section3__decor section3__decor2">
             </div>

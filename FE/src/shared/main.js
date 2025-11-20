@@ -80,3 +80,21 @@ function main() {
 }
 
 main();
+
+// Công việc hôm nay 
+// 3. Làm button switch ngôn ngữ từ tiếng việt -> tiếng anh ( cho homepage )
+// Chỉnh lại innerText trong file data cho giống figma
+// 4. Làm logic cho trang detail công việc chỉ có 1 section và 2 section 
+// 5. Chỉnh lại data cho phần học kì ở detail các chuyên ngành
+// 6. chỉnh lại padding cho phần responsive
+
+// module
+export default function changeHeaderLang(data){
+    console.log(data);
+    const header = document.querySelector('.header');
+}
+
+export function changeFooterLang(lang){
+    const footer = document.querySelector('.footer');
+    console.log(footer);
+}

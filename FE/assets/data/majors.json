@@ -1,520 +1,1070 @@
 [
   {
-    "id": "ktpm",
-    "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
-    "questions": {
-      "title": "công Nghệ PM",
-      "questionsColumn1": [
-        "Học xong sau này ra làm gì?",
-        "Nhà tuyển dụng cần gì ở bạn?",
-        "Đến 2030, còn ai tuyển dụng không?"
-      ],
-      "questionsColumn2": [
-        "Được học những môn học gì ở IUH?",
-        "Số tín chỉ, học phí, thời gian học?",
-        ""
-      ]
-    },
-    "overview": "Giới thiệu",
-    "jobPositions": [
+    "id": "vn",
+    "title": "Chuyên ngành CNTT",
+    "majors": [
       {
-        "id": "ba",
-        "title": "Designer",
-        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Developer",
-        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Tester",
-        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Software Engineer",
-        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Product Owner",
-        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Systems Analyst",
-        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
-      }
-    ],
-    "careerOpportunities": "Thông tin về cơ hội việc làm",
-    "recruitmentNeeds": "Thông tin về nhu cầu tuyền dụng",
-    "studyInfo": {  
-      "years": [
-        {
-          "year": "Năm 1",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Nhập môn tin học",
-                "Nhập môn lập trình"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Kĩ thuật lập trình",
-                "Hệ thống máy tính"
-              ]
-            }
+        "id": "ktpm",
+        "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
+        "pageTitle": "CHUYÊN NGÀNH KĨ THUẬT PHẦN MỀM Ở IUH",
+        "questions": {
+          "title": "công Nghệ PM",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
           ]
         },
-        {
-          "year": "Năm 2",
-          "semesters": [
+        "overview": "Kỹ thuật Phần mềm (Software Engineering) là ngành chuyên về thiết kế, phát triển, triển khai và bảo trì các hệ thống phần mềm. <br> Đây là một lĩnh vực quan trọng trong Công nghệ Thông tin, kết hợp các nguyên lý kỹ thuật, khoa học máy tính và quy trình quản lý dự án để tạo ra những sản phẩm phần mềm chất lượng cao, ổn định và đáp ứng nhu cầu người dùng. <br>Ngành học này đặc biệt phù hợp với những ai yêu thích lập trình và muốn trực tiếp tham gia vào quá trình xây dựng các ứng dụng, chương trình hoặc hệ thống thực tế. Từ phân tích yêu cầu, thiết kế kiến trúc, lập trình, kiểm thử đến bảo trì — kỹ sư phần mềm chính là người biến ý tưởng thành sản phẩm công nghệ có giá trị. <br> Thực tế, phần mềm hiện diện ở mọi nơi trong cuộc sống hiện đại: từ các ứng dụng văn phòng như Word, Excel và PowerPoint, đến trình duyệt web như Chrome, Firefox, và thậm chí cả các hệ điều hành như Windows, macOS và Linux — tất cả đều là thành quả của Kỹ thuật Phần mềm.",
+        "jobPositions": [
+          {
+            "id": "devops",
+            "title": "DevOps",
+            "image": "/FE/assets/images/page/KTPM/icon-1.svg"
+          },
+          {
+            "id": "developer",
+            "title": "Developer",
+            "image": "/FE/assets/images/page/KTPM/icon-2.svg"
+          },
+          {
+            "id": "software_tester",
+            "title": "Software Tester",
+            "image": "/FE/assets/images/page/KTPM/icon-3.svg"
+          },
+          {
+            "id": "software_engineer",
+            "title": "Software Engineer",
+            "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+          },
+          {
+            "id": "product_owner",
+            "title": "Product Owner",
+            "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+          },
+          {
+            "id": "system_analyst",
+            "title": "System Analyst",
+            "image": "/FE/assets/images/page/KTPM/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": " Nhu cầu tuyển dụng Kỹ sư Phần mềm được dự báo tăng trưởng 25% từ năm 2022 đến 2032, cao hơn nhiều so với mức trung bình của các ngành nghề khác ([Nguồn: U.S. Bureau of Labor Statistics (BLS)]). Sự tăng trưởng này đòi hỏi các Software Engineer và Developer phải liên tục cập nhật công nghệ. <br>Nhu cầu tuyển dụng đang dịch chuyển khỏi các công việc phát triển phần mềm cơ bản sang các vai trò có chuyên môn sâu về hạ tầng và tích hợp. Các công ty ưu tiên tuyển dụng chuyên gia có kiến thức về Cloud-Native và áp dụng tư duy của DevOps trong phát triển ([Nguồn: Gartner, McKinsey Digital]). <br>Việt Nam vẫn nằm trong nhóm các quốc gia có nhu cầu nhân lực công nghệ cao lớn nhất khu vực. Các dự báo cho thấy cần bổ sung hàng trăm nghìn lao động CNTT chất lượng cao để duy trì vị thế là Outsourcing Hub. Nhu cầu đặc biệt tập trung vào các vị trí Software Engineer và Product Owner có khả năng quản lý sản phẩm và quy trình quốc tế",
+        "recruitmentNeeds": "Nhà tuyển dụng đặt biệt là các ông lớn công nghệ như Google, Microsoft,...v.v tìm kiếm người có thể giải quyết các vấn đề phức tạp và đóng góp giá trị ngay lập tức, không chỉ là người biết viết code. Các ứng viên cần phải có: <br> + Nền tảng Kỹ thuật Vững chắc: Cấu trúc Dữ liệu & Giải thuật, Design Patterns và OOP, SDLC và Git...v.v <br> + Kinh nghiệm: Dự án thực tế, Kinh nghiệm Internship, các giải thưởng hoặc sự tham gia vào các cuộc thi lớn như ICPC, Hackathon, HackerRank,...v.v <br> + Kỹ năng Mềm và Tư duy tốt: các kỹ năng mềm nên thành thạo như giao tiếp xã hội, làm việc nhóm, kỹ năng tiếng anh tốt.... và  phải có một tư duy sắc bén và vững chắc cùng với đó là tinh thần không ngại va chạm và tích cực rèn luyện và học hỏi",
+        "studyInfo": {
+          "years": [
             {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Cấu trúc dữ liệu",
-                "Lập trình hướng đối tượng"
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Cơ sở dữ liệu",
-                "Mạng máy tính"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 3",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Hệ điều hành",
-                "Phát triển phần mềm"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Phân tích thiết kế hệ thống",
-                "Kiểm thử phần mềm"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 4",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Đồ án chuyên ngành",
-                "Thực tập doanh nghiệp"
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Khóa luận tốt nghiệp"
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
-    }
+      },
+      {
+        "id": "khmt",
+        "icon": "/FE/assets/images/section3/Group.svg",
+        "pageTitle": "CHUYÊN NGÀNH KHOA HỌC MÁY TINH Ở IUH",
+        "questions": {
+          "title": "Khoa học máy tính",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
+          ]
+        },
+        "overview": "Khoa học Máy tính (Computer Science – CS) là ngành học nghiên cứu toàn diện về cấu trúc, nguyên lý hoạt động và các ứng dụng của hệ thống máy tính. Ngành này bao gồm nền tảng lý thuyết như tính toán, thông tin và thuật toán, đồng thời kết hợp với các kiến thức thực hành liên quan đến việc xây dựng và vận hành hệ thống máy tính. <br>Ngoài ra, Khoa học Máy tính còn mở rộng sang nhiều lĩnh vực như hệ điều hành, xử lý dữ liệu, ngôn ngữ lập trình, thiết kế và phát triển phần mềm. Ở mức độ chuyên sâu hơn, ngành học này tiếp cận những mảng tiên tiến như trí tuệ nhân tạo, an ninh – an toàn thông tin, công nghệ web và môi trường mạng. <br> Tại IUH, ngành Khoa học Máy tính hiện có hai hướng chuyên sâu là Trí tuệ nhân tạo và Khoa học dữ liệu, giúp sinh viên có thêm lựa chọn phù hợp với định hướng nghề nghiệp trong tương lai.",
+        "jobPositions": [
+          {
+            "id": "ai_engineer",
+            "title": "AI Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-1.svg"
+          },
+          {
+            "id": "cyber_security_engineer",
+            "title": "Cybersecuirty Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-2.svg"
+          },
+          {
+            "id": "cloud_engineer",
+            "title": "Cloud Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-3.svg"
+          },
+          {
+            "id": "game_developer",
+            "title": "Game Developer",
+            "image": "/FE/assets/images/page/KHMT/icon-4.svg"
+          },
+          {
+            "id": "blockchain_developer",
+            "title": "Blockchain Developer",
+            "image": "/FE/assets/images/page/KHMT/icon-5.svg"
+          },
+          {
+            "id": "computer_vision_engineer",
+            "title": "Computer Vision Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu tuyển dụng ngành Khoa học Máy tính (KHMT) dự báo tiếp tục tăng mạnh trong giai đoạn 2025–2035, xuất phát từ sự bùng nổ của trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data), hệ thống phân tán, an ninh mạng và điện toán đám mây. Nhiều báo cáo lao động quốc tế dự đoán tốc độ tăng trưởng của nhóm ngành KHMT cao hơn mức trung bình của toàn bộ các ngành nghề khác. Điều này yêu cầu sinh viên CS liên tục cập nhật công nghệ và kiến thức nền tảng. <br>Nhu cầu tuyển dụng đang dịch chuyển từ các công việc thuần kỹ thuật sang các vị trí yêu cầu nền tảng khoa học máy tính sâu, tư duy thuật toán, khả năng tối ưu hệ thống và thiết kế kiến trúc phần mềm. Các công ty ưu tiên tuyển dụng những ứng viên có kiến thức vững về cấu trúc dữ liệu – giải thuật, hệ điều hành, mạng máy tính, cơ sở dữ liệu, điện toán đám mây và hiểu biết về DevOps (quy trình phối hợp giữa phát triển và vận hành). <br>Việt Nam đang phát triển thành trung tâm nhân lực công nghệ trong khu vực, đặc biệt với sự bùng nổ của lĩnh vực AI, Fintech, thương mại điện tử và các công ty Outsourcing chất lượng cao. Điều này làm tăng nhu cầu cho các vị trí liên quan đến Blockchain Developer, Data Engineer, AI Engineer, Cybersecurity Engineer và các vị trí nghiên cứu (R&D). Ứng viên có kiến thức KHMT bài bản sẽ có lợi thế lớn trong môi trường cạnh tranh quốc tế.",
+        "recruitmentNeeds": "Nhà tuyển dụng lớn (Google, Microsoft, các tập đoàn công nghệ tại Việt Nam…) ưu tiên những ứng viên có khả năng giải quyết vấn đề phức tạp, tư duy logic tốt và biết vận dụng kiến thức khoa học máy tính vào thực tiễn. Ứng viên cần có: <br> Nền tảng vững: Cấu trúc dữ liệu và giải thuật, nguyên lý hệ điều hành, mạng máy tính, bảo mật, thiết kế hệ thống (System Design), mô hình cơ sở dữ liệu… <br> Kinh nghiệm thực tế: Dự án cá nhân, dự án nhóm, đề tài nghiên cứu, thực tập tại doanh nghiệp, tham gia giải thuật – lập trình như ICPC, Hackathon, Contest… <br> Kỹ năng mềm: Làm việc nhóm, giao tiếp, tư duy phản biện, tự học liên tục. Tính kỷ luật và kiên trì được xem là yếu tố quan trọng giúp ứng viên nổi bật hơn trong lĩnh vực yêu cầu tư duy chuyên sâu như KHMT.",
+        "studyInfo": {
+          "years": [
+            {
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "cntt",
+        "icon": "/FE/assets/images/section3/carbon_data-1.svg",
+        "pageTitle": "CHUYÊN NGÀNH CÔNG NGHỆ THÔNG TIN Ở IUH",
+        "questions": {
+          "title": "Công nghệ thông tin",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
+          ]
+        },
+        "overview": "Công nghệ Thông tin (CNTT) là một lĩnh vực nghiên cứu và ứng dụng các hệ thống máy tính, phần mềm và mạng truyền thông nhằm thu thập, xử lý, lưu trữ và trao đổi thông tin một cách hiệu quả. Đây là nền tảng quan trọng kết nối con người, dữ liệu và công nghệ trong thời đại số. <br>Ngành CNTT tập trung vào việc ứng dụng máy tính và phần mềm để giải quyết các vấn đề thực tiễn, như quản lý thông tin, tự động hóa quy trình, và phát triển các giải pháp số cho tổ chức và doanh nghiệp.",
+        "jobPositions": [
+          {
+            "id": "technical_support_specialist",
+            "title": "Technical Support Specialist",
+            "image": "/FE/assets/images/page/CNTT/icon-1.svg"
+          },
+          {
+            "id": "database_administrator",
+            "title": " Database Administrator",
+            "image": "/FE/assets/images/page/CNTT/icon-2.svg"
+          },
+          {
+            "id": "technical_writer",
+            "title": "Technical Writer",
+            "image": "/FE/assets/images/page/CNTT/icon-3.svg"
+          },
+          {
+            "id": "it_consultant",
+            "title": "IT Consultant",
+            "image": "/FE/assets/images/page/CNTT/icon-4.svg"
+          },
+          {
+            "id": "chief_technology_officer",
+            "title": "Chief Technology Offcier",
+            "image": "/FE/assets/images/page/CNTT/icon-5.svg"
+          },
+          {
+            "id": "project_manager",
+            "title": "Project Manager",
+            "image": "/FE/assets/images/page/CNTT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu tuyển dụng ngành Công nghệ Thông tin tăng mạnh nhờ quá trình hiện đại hóa của doanh nghiệp, sự phát triển của thương mại điện tử, điện toán đám mây, bảo mật và tự động hóa. Các thống kê cho thấy tốc độ tăng việc làm trong ngành IT cao hơn mức trung bình của toàn bộ lĩnh vực kỹ thuật, đặc biệt tại các công ty sản phẩm số, ngân hàng và doanh nghiệp chuyển đổi số. <br>Ngành CNTT tập trung vào việc ứng dụng công nghệ vào thực tế, vận hành hệ thống, quản trị thiết bị – mạng – dữ liệu, phát triển phần mềm và tối ưu quy trình làm việc. Vì vậy, nhu cầu tuyển dụng chuyển dịch sang các vị trí chuyên sâu như System Administrator, Database Administrator, IT Consultant và các vị trí triển khai – vận hành giải pháp doanh nghiệp. <br>Việt Nam trở thành điểm đến của nhiều dự án công nghệ lớn trong khu vực, kéo theo sự gia tăng nhu cầu về nhân lực IT ở cả hai mảng: IT nội bộ (hỗ trợ doanh nghiệp vận hành hệ thống) và IT dịch vụ (triển khai giải pháp cho khách hàng). Điều này mang lại cơ hội rộng mở cho sinh viên công nghệ thông tin ở nhiều lĩnh vực khác nhau.",
+        "recruitmentNeeds": "Nhà tuyển dụng trong ngành CNTT (các công ty công nghệ, ngân hàng, viễn thông, sản phẩm số…) ưu tiên ứng viên vững kỹ năng thực hành, hiểu cách vận hành hệ thống doanh nghiệp và có khả năng giải quyết sự cố nhanh chóng. Ứng viên cần có: <br> Nền tảng vững: Hệ điều hành, mạng máy tính, quản trị cơ sở dữ liệu, kiến trúc máy tính, bảo mật cơ bản, công cụ giám sát hệ thống, hiểu biết về các nền tảng đám mây như AWS/Azure/GCP (nếu có). <br> Kinh nghiệm thực tế: Tham gia dự án cài đặt – vận hành hệ thống, thực tập IT Support/Helpdesk, triển khai máy chủ, thiết lập mạng nội bộ (LAN), quản trị tài khoản – quyền truy cập, tham gia cuộc thi về an ninh mạng hoặc vận hành hệ thống. <br> Kỹ năng mềm: Kỹ năng giao tiếp, xử lý tình huống, làm việc nhóm, tác phong chuyên nghiệp và tinh thần trách nhiệm. Vì đặc thù ngành CNTT liên quan trực tiếp đến hệ thống vận hành, ứng viên cần thái độ chủ động, cẩn thận và học hỏi nhanh.",
+        "studyInfo": {
+          "years": [
+            {
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "httt",
+        "icon": "/FE/assets/images/section3/Mask-group.svg",
+        "pageTitle": "CHUYÊN NGÀNH HỆ THỐNG THÔNG TIN Ở IUH",
+        "questions": {
+          "title": "Hệ thống thông tin",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
+          ]
+        },
+        "overview": "Hệ thống Thông tin (Information Systems – IS) là ngành học nghiên cứu cách kết hợp con người, công nghệ và quy trình để thu thập, xử lý, lưu trữ và phân phối thông tin phục vụ cho hoạt động quản lý và ra quyết định trong tổ chức. Nói một cách đơn giản, Hệ thống Thông tin chính là “bộ não” giúp doanh nghiệp hiểu rõ tình hình, tối ưu vận hành và nâng cao hiệu quả kinh doanh. <br>Trong mỗi doanh nghiệp, hệ thống thông tin giữ vai trò trọng yếu trong việc quản lý nhân sự, tài chính, dữ liệu khách hàng, chuỗi cung ứng, đồng thời cung cấp các báo cáo và phản hồi kịp thời để nhà quản lý đưa ra những quyết định chính xác hơn.",
+        "jobPositions": [
+          {
+            "id": "system_administrator",
+            "title": "System Adminstrator",
+            "image": "/FE/assets/images/page/HTTT/icon-1.svg"
+          },
+          {
+            "id": "network_engineer",
+            "title": "Network Engineer",
+            "image": "/FE/assets/images/page/HTTT/icon-2.svg"
+          },
+          {
+            "id": "chief_information_officer",
+            "title": "Chief Information Officer",
+            "image": "/FE/assets/images/page/HTTT/icon-3.svg"
+          },
+          {
+            "id": "systems_engineer",
+            "title": "System Engineer",
+            "image": "/FE/assets/images/page/HTTT/icon-4.svg"
+          },
+          {
+            "id": "business_intelligence_analyst",
+            "title": "Business Intelligence Analyst",
+            "image": "/FE/assets/images/page/HTTT/icon-5.svg"
+          },
+          {
+            "id": "qa_analyst",
+            "title": "QA Analyst",
+            "image": "/FE/assets/images/page/HTTT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu nhân lực ngành Hệ thống Thông tin tăng mạnh do doanh nghiệp ngày càng phụ thuộc vào dữ liệu, tự động hóa quy trình và chuyển đổi số. Các báo cáo thị trường cho thấy tốc độ tăng trưởng tuyển dụng của nhóm nghề liên quan đến phân tích dữ liệu, quản lý hệ thống thông tin, quản trị sản phẩm số và tối ưu quy trình kinh doanh cao hơn mức trung bình của khối ngành CNTT. <br>Ngành Hệ thống Thông tin đóng vai trò “cầu nối” giữa kỹ thuật và nghiệp vụ kinh doanh. Vì vậy nhu cầu tuyển dụng chuyển dịch sang các vị trí yêu cầu kiến thức kỹ thuật vừa đủ kết hợp với hiểu biết vận hành doanh nghiệp, như Business Intelligence Analyst, Data Analyst, , Quản lý sản phẩm (Product Manager)… Các công ty ưu tiên ứng viên nắm vững mô hình hoá dữ liệu, luồng thông tin, quy trình kinh doanh và hệ thống ERP/CRM. <br>Việt Nam đang trong thời kỳ số hóa mạnh, đặc biệt ở tài chính – ngân hàng, bán lẻ, logistics và thương mại điện tử, kéo theo nhu cầu cao cho nguồn nhân lực IS. Ứng viên có thể dễ dàng tiếp cận thị trường quốc tế thông qua các vị trí phân tích dữ liệu, tư vấn chuyển đổi số và vận hành hệ thống doanh nghiệp ở các công ty Outsourcing quy mô lớn.",
+        "recruitmentNeeds": "Nhà tuyển dụng trong lĩnh vực IS (doanh nghiệp công nghệ, ngân hàng, tập đoàn thương mại điện tử…) tìm kiếm ứng viên có khả năng hiểu quy trình kinh doanh và biết cách ứng dụng công nghệ để tối ưu hóa vận hành. Ứng viên cần có: <br> Nền tảng vững: Mô hình hóa dữ liệu, thiết kế báo cáo, cơ sở dữ liệu, phân tích nghiệp vụ, kiến thức về hệ thống thông tin quản lý, hiểu quy trình doanh nghiệp, kỹ năng khai thác dữ liệu bằng SQL hoặc các công cụ phân tích (Power BI, Tableau…). <br> Kinh nghiệm thực tế: Tham gia dự án mô phỏng quy trình doanh nghiệp, thực tập liên quan đến phân tích nghiệp vụ, xây dựng dashboard, tham gia cuộc thi phân tích dữ liệu hoặc sản phẩm số như Hackathon, Data Challenge,… <br> Kỹ năng mềm: Giao tiếp, tư duy logic, kỹ năng trình bày, quản lý yêu cầu (requirements), khả năng làm việc với bộ phận kinh doanh và kỹ thuật. Đây là yếu tố quan trọng giúp sinh viên ngành IS nổi bật vì họ đóng vai trò “kết nối” giữa các đội nhóm.",
+        "studyInfo": {
+          "years": [
+            {
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
   },
   {
-    "id": "khmt",
-    "icon": "/FE/assets/images/section3/Group.svg",
-    "questions": {
-      "title": "Khoa học máy tính",
-      "questionsColumn1": [
-        "Học xong sau này ra làm gì?",
-        "Nhà tuyển dụng cần gì ở bạn?",
-        "Đến 2030, còn ai tuyển dụng không?"
-      ],
-      "questionsColumn2": [
-        "Được học những môn học gì ở IUH?",
-        "Số tín chỉ, học phí, thời gian học?",
-        ""
-      ]
-    },
-    "overview": "",
-    "jobPositions": [
+    "id": "en",
+    "title": "IT Majors",
+    "majors": [
       {
-        "title": "DevOps",
-        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
-      },
-      {
-        "title": "Developer",
-        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
-      },
-      {
-        "title": "Tester",
-        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
-      },
-      {
-        "title": "Software Engineer",
-        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
-      },
-      {
-        "title": "Product Owner",
-        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
-      },
-      {
-        "title": "Systems Analyst",
-        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
-      }
-    ],
-    "careerOpportunities": "",
-    "recruitmentNeeds": "",
-    "studyInfo": {
-      "years": [
-        {
-          "year": "Năm 1",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Nhập môn tin học",
-                "Nhập môn lập trình"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Kĩ thuật lập trình",
-                "Hệ thống máy tính"
-              ]
-            }
+        "id": "ktpm",
+        "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
+        "pageTitle": "CHUYÊN NGÀNH KĨ THUẬT PHẦN MỀM Ở IUH",
+        "questions": {
+          "title": "công Nghệ PM",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
           ]
         },
-        {
-          "year": "Năm 2",
-          "semesters": [
+        "overview": "Kỹ thuật Phần mềm (Software Engineering) là ngành chuyên về thiết kế, phát triển, triển khai và bảo trì các hệ thống phần mềm. <br> Đây là một lĩnh vực quan trọng trong Công nghệ Thông tin, kết hợp các nguyên lý kỹ thuật, khoa học máy tính và quy trình quản lý dự án để tạo ra những sản phẩm phần mềm chất lượng cao, ổn định và đáp ứng nhu cầu người dùng. <br>Ngành học này đặc biệt phù hợp với những ai yêu thích lập trình và muốn trực tiếp tham gia vào quá trình xây dựng các ứng dụng, chương trình hoặc hệ thống thực tế. Từ phân tích yêu cầu, thiết kế kiến trúc, lập trình, kiểm thử đến bảo trì — kỹ sư phần mềm chính là người biến ý tưởng thành sản phẩm công nghệ có giá trị. <br> Thực tế, phần mềm hiện diện ở mọi nơi trong cuộc sống hiện đại: từ các ứng dụng văn phòng như Word, Excel và PowerPoint, đến trình duyệt web như Chrome, Firefox, và thậm chí cả các hệ điều hành như Windows, macOS và Linux — tất cả đều là thành quả của Kỹ thuật Phần mềm.",
+        "jobPositions": [
+          {
+            "id": "devops",
+            "title": "DevOps",
+            "image": "/FE/assets/images/page/KTPM/icon-1.svg"
+          },
+          {
+            "id": "developer",
+            "title": "Developer",
+            "image": "/FE/assets/images/page/KTPM/icon-2.svg"
+          },
+          {
+            "id": "software_tester",
+            "title": "Software Tester",
+            "image": "/FE/assets/images/page/KTPM/icon-3.svg"
+          },
+          {
+            "id": "software_engineer",
+            "title": "Software Engineer",
+            "image": "/FE/assets/images/page/KTPM/icon-4.svg"
+          },
+          {
+            "id": "product_owner",
+            "title": "Product Owner",
+            "image": "/FE/assets/images/page/KTPM/icon-5.svg"
+          },
+          {
+            "id": "system_analyst",
+            "title": "System Analyst",
+            "image": "/FE/assets/images/page/KTPM/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": " Nhu cầu tuyển dụng Kỹ sư Phần mềm được dự báo tăng trưởng 25% từ năm 2022 đến 2032, cao hơn nhiều so với mức trung bình của các ngành nghề khác ([Nguồn: U.S. Bureau of Labor Statistics (BLS)]). Sự tăng trưởng này đòi hỏi các Software Engineer và Developer phải liên tục cập nhật công nghệ. <br>Nhu cầu tuyển dụng đang dịch chuyển khỏi các công việc phát triển phần mềm cơ bản sang các vai trò có chuyên môn sâu về hạ tầng và tích hợp. Các công ty ưu tiên tuyển dụng chuyên gia có kiến thức về Cloud-Native và áp dụng tư duy của DevOps trong phát triển ([Nguồn: Gartner, McKinsey Digital]). <br>Việt Nam vẫn nằm trong nhóm các quốc gia có nhu cầu nhân lực công nghệ cao lớn nhất khu vực. Các dự báo cho thấy cần bổ sung hàng trăm nghìn lao động CNTT chất lượng cao để duy trì vị thế là Outsourcing Hub. Nhu cầu đặc biệt tập trung vào các vị trí Software Engineer và Product Owner có khả năng quản lý sản phẩm và quy trình quốc tế",
+        "recruitmentNeeds": "Nhà tuyển dụng đặt biệt là các ông lớn công nghệ như Google, Microsoft,...v.v tìm kiếm người có thể giải quyết các vấn đề phức tạp và đóng góp giá trị ngay lập tức, không chỉ là người biết viết code. Các ứng viên cần phải có: <br> + Nền tảng Kỹ thuật Vững chắc: Cấu trúc Dữ liệu & Giải thuật, Design Patterns và OOP, SDLC và Git...v.v <br> + Kinh nghiệm: Dự án thực tế, Kinh nghiệm Internship, các giải thưởng hoặc sự tham gia vào các cuộc thi lớn như ICPC, Hackathon, HackerRank,...v.v <br> + Kỹ năng Mềm và Tư duy tốt: các kỹ năng mềm nên thành thạo như giao tiếp xã hội, làm việc nhóm, kỹ năng tiếng anh tốt.... và  phải có một tư duy sắc bén và vững chắc cùng với đó là tinh thần không ngại va chạm và tích cực rèn luyện và học hỏi",
+        "studyInfo": {
+          "years": [
             {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Cấu trúc dữ liệu",
-                "Lập trình hướng đối tượng"
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Cơ sở dữ liệu",
-                "Mạng máy tính"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 3",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Hệ điều hành",
-                "Phát triển phần mềm"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Phân tích thiết kế hệ thống",
-                "Kiểm thử phần mềm"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 4",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Đồ án chuyên ngành",
-                "Thực tập doanh nghiệp"
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Khóa luận tốt nghiệp"
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
-    }
-  },
-  {
-    "id": "cntt",
-    "icon": "/FE/assets/images/section3/carbon_data-1.svg",
-    "questions": {
-      "title": "Công nghệ thông tin",
-      "questionsColumn1": [
-        "Học xong sau này ra làm gì?",
-        "Nhà tuyển dụng cần gì ở bạn?",
-        "Đến 2030, còn ai tuyển dụng không?"
-      ],
-      "questionsColumn2": [
-        "Được học những môn học gì ở IUH?",
-        "Số tín chỉ, học phí, thời gian học?",
-        ""
-      ]
-    },
-    "overview": "",
-    "jobPositions": [
-      {
-        "id": "ui-ux",
-        "title": "DevOps",
-        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
-        "id": "ui-ux",
-        "title": "Developer",
-        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Tester",
-        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Software Engineer",
-        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Product Owner",
-        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Systems Analyst",
-        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
-      }
-    ],
-    "careerOpportunities": "",
-    "recruitmentNeeds": "",
-    "studyInfo": {
-      "years": [
-        {
-          "year": "Năm 1",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Nhập môn tin học",
-                "Nhập môn lập trình"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Kĩ thuật lập trình",
-                "Hệ thống máy tính"
-              ]
-            }
+        "id": "khmt",
+        "icon": "/FE/assets/images/section3/Group.svg",
+        "pageTitle": "CHUYÊN NGÀNH KHOA HỌC MÁY TINH Ở IUH",
+        "questions": {
+          "title": "Khoa học máy tính",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
           ]
         },
-        {
-          "year": "Năm 2",
-          "semesters": [
+        "overview": "Khoa học Máy tính (Computer Science – CS) là ngành học nghiên cứu toàn diện về cấu trúc, nguyên lý hoạt động và các ứng dụng của hệ thống máy tính. Ngành này bao gồm nền tảng lý thuyết như tính toán, thông tin và thuật toán, đồng thời kết hợp với các kiến thức thực hành liên quan đến việc xây dựng và vận hành hệ thống máy tính. <br>Ngoài ra, Khoa học Máy tính còn mở rộng sang nhiều lĩnh vực như hệ điều hành, xử lý dữ liệu, ngôn ngữ lập trình, thiết kế và phát triển phần mềm. Ở mức độ chuyên sâu hơn, ngành học này tiếp cận những mảng tiên tiến như trí tuệ nhân tạo, an ninh – an toàn thông tin, công nghệ web và môi trường mạng. <br> Tại IUH, ngành Khoa học Máy tính hiện có hai hướng chuyên sâu là Trí tuệ nhân tạo và Khoa học dữ liệu, giúp sinh viên có thêm lựa chọn phù hợp với định hướng nghề nghiệp trong tương lai.",
+        "jobPositions": [
+          {
+            "id": "ai_engineer",
+            "title": "AI Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-1.svg"
+          },
+          {
+            "id": "cyber_security_engineer",
+            "title": "Cybersecuirty Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-2.svg"
+          },
+          {
+            "id": "cloud_engineer",
+            "title": "Cloud Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-3.svg"
+          },
+          {
+            "id": "game_developer",
+            "title": "Game Developer",
+            "image": "/FE/assets/images/page/KHMT/icon-4.svg"
+          },
+          {
+            "id": "blockchain_developer",
+            "title": "Blockchain Developer",
+            "image": "/FE/assets/images/page/KHMT/icon-5.svg"
+          },
+          {
+            "id": "computer_vision_engineer",
+            "title": "Computer Vision Engineer",
+            "image": "/FE/assets/images/page/KHMT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu tuyển dụng ngành Khoa học Máy tính (KHMT) dự báo tiếp tục tăng mạnh trong giai đoạn 2025–2035, xuất phát từ sự bùng nổ của trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data), hệ thống phân tán, an ninh mạng và điện toán đám mây. Nhiều báo cáo lao động quốc tế dự đoán tốc độ tăng trưởng của nhóm ngành KHMT cao hơn mức trung bình của toàn bộ các ngành nghề khác. Điều này yêu cầu sinh viên CS liên tục cập nhật công nghệ và kiến thức nền tảng. <br>Nhu cầu tuyển dụng đang dịch chuyển từ các công việc thuần kỹ thuật sang các vị trí yêu cầu nền tảng khoa học máy tính sâu, tư duy thuật toán, khả năng tối ưu hệ thống và thiết kế kiến trúc phần mềm. Các công ty ưu tiên tuyển dụng những ứng viên có kiến thức vững về cấu trúc dữ liệu – giải thuật, hệ điều hành, mạng máy tính, cơ sở dữ liệu, điện toán đám mây và hiểu biết về DevOps (quy trình phối hợp giữa phát triển và vận hành). <br>Việt Nam đang phát triển thành trung tâm nhân lực công nghệ trong khu vực, đặc biệt với sự bùng nổ của lĩnh vực AI, Fintech, thương mại điện tử và các công ty Outsourcing chất lượng cao. Điều này làm tăng nhu cầu cho các vị trí liên quan đến Blockchain Developer, Data Engineer, AI Engineer, Cybersecurity Engineer và các vị trí nghiên cứu (R&D). Ứng viên có kiến thức KHMT bài bản sẽ có lợi thế lớn trong môi trường cạnh tranh quốc tế.",
+        "recruitmentNeeds": "Nhà tuyển dụng lớn (Google, Microsoft, các tập đoàn công nghệ tại Việt Nam…) ưu tiên những ứng viên có khả năng giải quyết vấn đề phức tạp, tư duy logic tốt và biết vận dụng kiến thức khoa học máy tính vào thực tiễn. Ứng viên cần có: <br> Nền tảng vững: Cấu trúc dữ liệu và giải thuật, nguyên lý hệ điều hành, mạng máy tính, bảo mật, thiết kế hệ thống (System Design), mô hình cơ sở dữ liệu… <br> Kinh nghiệm thực tế: Dự án cá nhân, dự án nhóm, đề tài nghiên cứu, thực tập tại doanh nghiệp, tham gia giải thuật – lập trình như ICPC, Hackathon, Contest… <br> Kỹ năng mềm: Làm việc nhóm, giao tiếp, tư duy phản biện, tự học liên tục. Tính kỷ luật và kiên trì được xem là yếu tố quan trọng giúp ứng viên nổi bật hơn trong lĩnh vực yêu cầu tư duy chuyên sâu như KHMT.",
+        "studyInfo": {
+          "years": [
             {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Cấu trúc dữ liệu",
-                "Lập trình hướng đối tượng"
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Cơ sở dữ liệu",
-                "Mạng máy tính"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 3",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Hệ điều hành",
-                "Phát triển phần mềm"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Phân tích thiết kế hệ thống",
-                "Kiểm thử phần mềm"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 4",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Đồ án chuyên ngành",
-                "Thực tập doanh nghiệp"
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Khóa luận tốt nghiệp"
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
-    }
-  },
-  {
-    "id": "httt",
-    "icon": "/FE/assets/images/section3/Mask-group.svg",
-    "questions": {
-      "title": "Hệ thống thông tin",
-      "questionsColumn1": [
-        "Học xong sau này ra làm gì?",
-        "Nhà tuyển dụng cần gì ở bạn?",
-        "Đến 2030, còn ai tuyển dụng không?"
-      ],
-      "questionsColumn2": [
-        "Được học những môn học gì ở IUH?",
-        "Số tín chỉ, học phí, thời gian học?",
-        ""
-      ]
-    },
-    "overview": "",
-    "jobPositions": [
-      {
-        "id": "ui-ux",
-        "title": "DevOps",
-        "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
-        "id": "ui-ux",
-        "title": "Developer",
-        "image": "/FE/assets/images/page/KTPM/icon-2.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Tester",
-        "image": "/FE/assets/images/page/KTPM/icon-3.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Software Engineer",
-        "image": "/FE/assets/images/page/KTPM/icon-4.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Product Owner",
-        "image": "/FE/assets/images/page/KTPM/icon-5.svg"
-      },
-      {
-        "id": "ui-ux",
-        "title": "Systems Analyst",
-        "image": "/FE/assets/images/page/KTPM/icon-6.svg"
-      }
-    ],
-    "careerOpportunities": "",
-    "recruitmentNeeds": "",
-    "studyInfo": {
-      "years": [
-        {
-          "year": "Năm 1",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Nhập môn tin học",
-                "Nhập môn lập trình"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Kĩ thuật lập trình",
-                "Hệ thống máy tính"
-              ]
-            }
+        "id": "cntt",
+        "icon": "/FE/assets/images/section3/carbon_data-1.svg",
+        "pageTitle": "CHUYÊN NGÀNH CÔNG NGHỆ THÔNG TIN Ở IUH",
+        "questions": {
+          "title": "Công nghệ thông tin",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
           ]
         },
-        {
-          "year": "Năm 2",
-          "semesters": [
+        "overview": "Công nghệ Thông tin (CNTT) là một lĩnh vực nghiên cứu và ứng dụng các hệ thống máy tính, phần mềm và mạng truyền thông nhằm thu thập, xử lý, lưu trữ và trao đổi thông tin một cách hiệu quả. Đây là nền tảng quan trọng kết nối con người, dữ liệu và công nghệ trong thời đại số. <br>Ngành CNTT tập trung vào việc ứng dụng máy tính và phần mềm để giải quyết các vấn đề thực tiễn, như quản lý thông tin, tự động hóa quy trình, và phát triển các giải pháp số cho tổ chức và doanh nghiệp.",
+        "jobPositions": [
+          {
+            "id": "technical_support_specialist",
+            "title": "Technical Support Specialist",
+            "image": "/FE/assets/images/page/CNTT/icon-1.svg"
+          },
+          {
+            "id": "database_administrator",
+            "title": " Database Administrator",
+            "image": "/FE/assets/images/page/CNTT/icon-2.svg"
+          },
+          {
+            "id": "technical_writer",
+            "title": "Technical Writer",
+            "image": "/FE/assets/images/page/CNTT/icon-3.svg"
+          },
+          {
+            "id": "it_consultant",
+            "title": "IT Consultant",
+            "image": "/FE/assets/images/page/CNTT/icon-4.svg"
+          },
+          {
+            "id": "chief_technology_officer",
+            "title": "Chief Technology Offcier",
+            "image": "/FE/assets/images/page/CNTT/icon-5.svg"
+          },
+          {
+            "id": "project_manager",
+            "title": "Project Manager",
+            "image": "/FE/assets/images/page/CNTT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu tuyển dụng ngành Công nghệ Thông tin tăng mạnh nhờ quá trình hiện đại hóa của doanh nghiệp, sự phát triển của thương mại điện tử, điện toán đám mây, bảo mật và tự động hóa. Các thống kê cho thấy tốc độ tăng việc làm trong ngành IT cao hơn mức trung bình của toàn bộ lĩnh vực kỹ thuật, đặc biệt tại các công ty sản phẩm số, ngân hàng và doanh nghiệp chuyển đổi số. <br>Ngành CNTT tập trung vào việc ứng dụng công nghệ vào thực tế, vận hành hệ thống, quản trị thiết bị – mạng – dữ liệu, phát triển phần mềm và tối ưu quy trình làm việc. Vì vậy, nhu cầu tuyển dụng chuyển dịch sang các vị trí chuyên sâu như System Administrator, Database Administrator, IT Consultant và các vị trí triển khai – vận hành giải pháp doanh nghiệp. <br>Việt Nam trở thành điểm đến của nhiều dự án công nghệ lớn trong khu vực, kéo theo sự gia tăng nhu cầu về nhân lực IT ở cả hai mảng: IT nội bộ (hỗ trợ doanh nghiệp vận hành hệ thống) và IT dịch vụ (triển khai giải pháp cho khách hàng). Điều này mang lại cơ hội rộng mở cho sinh viên công nghệ thông tin ở nhiều lĩnh vực khác nhau.",
+        "recruitmentNeeds": "Nhà tuyển dụng trong ngành CNTT (các công ty công nghệ, ngân hàng, viễn thông, sản phẩm số…) ưu tiên ứng viên vững kỹ năng thực hành, hiểu cách vận hành hệ thống doanh nghiệp và có khả năng giải quyết sự cố nhanh chóng. Ứng viên cần có: <br> Nền tảng vững: Hệ điều hành, mạng máy tính, quản trị cơ sở dữ liệu, kiến trúc máy tính, bảo mật cơ bản, công cụ giám sát hệ thống, hiểu biết về các nền tảng đám mây như AWS/Azure/GCP (nếu có). <br> Kinh nghiệm thực tế: Tham gia dự án cài đặt – vận hành hệ thống, thực tập IT Support/Helpdesk, triển khai máy chủ, thiết lập mạng nội bộ (LAN), quản trị tài khoản – quyền truy cập, tham gia cuộc thi về an ninh mạng hoặc vận hành hệ thống. <br> Kỹ năng mềm: Kỹ năng giao tiếp, xử lý tình huống, làm việc nhóm, tác phong chuyên nghiệp và tinh thần trách nhiệm. Vì đặc thù ngành CNTT liên quan trực tiếp đến hệ thống vận hành, ứng viên cần thái độ chủ động, cẩn thận và học hỏi nhanh.",
+        "studyInfo": {
+          "years": [
             {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Cấu trúc dữ liệu",
-                "Lập trình hướng đối tượng"
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Cơ sở dữ liệu",
-                "Mạng máy tính"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 3",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Hệ điều hành",
-                "Phát triển phần mềm"
-              ]
-            },
-            {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Phân tích thiết kế hệ thống",
-                "Kiểm thử phần mềm"
-              ]
-            }
-          ]
-        },
-        {
-          "year": "Năm 4",
-          "semesters": [
-            {
-              "title": "Học kỳ 1",
-              "subjects": [
-                "Đồ án chuyên ngành",
-                "Thực tập doanh nghiệp"
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
               ]
             },
             {
-              "title": "Học kỳ 2",
-              "subjects": [
-                "Khóa luận tốt nghiệp"
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
               ]
             }
           ]
         }
-      ]
-    }
+      },
+      {
+        "id": "httt",
+        "icon": "/FE/assets/images/section3/Mask-group.svg",
+        "pageTitle": "CHUYÊN NGÀNH HỆ THỐNG THÔNG TIN Ở IUH",
+        "questions": {
+          "title": "Hệ thống thông tin",
+          "questionsColumn1": [
+            "Học xong sau này ra làm gì?",
+            "Nhà tuyển dụng cần gì ở bạn?",
+            "Đến 2030, còn ai tuyển dụng không?"
+          ],
+          "questionsColumn2": [
+            "Được học những môn học gì ở IUH?",
+            "Số tín chỉ, học phí, thời gian học?",
+            ""
+          ]
+        },
+        "overview": "Hệ thống Thông tin (Information Systems – IS) là ngành học nghiên cứu cách kết hợp con người, công nghệ và quy trình để thu thập, xử lý, lưu trữ và phân phối thông tin phục vụ cho hoạt động quản lý và ra quyết định trong tổ chức. Nói một cách đơn giản, Hệ thống Thông tin chính là “bộ não” giúp doanh nghiệp hiểu rõ tình hình, tối ưu vận hành và nâng cao hiệu quả kinh doanh. <br>Trong mỗi doanh nghiệp, hệ thống thông tin giữ vai trò trọng yếu trong việc quản lý nhân sự, tài chính, dữ liệu khách hàng, chuỗi cung ứng, đồng thời cung cấp các báo cáo và phản hồi kịp thời để nhà quản lý đưa ra những quyết định chính xác hơn.",
+        "jobPositions": [
+          {
+            "id": "system_administrator",
+            "title": "System Adminstrator",
+            "image": "/FE/assets/images/page/HTTT/icon-1.svg"
+          },
+          {
+            "id": "network_engineer",
+            "title": "Network Engineer",
+            "image": "/FE/assets/images/page/HTTT/icon-2.svg"
+          },
+          {
+            "id": "chief_information_officer",
+            "title": "Chief Information Officer",
+            "image": "/FE/assets/images/page/HTTT/icon-3.svg"
+          },
+          {
+            "id": "systems_engineer",
+            "title": "System Engineer",
+            "image": "/FE/assets/images/page/HTTT/icon-4.svg"
+          },
+          {
+            "id": "business_intelligence_analyst",
+            "title": "Business Intelligence Analyst",
+            "image": "/FE/assets/images/page/HTTT/icon-5.svg"
+          },
+          {
+            "id": "qa_analyst",
+            "title": "QA Analyst",
+            "image": "/FE/assets/images/page/HTTT/icon-6.svg"
+          }
+        ],
+        "careerOpportunities": "Nhu cầu nhân lực ngành Hệ thống Thông tin tăng mạnh do doanh nghiệp ngày càng phụ thuộc vào dữ liệu, tự động hóa quy trình và chuyển đổi số. Các báo cáo thị trường cho thấy tốc độ tăng trưởng tuyển dụng của nhóm nghề liên quan đến phân tích dữ liệu, quản lý hệ thống thông tin, quản trị sản phẩm số và tối ưu quy trình kinh doanh cao hơn mức trung bình của khối ngành CNTT. <br>Ngành Hệ thống Thông tin đóng vai trò “cầu nối” giữa kỹ thuật và nghiệp vụ kinh doanh. Vì vậy nhu cầu tuyển dụng chuyển dịch sang các vị trí yêu cầu kiến thức kỹ thuật vừa đủ kết hợp với hiểu biết vận hành doanh nghiệp, như Business Intelligence Analyst, Data Analyst, , Quản lý sản phẩm (Product Manager)… Các công ty ưu tiên ứng viên nắm vững mô hình hoá dữ liệu, luồng thông tin, quy trình kinh doanh và hệ thống ERP/CRM. <br>Việt Nam đang trong thời kỳ số hóa mạnh, đặc biệt ở tài chính – ngân hàng, bán lẻ, logistics và thương mại điện tử, kéo theo nhu cầu cao cho nguồn nhân lực IS. Ứng viên có thể dễ dàng tiếp cận thị trường quốc tế thông qua các vị trí phân tích dữ liệu, tư vấn chuyển đổi số và vận hành hệ thống doanh nghiệp ở các công ty Outsourcing quy mô lớn.",
+        "recruitmentNeeds": "Nhà tuyển dụng trong lĩnh vực IS (doanh nghiệp công nghệ, ngân hàng, tập đoàn thương mại điện tử…) tìm kiếm ứng viên có khả năng hiểu quy trình kinh doanh và biết cách ứng dụng công nghệ để tối ưu hóa vận hành. Ứng viên cần có: <br> Nền tảng vững: Mô hình hóa dữ liệu, thiết kế báo cáo, cơ sở dữ liệu, phân tích nghiệp vụ, kiến thức về hệ thống thông tin quản lý, hiểu quy trình doanh nghiệp, kỹ năng khai thác dữ liệu bằng SQL hoặc các công cụ phân tích (Power BI, Tableau…). <br> Kinh nghiệm thực tế: Tham gia dự án mô phỏng quy trình doanh nghiệp, thực tập liên quan đến phân tích nghiệp vụ, xây dựng dashboard, tham gia cuộc thi phân tích dữ liệu hoặc sản phẩm số như Hackathon, Data Challenge,… <br> Kỹ năng mềm: Giao tiếp, tư duy logic, kỹ năng trình bày, quản lý yêu cầu (requirements), khả năng làm việc với bộ phận kinh doanh và kỹ thuật. Đây là yếu tố quan trọng giúp sinh viên ngành IS nổi bật vì họ đóng vai trò “kết nối” giữa các đội nhóm.",
+        "studyInfo": {
+          "years": [
+            {
+              "year": "Năm 1",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Nhập môn tin học",
+                    "Nhập môn lập trình"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Kĩ thuật lập trình",
+                    "Hệ thống máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 2",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Cấu trúc dữ liệu",
+                    "Lập trình hướng đối tượng"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Cơ sở dữ liệu",
+                    "Mạng máy tính"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 3",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Hệ điều hành",
+                    "Phát triển phần mềm"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Phân tích thiết kế hệ thống",
+                    "Kiểm thử phần mềm"
+                  ]
+                }
+              ]
+            },
+            {
+              "year": "Năm 4",
+              "semesters": [
+                {
+                  "title": "Học kỳ 1",
+                  "subjects": [
+                    "Đồ án chuyên ngành",
+                    "Thực tập doanh nghiệp"
+                  ]
+                },
+                {
+                  "title": "Học kỳ 2",
+                  "subjects": [
+                    "Khóa luận tốt nghiệp"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
   }
 ]

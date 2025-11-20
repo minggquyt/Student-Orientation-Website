@@ -338,6 +338,9 @@ body {
     position: relative;
     z-index: 2;
 }
+.section4__group-ch > div:nth-child(n + 10){
+    display: none;
+}
 
 .section4__group--center {
     width: 338px;
