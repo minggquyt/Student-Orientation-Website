@@ -113,7 +113,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
+.job-section2b{
+    display: none;
+}
 .job-section2b__content {
     margin-top: 96px;
     padding: 0 40px 0 131px;
@@ -170,7 +172,6 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 160px;
 }
 
 .job-section3--child {
