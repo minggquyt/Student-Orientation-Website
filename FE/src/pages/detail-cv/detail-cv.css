@@ -127,7 +127,8 @@ body {
 }
 
 .job-section2__box, .job-section2b__box {
-    width: 419px;
+    max-width: 600px;
+    width: 100%;
     height: max-content;
     border-radius: 55px;
     background: linear-gradient(to right, #00FF9F, #00995F);
@@ -138,7 +139,7 @@ body {
 }
 
 .job-section2__box--text, .job-section2b__box--text {
-    width: 404.9983215332031px;
+    width: 100%;
     height: max-content;  
     border-radius: 55px;
     background-color: #E0E0E0;
@@ -146,7 +147,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .job-section2__box--text-child > ul, .job-section2b__box--text-child > ul {
