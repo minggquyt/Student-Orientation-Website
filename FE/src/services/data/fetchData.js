@@ -49,10 +49,18 @@ export function getSLDCData(language = 'vn') {
 }
 
 export function getHeaderData(language = 'vn') {
-    return fetch("/FE/assets/data/sldc.json")
+    return fetch("/FE/assets/data/header.json")
         .then((response) => response.json())
         .then((data) => {
-            console.log(data);
+            return data.filter((e) => e.id == language)[0];
+        })
+        .catch((err) => console.log(err));
+}
+
+export function getFooterData(language = 'vn'){
+    return fetch("/FE/assets/data/footer.json")
+        .then((response) => response.json())
+        .then((data) => {
             return data.filter((e) => e.id == language)[0];
         })
         .catch((err) => console.log(err));

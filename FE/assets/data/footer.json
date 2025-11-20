@@ -1,0 +1,14 @@
+[
+    {
+        "id": "vn",
+        "title": "Mọi thắc mắc xin liên hệ tại",
+        "phone": "Số điện thoại: 123456789",
+        "address": "Địa chỉ: Nguyễn Văn Bảo/12 Đ. Hạnh Thông, Phường Gò Vấp, Thành phố Hồ Chí Minh"
+    },
+    {
+        "id": "en",
+        "title": "Contact us",
+        "phone": "Phone: 123456789",
+        "address": "Address: Nguyen Van Bao/12 D. Hanh Thong, Go Vap Ward, Ho Chi Minh City"
+    }
+]

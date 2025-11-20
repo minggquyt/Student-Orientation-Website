@@ -1,18 +1,18 @@
 [
     {
         "id": "vn",
-        "homepage": "trang chủ",
-        "majors": "chuyên ngành",
-        "jobs": "vị trí công việc",
-        "contact": "liên hệ",
-        "loginButtom": "Đăng nhập"
+        "homepage": "Trang chủ",
+        "majors": "Chuyên ngành",
+        "jobs": "Vị trí công việc",
+        "contact": "Liên hệ",
+        "loginButton": "Đăng nhập"
     },
     {
         "id": "en",
-        "homepage": "homepage",
-        "majors": "cmajors",
-        "jobs": "jobs",
-        "contact": "contact",
-        "loginButtom": "login"
+        "homepage": "Homepage",
+        "majors": "Majors",
+        "jobs": "Jobs",
+        "contact": "Contact",
+        "loginButton": "Login"
     }
 ]

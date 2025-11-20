@@ -156,10 +156,14 @@ body {
     width: 100%;
     height: max-content;
     border-radius: 55px;
-    border: 20px solid #00995F;
-    border-top: 8px solid #00995F;
-    border-bottom: 8px solid #00995F;
+    border: 15px solid #00995F;
+    border-top: 15px solid #00995F;
+    border-bottom: 15px solid #00995F;
     background-color: #E0E0E0;
+    font-size: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 .box:nth-child(5) {
     max-width: 1195px;

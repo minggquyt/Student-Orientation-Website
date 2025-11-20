@@ -6,7 +6,7 @@ import DetailsJob from "../pages/detail-cv/detail-cv.js";
 import SLDC from "../pages/sldc/sldc.js";
 import Contact from "../pages/contact/contact.js";
 import getJobsData, { getHeaderData } from "../services/data/fetchData.js";
-import { getMajorsData,getSLDCData, getContactData, getHomePageData } from "../services/data/fetchData.js";
+import { getMajorsData,getSLDCData, getContactData, getHomePageData,getFooterData } from "../services/data/fetchData.js";
 import renderOVCN from "../services/render/render-overview-cn.js";
 import { renderOVCV } from "../services/render/render-overview-cn.js";
 import effectFlipCard from "./effect.js";
@@ -25,7 +25,11 @@ function renderPage(pageName, id = null) {
             changeHeaderLang(data);
         })
 
-    changeFooterLang(language);
+    getFooterData(language.toLowerCase())
+        .then((data) => {
+            changeFooterLang(data);
+        })  
+    
 
 
     switch (pageName) {

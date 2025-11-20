@@ -91,10 +91,20 @@ main();
 // module
 export default function changeHeaderLang(data){
     console.log(data);
-    const header = document.querySelector('.header');
+    const navbar = document.querySelectorAll('.header__navbar > a');
+    navbar[0].textContent = data.homepage;
+    navbar[1].textContent = data.majors;
+    navbar[2].textContent = data.jobs;
+    navbar[3].textContent = data.contact;
+
+    const loginButton = document.querySelector(".header_login");
+    loginButton.textContent = data.loginButton;
 }
 
-export function changeFooterLang(lang){
-    const footer = document.querySelector('.footer');
-    console.log(footer);
+export function changeFooterLang(data){
+    console.log(data);
+
+    document.querySelector(".footer__text").textContent = data.title;
+    document.querySelector(".footer__contact > div:nth-child(2)").textContent = data.phone;
+    document.querySelector(".footer__contact > div:nth-child(3)").textContent = data.address;
 }
