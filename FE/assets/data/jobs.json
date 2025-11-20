@@ -4,9 +4,9 @@
         "title": "Phân tích yêu cầu",
         "icon": "/FE/assets/images/pages/Vector-headp.svg",
         "image": "/FE/assets/images/pages/nb-requirements_analysis/content.svg",
-        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "seperator": "",
         "firsttitle": "Phân tích yêu cầu",
-        "firstdesc": "#",
+        "firstdesc": "Mọi thứ bắt đầu từ một câu hỏi:<br>&nbsp&nbsp&nbsp&nbsp&nbsp“Người dùng thật sự cần gì?”<br><br>Nếu không trả lời được câu hỏi này, thì dù code đẹp đến đâu, phần mềm cũng chẳng có ý nghĩa.<br><br>Trong giai đoạn phân tích yêu cầu, nhóm phát triển sẽ lắng nghe, tìm hiểu và thu thập thông tin từ khách hàng, người dùng, hay thậm chí từ thị trường. Họ cần hiểu rõ vấn đề mà phần mềm sẽ giải quyết, những tính năng cốt lõi là gì, và đâu là điều người dùng mong đợi nhất.<br><br>Tất cả dữ liệu này được ghi lại trong một tài liệu gọi là SRS (Software Requirement Specification) — coi như “bản hợp đồng kỹ thuật” giữa khách hàng và đội phát triển.",
         "secondtitle": "#",
         "seconddesc": "#"
     },
@@ -14,15 +14,26 @@
         "id": "ui-ux",
         "title": "Thiết kế hệ thống và giao diện",
         "icon": "/FE/assets/images/pages/Vector-ui-ux.svg",
-        "image": "/FE/assets/images/pages/nb-ui-ux/content1.svg",
+        "image": "/FE/assets/images/pages/nb-ui-ux/content.svg",
         "seperator": "/FE/assets/images/pages/cloud.svg",
         "firsttitle": "UI là gì",
-        "firstdesc": "#",
+        "firstdesc": "Định nghĩa: UI hay User Interface là phần “nhìn thấy” của sản phẩm: nút bấm, màu sắc, layout, icon, font, hình ảnh — tất cả yếu tố trực quan mà người dùng chạm và nhìn thấy.",
         "secondtitle": "UX là gì",
-        "seconddesc": "#"
+        "seconddesc": " Định nghĩa: UX hay User eXperiecnce là tổng thể cảm nhận của người dùng khi dùng sản phẩm — từ lúc mở app/web đến lúc hoàn thành mục tiêu: dễ tìm, ít rối, thao tác logic, ít tốn công sức."
     },
     {
         "id": "developer",
+        "title": "Lập trình",
+        "icon": "/FE/assets/images/pages/developer/Vector.svg",
+        "image": "/FE/assets/images/pages/nb-dev/content.svg",
+        "seperator": "",
+        "firsttitle": "Lập trình",
+        "firstdesc": "Đây giai đoạn mà những dòng code đầu tiên được viết ra.<br><br>Dựa trên bản thiết kế, các lập trình viên sẽ chọn ngôn ngữ lập trình phù hợp (C++, Python, Java, JavaScript…) và bắt đầu xây dựng từng module.<br><br>Mỗi người trong nhóm có thể phụ trách phần khác nhau: người viết giao diện, người viết backend, người thiết kế database… tất cả đều phối hợp nhịp nhàng như một cỗ máy.<br><br>Ví dụ, trong app học trực tuyến:<br>&nbsp&nbsp-Frontend developer tạo trang đăng nhập và lớp học ảo.<br>&nbsp&nbsp-Backend developer xử lý việc lưu trữ bài giảng, xác thực tài khoản.<br>&nbsp&nbsp-Database engineer thiết kế nơi lưu điểm số và tiến trình học.<br><br>Đây là giai đoạn tốn nhiều thời gian nhất, nơi phần mềm “sống dậy” từ bản thiết kế và trở thành sản phẩm thật.",
+        "secondtitle": "#",
+        "seconddesc": "#"
+    },
+    {
+        "id": "dev",
         "title": "Developer",
         "icon": "/FE/assets/images/pages/developer/Vector.svg",
         "image": "/FE/assets/images/pages/developer/content.svg",
@@ -37,9 +48,9 @@
         "title": "Kiểm thử  ",
         "icon": "/FE/assets/images/pages/Vector-check.svg",
         "image": "/FE/assets/images/pages/nb-tester/content.svg",
-        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "seperator": "",
         "firsttitle": "Kiểm thử là gì",
-        "firstdesc": "#",
+        "firstdesc": "Sau khi lập trình xong, liệu phần mềm đã sẵn sàng để tung ra?<br>&nbsp&nbsp&nbspCâu trả lời là chưa.<br>Chúng ta cần đảm bảo rằng phần mềm hoạt động đúng như mong đợi, không lỗi và ổn định.<br><br>Trong giai đoạn kiểm thử, đội tester sẽ thực hiện hàng loạt bài kiểm tra:<br>&nbsp&nbsp-Chức năng có chạy đúng không (unit test).<br>&nbsp&nbsp-Các phần của hệ thống có kết nối trơn tru không <br>&nbsp&nbsp-Có lỗi bảo mật hay tốc độ phản hồi chậm không <br><br>Kiểm thử là lớp “lá chắn” cuối cùng bảo vệ chất lượng sản phẩm, giúp tránh tình huống phần mềm lỗi khi người dùng thật sự trải nghiệm.",
         "secondtitle": "#",
         "seconddesc": "#"
     },
@@ -48,9 +59,9 @@
         "title": "Triển khai",
         "icon": "/FE/assets/images/pages/Vector-code.svg",
         "image": "/FE/assets/images/pages/nb-deploy/content.svg",
-        "seperator": "/FE/assets/images/pages/cloud.svg",
+        "seperator": "",
         "firsttitle": "Triển khai là gì",
-        "firstdesc": "#",
+        "firstdesc": "Sau khi kiểm thử kỹ lưỡng, phần mềm đã sẵn sàng để ra mắt.  Đây là giai đoạn mà sản phẩm được cài đặt lên server, cloud hoặc phát hành ra store (App Store, Google Play,…).<br><br>Tùy quy mô dự án, có thể triển khai theo từng giai đoạn:<br>&nbsp&nbsp-Triển khai thử (beta): chỉ cho một nhóm nhỏ người dùng dùng thử.<br>&nbsp&nbsp-Triển khai chính thức: công bố rộng rãi khi mọi thứ ổn định.<br><br>Đây cũng là lúc các  DevOps Engineer hoặc Cloud Engineer  đảm bảo hệ thống chạy mượt, ổn định và dễ mở rộng khi lượng người dùng tăng.",
         "secondtitle": "#",
         "seconddesc": "#"
     },
@@ -60,9 +71,9 @@
         "icon": "/FE/assets/images/pages/Vector-p.svg",
         "image": "/FE/assets/images/pages/nb-ops-security/content1.svg",
         "seperator": "/FE/assets/images/pages/cloud.svg",
-        "firsttitle": "Ops là gì",
-        "firstdesc": "#",
-        "secondtitle": "Security là gì",
+        "firsttitle": "Giám sát và bảo trì",
+        "firstdesc": "Phần mềm không kết thúc sau khi ra mắt — thực tế, đây mới là lúc hành trình dài bắt đầu.<br><br>Các kỹ sư phải liên tục giám sát hệ thống, phát hiện lỗi, cập nhật bảo mật, và tối ưu hiệu năng.<br><br>Nếu có lỗi phát sinh trong môi trường thực tế, đội ngũ kỹ thuật sẽ nhanh chóng vá lỗi và cập nhật bản vá (patch).<br><br>Đồng thời, khi công nghệ thay đổi (ví dụ: framework mới, phiên bản OS mới), phần mềm cũng cần được cập nhật để tương thích.<br><br>Giống như việc “bảo dưỡng xe” — bạn không thể cứ chạy mãi mà không thay nhớt hay kiểm tra động cơ.",
+        "secondtitle": "#",
         "seconddesc": "#"
     },
     {
@@ -70,9 +81,9 @@
         "title": "Thu thập và cải tiến",
         "icon": "/FE/assets/images/pages/Vector-leaf.svg",
         "image": "/FE/assets/images/pages/nb-collect-improve/content.svg",
-        "seperator": "/FE/assets/images/pages/cloud.svg",
-        "firsttitle": "Thu thập và cải tiến là gì",
-        "firstdesc": "#",
+        "seperator": "",
+        "firsttitle": "Thu thập và cải tiến",
+        "firstdesc": "Cuối cùng, sau khi phần mềm đi vào hoạt động ổn định, nhóm phát triển cần lắng nghe người dùng.<br><br>Phản hồi của họ là kim chỉ nam cho việc phát triển phiên bản tiếp theo.<br><br>Các nhóm sẽ:<br>&nbsp&nbsp-Thu thập dữ liệu sử dụng thực tế.<br>&nbsp&nbsp-Đánh giá xem tính năng nào hữu ích, tính năng nào không.<br>&nbsp&nbsp-Ghi nhận đề xuất cải tiến và đưa vào kế hoạch cho vòng đời tiếp theo.",
         "secondtitle": "#",
         "seconddesc": "#"
     },
