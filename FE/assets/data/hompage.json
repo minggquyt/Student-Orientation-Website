@@ -1,0 +1,78 @@
+[
+    {
+        "id": "vn",
+        "header": {
+            "homepage": "trang chủ",
+            "majors": "Chuyên ngành",
+            "jobs": "Vị trí công việc",
+            "contact": "Liện hệ",
+            "login": "Đăng nhập"
+        },
+        "section1": {
+            "title": "Hãy để chúng mình giúp bạn tìm hướng đi trong ngành CNTT!"
+        },
+        "section2": {
+            "desc": "Mỗi sinh viên đều có hành trình khác nhau. Mức độ định hướng hiện tại của bạn như thế nào?",
+            "buttonDesc1": "Tôi chưa rõ mình hợp với công việc nào",
+            "buttonDesc2": "Tôi đã có ý tưởng sơ bộ về hướng đi",
+            "buttonDesc3": "Tôi đã xác định được mục tiêu nghề nghiệp",
+            "buttonHoverDesc": "Tìm hiểu thêm"
+        },
+        "section3": {
+            "title": "Chuyên ngành CNTT"
+        },
+        "section4": {
+            "title": "Vị Trí Công Việc",
+            "sldc": "Vòng đời phát triển SP",
+            "buttonTitle": "Chi tiết"
+        },
+        "section5": {
+            "title": "Liện hệ ngay với chúng tôi",
+            "input1": "Tạo tài Khoản",
+            "input2": "Email",
+            "input3": "Tin nhắn",
+            "button": "Gửi"
+        },
+        "footer": {
+            "title": "Mọi thắc mắc xin liên hệ tại:"
+        }
+    },
+    {
+        "id": "en",
+        "header": {
+            "homepage": "Homepage",
+            "majors": "Majors",
+            "jobs": "Job Positions",
+            "contact": "Contact",
+            "login": "Login"
+        },
+        "section1": {
+            "title": "Let us help you find your direction in the IT industry!"
+        },
+        "section2": {
+            "desc": "Every student has a unique journey. What is your current level of career orientation?",
+            "buttonDesc1": "I'm not sure which job suits me",
+            "buttonDesc2": "I have a preliminary idea about my career path",
+            "buttonDesc3": "I have determined my career goals",
+            "buttonHoverDesc": "Find more"
+        },
+        "section3": {
+            "title": "IT Majors"
+        },
+        "section4": {
+            "title": "Job Positions",
+            "sldc": "Software Development Life Cycle",
+            "buttonTitle": "Details"
+        },
+        "section5": {
+            "title": "Contact us right away",
+            "input1": "Create Account",
+            "input2": "Email",
+            "input3": "Message",
+            "button": "Send"
+        },
+        "footer": {
+            "title": "For any inquiries, please contact:"
+        }
+    }
+]

@@ -34,7 +34,7 @@
     },
     {
         "id": "tester",
-        "title": "Kiểm thử  ",
+        "title": "Kiểm thử",
         "icon": "/FE/assets/images/pages/Vector-check.svg",
         "image": "/FE/assets/images/pages/nb-tester/content.svg",
         "seperator": "/FE/assets/images/pages/cloud.svg",

@@ -2,7 +2,7 @@ export default function DetailsMajor(data){
     return (
     `<div class="details-major">
         <div class="box">
-        <div class="box-title" id="box-title"></div>
+        <div class="box-title" id="box-title">${data.questions.title}</div>
         <div class="box-content-description">
             <div class="box-content-description-text">
                 <div class="box-content-description-text-child">${data.questions.questionsColumn1[0]}</div>

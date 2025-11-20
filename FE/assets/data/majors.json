@@ -3,6 +3,7 @@
     "id": "ktpm",
     "icon": "/FE/assets/images/section3/icon-park_code-computer.svg",
     "questions": {
+      "title": "công Nghệ PM",
       "questionsColumn1": [
         "Học xong sau này ra làm gì?",
         "Nhà tuyển dụng cần gì ở bạn?",
@@ -14,11 +15,11 @@
         ""
       ]
     },
-    "overview": "Giới thiệu tổng quan về chuyên ngành",
+    "overview": "Giới thiệu",
     "jobPositions": [
       {
-        "id": "ui-ux",
-        "title": "DevOps",
+        "id": "ba",
+        "title": "Designer",
         "image": "/FE/assets/images/page/KTPM/icon-1.svg"
       },
       {
@@ -133,6 +134,7 @@
     "id": "khmt",
     "icon": "/FE/assets/images/section3/Group.svg",
     "questions": {
+      "title": "Khoa học máy tính",
       "questionsColumn1": [
         "Học xong sau này ra làm gì?",
         "Nhà tuyển dụng cần gì ở bạn?",
@@ -257,6 +259,7 @@
     "id": "cntt",
     "icon": "/FE/assets/images/section3/carbon_data-1.svg",
     "questions": {
+      "title": "Công nghệ thông tin",
       "questionsColumn1": [
         "Học xong sau này ra làm gì?",
         "Nhà tuyển dụng cần gì ở bạn?",
@@ -387,6 +390,7 @@
     "id": "httt",
     "icon": "/FE/assets/images/section3/Mask-group.svg",
     "questions": {
+      "title": "Hệ thống thông tin",
       "questionsColumn1": [
         "Học xong sau này ra làm gì?",
         "Nhà tuyển dụng cần gì ở bạn?",

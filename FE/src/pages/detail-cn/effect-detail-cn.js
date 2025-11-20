@@ -1,9 +1,3 @@
-<<<<<<< HEAD:FE/src/pages/detail-cn/effect-detail-cn.js
-=======
-// ========================= Student Orientation Page JS (Required / Optional toggle) =========================
-
->>>>>>> c723d8c9816a61a03a42b463ca82b0d940c35949:FE/src/pages/page.js
-// ---- State chung
 let major = ''; // 'ktpm' | 'khmt' | 'khdl' | 'httt' | 'cntt'
 
 // 8 học kì + 1 tổng kết
@@ -50,25 +44,21 @@ document.addEventListener('DOMContentLoaded', () => {
     case 'khdl': khdl(); break;
     case 'httt': httt(); break;
     case 'cntt': cntt(); break;
-    default:     cntt(); break;
+    default: cntt(); break;
   }
 
   currentSemesterIndex = 0;
   isRequiredMode = true;
   renderSemester();
 
-<<<<<<< HEAD:FE/src/pages/detail-cn/effect-detail-cn.js
-  enableSwipeOnPage(); // Vuốt trái/phải chuyển năm
-=======
   enableSwipeOnPage(); // Vuốt trái/phải
->>>>>>> c723d8c9816a61a03a42b463ca82b0d940c35949:FE/src/pages/page.js
 });
 
 // ---- Helper gán icon + title
 function setBoxItem(n, imgSrc, title) {
   const imgEl = document.getElementById(`box-content-image-${n}`);
   const titleEl = document.getElementById(`box-content-title-${n}`);
-  if (imgEl)   imgEl.src = imgSrc;
+  if (imgEl) imgEl.src = imgSrc;
   if (titleEl) titleEl.textContent = title;
 }
 
@@ -1275,8 +1265,8 @@ function enableSwipeOnPage() {
       pageEl.style.opacity = '';
 
       if (now - lastSwipeTime >= SWIPE_DEBOUNCE_MS &&
-          Math.abs(dx) >= MIN_SWIPE &&
-          Math.abs(dy) <= Math.abs(dx) * MAX_SLOPE) {
+        Math.abs(dx) >= MIN_SWIPE &&
+        Math.abs(dy) <= Math.abs(dx) * MAX_SLOPE) {
 
         lastSwipeTime = now;
 
@@ -1290,7 +1280,7 @@ function enableSwipeOnPage() {
       }
 
       tracking = false;
-      try { pageEl.releasePointerCapture(activePointerId); } catch {}
+      try { pageEl.releasePointerCapture(activePointerId); } catch { }
       activePointerId = null;
       pageEl.classList.remove('is-dragging');
     });
@@ -1339,8 +1329,8 @@ function enableSwipeOnPage() {
     pageEl.style.opacity = '';
 
     if (now - lastSwipeTime >= SWIPE_DEBOUNCE_MS &&
-        Math.abs(dx) >= MIN_SWIPE &&
-        Math.abs(dy) <= Math.abs(dx) * MAX_SLOPE) {
+      Math.abs(dx) >= MIN_SWIPE &&
+      Math.abs(dy) <= Math.abs(dx) * MAX_SLOPE) {
 
       lastSwipeTime = now;
 
@@ -1356,7 +1346,7 @@ function enableSwipeOnPage() {
     tracking = false;
     pageEl.classList.remove('is-dragging');
   }, { passive: true });
-// 
+  // 
   pageEl.addEventListener('touchcancel', () => {
     tracking = false;
     pageEl.style.transform = '';
@@ -1366,14 +1356,13 @@ function enableSwipeOnPage() {
 }
 
 const nextPageIcon = document.querySelector('.next-page');
-nextPageIcon.addEventListener('click',(e) => {
+nextPageIcon.addEventListener('click', (e) => {
   e.stopPropagation();
   nextYear();
 })
 
 const previousPageIcon = document.querySelector('.previous-page');
-previousPageIcon.addEventListener('click',(e) => {
+previousPageIcon.addEventListener('click', (e) => {
   e.stopPropagation();
   previousYear();
 })
-
