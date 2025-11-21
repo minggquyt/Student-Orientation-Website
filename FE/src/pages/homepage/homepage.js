@@ -4,9 +4,6 @@ import Contact from "../contact/contact.js"
 
 export default function Homepage(homepageData,cnData,cvData,contactData){
 
-    console.log(homepageData.section2.buttonHoverDesc);
-    console.log("Homepage refresh !");
-
     return (
         `<section class="section1">
             <div class="section1__content">

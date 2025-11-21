@@ -100,3 +100,7 @@ export function changeFooterLang(data){
     document.querySelector(".footer__contact > div:nth-child(3)").textContent = data.address;
 }
 
+// Công việc ngày hôm nay: 
+// 3. Chỉnh lại logic trang nào của cv chỉ có section 1, trang nào có cả section 1 và 2
+// 4. Thêm button switch sang tiếng anh trong responsive 
+// 5. Fix lại phần chưa render dc data trong điện thoại
