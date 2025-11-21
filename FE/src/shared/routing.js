@@ -121,6 +121,7 @@ function renderPage(pageName, id = null) {
 
             Promise.all([promise1,promise2,promise3,promise4])
                 .then((result ) => {
+                    console.log("promise all thành công !");
                     divBody.innerHTML = Homepage(...result);
                 })
                 .catch(err => console.log(err));
@@ -128,6 +129,7 @@ function renderPage(pageName, id = null) {
             getMajorsData(language.toLowerCase())
                 .then((result) => {
                     const renderDiv = document.querySelector(".section3__logo--row");
+                    console.log(renderDiv);
                     renderOVCN(renderDiv, result);
                 });
 
@@ -170,17 +172,3 @@ document.addEventListener("switchEffectActive",(e) => {
 
     renderPage(savedPage, savedID);
 })
-
-// Ý tưởng: 
-
-// Làm state ngôn ngữ của button và lưu vào localStorage 
-
-// 3 trường hợp cần lấy NN:
-// 1. Khi refresh trang 
-// 2. Khi click vào button switch NN
-// + khi refresh trang -> lấy language từ loccalStorage:
-// Có -> dùng || chưa có -> mặc định VN 
-// + Khi click vào button ngôn ngữ -> lấy ngôn ngữ hiện tại trên button 
-
-
-// Logic bên file routing để render ra ngôn ngữ 
