@@ -12,7 +12,7 @@
             "title": "Hãy để chúng mình giúp bạn tìm hướng đi trong ngành CNTT!"
         },
         "section2": {
-            "desc": "Mỗi sinh viên đều có hành trình khác nhau. Mức độ định hướng hiện tại của bạn như thế nào?",
+            "desc": "Mỗi sinh viên đều có hành trình khác nhau.<br>Mức độ định hướng hiện tại của bạn như thế nào?",
             "buttonDesc1": "Tôi chưa rõ mình hợp với công việc nào",
             "buttonDesc2": "Tôi đã có ý tưởng sơ bộ về hướng đi",
             "buttonDesc3": "Tôi đã xác định được mục tiêu nghề nghiệp",
@@ -35,7 +35,7 @@
             "title": "Let us help you find your direction in the IT industry!"
         },
         "section2": {
-            "desc": "Every student has a unique journey. What is your current level of career orientation?",
+            "desc": "Every student has a unique journey.<br>What is your current level of career orientation?",
             "buttonDesc1": "I'm not sure which job suits me",
             "buttonDesc2": "I have a preliminary idea about my career path",
             "buttonDesc3": "I have determined my career goals",

@@ -12,7 +12,7 @@ export default function Homepage(homepageData,cnData,cvData,contactData){
             </div>
         </section>
         <section class="section2">
-            <div class="section2__text unbounded-400">${homepageData.section2.desc}<br>Mức độ định hướng hiện tại của bạn như thế nào? </div>
+            <div class="section2__text unbounded-400">${homepageData.section2.desc}</div>
             <div class="section2__selection">
                 <div data-link="overview-cn" class="section2__selection-ch">
                     <img src="/FE/assets/images/section2/vector-2.png" alt="" class="section2__selection-ch--icon">

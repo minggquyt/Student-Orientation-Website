@@ -526,6 +526,7 @@ body {
     background-color: #E0E0E0;
     font-size: 20px;
     border-radius: 9999px;
+    cursor: pointer;
 }
 
 .footer {
@@ -638,6 +639,10 @@ body {
         font-size: 14px;
     }
 
+    .section2 {
+        padding-inline: 50px;
+    }
+
     .section3 {
         position: relative;
         padding-inline: 10px;
@@ -663,12 +668,22 @@ body {
         left: -250px;
     }
 
+    .section3__content--text {
+        max-width: 625px;
+        width: 100%;
+    }
+
     .section4 {
         overflow-x: hidden;
     }
 
     .section4__container {
         align-items: center;
+    }
+
+    .section4__content {
+        max-width: 625px;
+        width: 100%;
     }
 
     .section5 {
@@ -703,6 +718,25 @@ body {
         left: 0;
     }
 
+    .section1__content--text {
+        font-size: 3rem;
+    }
+
+    .section2 {
+        padding-inline: 15px;
+    }
+
+    .section2__selection-ch--text {
+        font-size: 16px;
+        line-height: 100%;
+    }
+
+    .section2__text {
+        font-size: 27px;
+        padding: 0 15px;
+        text-align: center;
+    }
+
     .section3__frame--decor {
         display: none;
     }
@@ -711,13 +745,27 @@ body {
         justify-content: center;
     }
 
+    .section3 {
+        padding-inline: 20px;
+    }
+
+    .section3__content--text {
+        min-height: 100px;
+        font-size: 30px;
+        padding-inline: 25px;
+    }
+
     .section4__content--text {
         text-align: center;
     }
 
     .section4 {
-        padding-inline: 10px;
+        padding-inline: 20px;
         gap: 172px;
+    }
+
+    .section4__content {
+        height: 100px;
     }
 
     .section4__group--center {
@@ -740,12 +788,22 @@ body {
         width: 300px;
     }
 
+    .section4__content--text {
+        font-size: 30px;
+        padding-inline: 25px;
+    }
+
+    .section5 {
+        padding-inline: 20px;
+        margin-bottom: 30px;
+    }
+
     .section5__container {
         padding-top: 20px;
     }
 
     .footer {
-        padding: 0;
+        padding: 0 20px;
     }
 
     .footer__section1 {
