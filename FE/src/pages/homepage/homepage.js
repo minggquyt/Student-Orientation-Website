@@ -3,6 +3,10 @@ import CVOverview from "../cv-overview/cv-overview.js"
 import Contact from "../contact/contact.js"
 
 export default function Homepage(homepageData,cnData,cvData,contactData){
+
+    console.log(homepageData.section2.buttonHoverDesc);
+    console.log("Homepage refresh !");
+
     return (
         `<section class="section1">
             <div class="section1__content">
@@ -20,7 +24,7 @@ export default function Homepage(homepageData,cnData,cvData,contactData){
                         <div class="section2__selection-ch--text unbounded-400">${homepageData.section2.buttonDesc1}</div>
                         <div class="section2__selection-ch--desc unbounded-400">
                             <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
-                            Tìm hiểu thêm ...
+                            ${homepageData.section2.buttonHoverDesc}
                         </div>
                     </div>
                 </div>
@@ -30,7 +34,7 @@ export default function Homepage(homepageData,cnData,cvData,contactData){
                         <div class="section2__selection-ch--text unbounded-400">${homepageData.section2.buttonDesc2}</div>
                         <div class="section2__selection-ch--desc unbounded-400">
                             <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
-                            Tìm hiểu thêm ...
+                            ${homepageData.section2.buttonHoverDesc}
                         </div>
                     </div>
                 </div>
@@ -40,7 +44,7 @@ export default function Homepage(homepageData,cnData,cvData,contactData){
                         <div class="section2__selection-ch--text unbounded-400">${homepageData.section2.buttonDesc3}</div>
                         <div class="section2__selection-ch--desc unbounded-400">
                             <img src="/FE/assets/images/section2/star.png" width="13px" height="13px" alt="">
-                            Tìm hiểu thêm ...
+                            ${homepageData.section2.buttonHoverDesc}
                         </div>
                     </div>
                 </div>

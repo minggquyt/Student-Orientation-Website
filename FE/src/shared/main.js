@@ -83,7 +83,6 @@ main();
     
 // module
 export default function changeHeaderLang(data){
-    console.log(data);
     const navbar = document.querySelectorAll('.header__navbar > a');
     navbar[0].textContent = data.homepage;
     navbar[1].textContent = data.majors;
@@ -95,9 +94,9 @@ export default function changeHeaderLang(data){
 }
 
 export function changeFooterLang(data){
-    console.log(data);
 
     document.querySelector(".footer__text").textContent = data.title;
     document.querySelector(".footer__contact > div:nth-child(2)").textContent = data.phone;
     document.querySelector(".footer__contact > div:nth-child(3)").textContent = data.address;
 }
+

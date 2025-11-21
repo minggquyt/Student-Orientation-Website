@@ -2,6 +2,7 @@
     {
         "id": "vn",
         "title": "Vị trí công việc",
+        "titleSLDCButton": "Chi tiết",
         "jobs": [
             {
                 "id": "requirements_analyst",
@@ -349,6 +350,7 @@
     {
         "id": "en",
         "title": "Jobs Position",
+        "titleSLDCButton": "details",
         "jobs": [
             {
                 "id": "requirements_analyst",

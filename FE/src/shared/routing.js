@@ -67,13 +67,12 @@ function renderPage(pageName, id = null) {
             getJobsData(language.toLowerCase())
                 .then((result) => {
                     const filteredData = result.jobs.find((job) => job.id == id);
-                    divBody.innerHTML = DetailsJob(filteredData);
+                    divBody.innerHTML = DetailsJob(filteredData,language.toLowerCase());
                 })
             break;
         case "overview-cn":
             getMajorsData(language.toLowerCase())
                 .then((result) => {
-                    console.log(result);
                     divBody.innerHTML = CNOverview(result);
                     const renderDiv = document.querySelector(".section3__logo--row");
                     renderOVCN(renderDiv, result);
@@ -90,8 +89,7 @@ function renderPage(pageName, id = null) {
         case "sldc":
             getSLDCData(language.toLowerCase())
                 .then((data) => {
-                    console.log(data);
-                    divBody.innerHTML = SLDC(data);
+                    divBody.innerHTML = SLDC(data,language.toLowerCase());
 
                     const boxContent1 = document.querySelector(".sdlc-section2__box--text1 > ul");
                     data.content.boxContent1.forEach((e) => {
@@ -123,14 +121,12 @@ function renderPage(pageName, id = null) {
 
             Promise.all([promise1,promise2,promise3,promise4])
                 .then((result ) => {
-                    console.log(result);
                     divBody.innerHTML = Homepage(...result);
                 })
                 .catch(err => console.log(err));
 
             getMajorsData(language.toLowerCase())
                 .then((result) => {
-                    console.log(result);
                     const renderDiv = document.querySelector(".section3__logo--row");
                     renderOVCN(renderDiv, result);
                 });

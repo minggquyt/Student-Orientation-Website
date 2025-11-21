@@ -1,6 +1,6 @@
 import BackFooter from "../../components/back-footer/back-footer.js"
 
-export default function DetailsJob(data) {
+export default function DetailsJob(data,currentLang) {
     return (
     `<div class="job-section1">
         <div class="job-section1--child">
@@ -51,7 +51,7 @@ export default function DetailsJob(data) {
     </div>
     <div class="job-section3">
         <div class="job-section3--child">
-            ${BackFooter("overview-cv")}
+            ${BackFooter("overview-cv",currentLang)}
         </div>
     </div>`
     )

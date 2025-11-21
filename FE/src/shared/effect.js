@@ -87,7 +87,6 @@ function switchLangEffect() {
     img.width = 48
     img.height = 29
     if (currentLang == 'VN') {
-        console.log("render ra thành công ")
         img.src = '/FE/assets/images/header/vn.png';
         switchButton.replaceChild(img, switchButton.childNodes[0]);
         switchButton.childNodes[1].nodeValue = 'VN';

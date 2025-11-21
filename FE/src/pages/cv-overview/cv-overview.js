@@ -1,5 +1,4 @@
 export default function CVOverview(data){
-    console.log(data);
 
     return (
         `<section class="section4">
@@ -25,7 +24,7 @@ export default function CVOverview(data){
                                 </div>
                                 <div class="section4__group--sldc--sub_button">
                                     <img src="/FE/assets/images/section4/star.png" width="18px" height="18px" alt="">
-                                    <p>Chi tiết</p>
+                                    <p>${data.titleSLDCButton}</p>
                                 </div>
                             </div>
                         </a>

@@ -1,5 +1,4 @@
 export default function CNOverview(data){
-    console.log(data);
     return (
         `<section class="section3">
             <div class="section3__content">

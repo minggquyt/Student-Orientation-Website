@@ -1,6 +1,6 @@
 import BackFooter from "../../components/back-footer/back-footer.js";
 
-export default function SLDC(data){
+export default function SLDC(data,currentLang){
     return (
     `<div class="sdlc-container">
         <div class="sdlc-section1">
@@ -45,7 +45,7 @@ export default function SLDC(data){
             </div>
             
         </div>
-        ${BackFooter("overview-cv")}
+        ${BackFooter("overview-cv",currentLang)}
     </div>`
     )
 }
