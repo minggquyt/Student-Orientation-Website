@@ -121,7 +121,6 @@ function renderPage(pageName, id = null) {
 
             Promise.all([promise1,promise2,promise3,promise4])
                 .then((result ) => {
-                    console.log("promise all thành công !");
                     divBody.innerHTML = Homepage(...result);
                 })
                 .catch(err => console.log(err));

@@ -80,44 +80,46 @@ function addEffectButtonHompage() {
 
 function switchLangEffect() {
     const currentLang = localStorage.getItem("currentLang") || "VN";
-    const switchButton = document.querySelector(".language");
+    const switchButtons = document.querySelectorAll(".language");
 
-    // logic render button 
-    const img = document.createElement("img");
-    img.width = 48
-    img.height = 29
-    if (currentLang == 'VN') {
-        img.src = '/FE/assets/images/header/vn.png';
-        switchButton.replaceChild(img, switchButton.childNodes[0]);
-        switchButton.childNodes[1].nodeValue = 'VN';
-    }
-    else {
-        img.src = '/FE/assets/images/header/en.jpg';
-        switchButton.replaceChild(img, switchButton.childNodes[0]);
-        switchButton.childNodes[1].nodeValue = 'EN';
-    }
-
-    // onclick logic
-    switchButton.addEventListener("click", (e) => {
-        e.preventDefault();
-        e.stopPropagation();
-        if (e.currentTarget.childNodes[1].nodeValue == 'VN') {
-            img.src = '/FE/assets/images/header/en.jpg';
-            e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
-            e.currentTarget.childNodes[1].nodeValue = 'EN';
+    switchButtons.forEach((switchButton) => {
+        // logic render button 
+        const img = document.createElement("img");
+        img.width = 48
+        img.height = 29
+        if (currentLang == 'VN') {
+            img.src = '/FE/assets/images/header/vn.png';
+            switchButton.replaceChild(img, switchButton.childNodes[0]);
+            switchButton.childNodes[1].nodeValue = 'VN';
         }
         else {
-            img.src = '/FE/assets/images/header/vn.png';
-            e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
-            e.currentTarget.childNodes[1].nodeValue = 'VN';
+            img.src = '/FE/assets/images/header/en.jpg';
+            switchButton.replaceChild(img, switchButton.childNodes[0]);
+            switchButton.childNodes[1].nodeValue = 'EN';
         }
 
-        // logic lưu vào local storage 
-        localStorage.setItem("currentLang",e.currentTarget.childNodes[1].nodeValue);
+        // onclick logic
+        switchButton.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            if (e.currentTarget.childNodes[1].nodeValue == 'VN') {
+                img.src = '/FE/assets/images/header/en.jpg';
+                e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
+                e.currentTarget.childNodes[1].nodeValue = 'EN';
+            }
+            else {
+                img.src = '/FE/assets/images/header/vn.png';
+                e.currentTarget.replaceChild(img, e.currentTarget.childNodes[0]);
+                e.currentTarget.childNodes[1].nodeValue = 'VN';
+            }
 
-        // Dispatch event để render lại trang 
-        const event = new CustomEvent("switchEffectActive");
-        document.dispatchEvent(event);
+            // logic lưu vào local storage 
+            localStorage.setItem("currentLang", e.currentTarget.childNodes[1].nodeValue);
+
+            // Dispatch event để render lại trang 
+            const event = new CustomEvent("switchEffectActive");
+            document.dispatchEvent(event);
+        })
     })
 }
 
@@ -131,6 +133,7 @@ function menuBarEffect() {
         const divMenuEffect = document.createElement('div');
         divMenuEffect.classList.add("menu-effect");
         divMenuEffect.innerHTML += MenuBar();
+
         body.appendChild(divMenuEffect);
 
         const closeIcon = document.querySelector('.menu_title--close');
@@ -151,6 +154,9 @@ function menuBarEffect() {
                 body.removeChild(divMenuEffect);
             })
         })
+
+        const event = new CustomEvent("menuBarOccurs");
+        document.dispatchEvent(event);
     })
 }
 
@@ -166,6 +172,10 @@ function main() {
 
     switchLangEffect();
 
+    document.addEventListener("menuBarOccurs", (e) => {
+        e.stopPropagation();
+        switchLangEffect();
+    })
 
     menuBarEffect();
 }

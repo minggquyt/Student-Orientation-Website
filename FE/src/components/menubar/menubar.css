@@ -9,7 +9,11 @@
     position: fixed;
     z-index: 10;
     top: 0;
-    left: 0;
+    left: -50%;
+    transition: left 0.5s ease-in-out;
+}
+.menu--move{
+    left: 0 !important;
 }
 .menu_title{
     display: flex;

@@ -1,8 +1,8 @@
 import BackFooter from "../../components/back-footer/back-footer.js"
 
-export default function DetailsJob(data,currentLang) {
-    return (
-    `<div class="job-section1">
+export default function DetailsJob(data, currentLang) {
+    const status = data.secondtitle == '#';
+    const section1 = `<div class="job-section1">
         <div class="job-section1--child">
             <div class="job-section1__layer job-section1__layer1"></div>
             <div class="job-section1__layer job-section1__layer2"></div>
@@ -31,8 +31,8 @@ export default function DetailsJob(data,currentLang) {
     </div>
     <div class="section__cloud">
         <img src=${data.seperator} alt="">
-    </div>
-    <div class="job-section2b">
+    </div>`
+    const section2 = `<div class="job-section2b">
         <div class="job-section2b__title ux__title">
             <div class="job-section2b__title--layer job-section2b__layer1 ux__title1"></div>
             <div class="job-section2b__title--layer job-section2b__layer2 ux__title2"></div>
@@ -48,11 +48,25 @@ export default function DetailsJob(data,currentLang) {
                 </div>
             </div>
         </div>
-    </div>
-    <div class="job-section3">
+    </div>`
+    const section3 = `<div class="job-section3">
         <div class="job-section3--child">
-            ${BackFooter("overview-cv",currentLang)}
+            ${BackFooter("overview-cv", currentLang)}
         </div>
     </div>`
-    )
+
+    if(status){
+        return (
+            `${section1}
+            ${section3}
+            `
+        )
+    }
+    else {
+        return (
+        `${section1}
+        ${section2}
+        ${section3}`
+        )
+    }
 }

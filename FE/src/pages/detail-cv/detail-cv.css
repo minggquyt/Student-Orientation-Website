@@ -80,7 +80,8 @@ body {
 
 .job-section2__title--layer, .job-section2b__title--layer {
     width: 558px;
-    height: 73px;
+    height: max-content;
+    padding-inline: 30px;
     background-color: var(--primary-color);
     box-shadow: 0 4px 4px 0 #2DBD7F;
     border-radius: 55px;
@@ -105,6 +106,7 @@ body {
     color: #FFFFFF;
     top: 8px;
     left: 7px;
+    padding: 20px;
 }
 
 .job-section2__content {
@@ -112,9 +114,6 @@ body {
     padding: 0 131px 0 73px;
     display: flex;
     justify-content: space-between;
-}
-.job-section2b{
-    display: none;
 }
 .job-section2b__content {
     margin-top: 96px;
@@ -267,7 +266,6 @@ body {
         top: 8px;
         left: 50%;
         transform: translate(-50%, 0);
-        padding: 0 20px;
         text-align: center;
     }
 
