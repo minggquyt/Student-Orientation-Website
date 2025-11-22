@@ -99,6 +99,3 @@ export function changeFooterLang(data){
     document.querySelector(".footer__contact > div:nth-child(2)").textContent = data.phone;
     document.querySelector(".footer__contact > div:nth-child(3)").textContent = data.address;
 }
-
-// Công việc ngày hôm nay: 
-// 5. Fix lại phần chưa render dc data trong điện thoại

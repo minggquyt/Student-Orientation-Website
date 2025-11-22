@@ -14,8 +14,6 @@ export default function DetailsJob(data, currentLang) {
     </div>
     <div class="job-section2">
         <div class="job-section2__title">
-            <div class="job-section2__title--layer job-section2__layer1"></div>
-            <div class="job-section2__title--layer job-section2__layer2"></div>
             <div class="job-section2__title--layer job-section2__layer3 unbounded-400">
                 ${data.firsttitle} 
             </div>
@@ -32,11 +30,9 @@ export default function DetailsJob(data, currentLang) {
     <div class="section__cloud">
         <img src=${data.seperator} alt="">
     </div>`
-    const section2 = `<div class="job-section2b">
-        <div class="job-section2b__title ux__title">
-            <div class="job-section2b__title--layer job-section2b__layer1 ux__title1"></div>
-            <div class="job-section2b__title--layer job-section2b__layer2 ux__title2"></div>
-            <div class="job-section2b__title--layer job-section2b__layer3 unbounded-400 ux__title3">
+    const section2 = ` <div class="job-section2b">
+        <div class="job-section2b__title ">
+            <div class="job-section2b__title--layer job-section2b__layer3 unbounded-400 ">
                ${data.secondtitle}
             </div>
         </div>

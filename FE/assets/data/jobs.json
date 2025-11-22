@@ -89,8 +89,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "DevOps Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia kỹ thuật chịu trách nhiệm tự động hóa và tối ưu hóa các quy trình trong toàn bộ vòng đời phát triển phần mềm, từ code đến triển khai và vận hành.<br><br>Mục tiêu cốt lõi: Tăng tốc độ, tần suất và độ tin cậy của việc phát hành phần mềm. Đảm bảo sự hợp tác liền mạch giữa đội ngũ Phát triển (Dev) và Vận hành (Ops) thông qua tự động hóa và quản lý cơ sở hạ tầng.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "dev",
@@ -111,8 +111,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Software Tester là gì?",
                 "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm kiểm tra, đánh giá và xác minh chất lượng của một sản phẩm phần mềm.<br><br>Mục tiêu cốt lõi: Phát hiện, ghi nhận và đảm bảo khắc phục lỗi để xác nhận phần mềm hoạt động đúng chức năng, ổn định, hiệu suất cao và đáp ứng tiêu chuẩn chất lượng trước khi đến tay người dùng.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "software_engineer",
@@ -122,8 +122,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Software Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và bảo trì phần mềm bằng cách áp dụng nguyên lý kỹ thuật, mô hình và quy trình chuẩn trong phát triển phần mềm. Họ chịu trách nhiệm biến yêu cầu của người dùng thành hệ thống phần mềm hoàn chỉnh, đảm bảo tính logic, ổn định và khả năng mở rộng. Đây là vị trí rất đặc biệt do nó đòi hỏi người làm phải có skillset đáp ứng đầy đủ các giai đoạn trong mô hình SDLC và cũng vì thế mà thường được trả lương cao hơn.<br><br>Mục tiêu cốt lõi:Tạo ra phần mềm chất lượng cao, hiệu năng tốt, đáp ứng đúng yêu cầu kỹ thuật và nghiệp vụ, đồng thời dễ bảo trì và mở rộng trong tương lai; qua đó góp phần nâng cao năng suất, độ tin cậy và tính bền vững của sản phẩm công nghệ.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "product_owner",
@@ -133,8 +133,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Product Owner là gì?",
                 "firstdesc": "Định nghĩa: Chịu trách nhiệm giải quyết các vấn đề thực tế của người dùng khi họ sử dụng sản phẩm. Đồng thời, PO vận hành, cải tiến và tối ưu hóa sản phẩm để đạt được mục tiêu kinh doanh của công ty.<br><br>Mục tiêu cốt lõi:Đảm bảo sản phẩm phần mềm phù hợp với nhu cầu người dùng, mục tiêu kinh doanh và tầm nhìn chiến lược, bằng cách quản lý Product Backlog, ưu tiên tính năng hợp lý và phối hợp chặt chẽ với nhóm kỹ thuật để đưa ra quyết định đúng đắn, kịp thời trong quá trình phát triển.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "system_analyst",
@@ -144,8 +144,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Analyst là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia CNTT chịu trách nhiệm phân tích, thiết kế và triển khai các hệ thống thông tin. Họ đánh giá xem hệ thống có đáp ứng được mục tiêu đề ra hay không, đồng thời làm việc với người dùng cuối, nhà cung cấp phần mềm và lập trình viên để đạt kết quả tốt nhất. Nhà phân tích hệ thống sử dụng các kỹ thuật phân tích và thiết kế để giải quyết vấn đề kinh doanh bằng công nghệ, đồng thời đóng vai trò là người thúc đẩy thay đổi,  thiết kế hệ thống cho những thay đổi đó và hướng dẫn người khác sử dụng hệ thống hiệu quả.<br><br>Mục tiêu cốt lõi:Đảm bảo phần mềm được thiết kế đúng mục đích, phù hợp với nhu cầu thực tế, và dễ triển khai – dễ bảo trì. Nói cách khác, họ giúp “xây đúng thứ cần xây”, chứ không chỉ “xây đúng cách”.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "ai_engineer",
@@ -155,8 +155,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "AI  Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là người chịu trách nhiệm thiết kế, huấn luyện, và tích hợp các mô hình Học máy và Học sâu vào sản phẩm phần mềm để tạo ra các tính năng thông minh và tự động.<br><br>Mục tiêu cốt lõi: Đảm bảo mô hình AI được triển khai thành công vào môi trường sản xuất, hoạt động ổn định và có thể mở rộng.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "cyber_security_engineer",
@@ -166,8 +166,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Cybersecuirty Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, triển khai và duy trì các biện pháp bảo mật nhằm bảo vệ hệ thống, mạng và dữ liệu của tổ chức khỏi các cuộc tấn công mạng, truy cập trái phép hoặc rò rỉ thông tin.<br><br>Mục tiêu cốt lõi: Đảm bảo tính bảo mật (confidentiality), tính toàn vẹn (integrity) và tính sẵn sàng (availability) của hệ thống thông tin, qua đó ngăn chặn, phát hiện và ứng phó hiệu quả với các mối đe dọa an ninh mạng, giúp doanh nghiệp vận hành an toàn và bền vững trong môi trường số.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "cloud_engineer",
@@ -177,8 +177,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Cloud Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, xây dựng, triển khai và quản lý cơ sở hạ tầng và dịch vụ trên các nền tảng điện toán đám mây công cộng (như AWS, Azure, GCP).<br><br>Mục tiêu cốt lõi: Đảm bảo hệ thống được triển khai trên đám mây hiệu quả, bảo mật, có khả năng mở rộng và được tối ưu hóa chi phí. Chuyển đổi quy trình vận hành truyền thống sang môi trường đám mây tự động.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "game_developer",
@@ -188,8 +188,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Game Developer là gì?",
                 "firstdesc": "Định nghĩa: Là người chuyên nghiệp chịu trách nhiệm viết code và lập trình các tính năng, cơ chế chơi (gameplay) và logic của trò chơi điện tử.<br><br>Mục tiêu cốt lõi: Biến các ý tưởng thiết kế (design) thành sản phẩm game có thể chơi được, đảm bảo trò chơi hoạt động ổn định, có hiệu suất cao và mang lại trải nghiệm thú vị cho người chơi.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "blockchain_developer",
@@ -199,8 +199,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Blockchain Developer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia thiết kế, phát triển và triển khai các ứng dụng hoặc hệ thống dựa trên công nghệ Blockchain, bao gồm việc xây dựng smart contract, tạo và quản lý giao dịch phi tập trung, cũng như tích hợp blockchain vào sản phẩm phần mềm nhằm đảm bảo tính minh bạch và an toàn dữ liệu.<br><br>Mục tiêu cốt lõi: Xây dựng và duy trì các hệ thống phi tập trung (decentralized systems) có khả năng bảo mật cao, minh bạch, và chống giả mạo dữ liệu, qua đó tăng tính tin cậy, giảm phụ thuộc vào bên trung gian, và mở rộng khả năng ứng dụng blockchain trong các lĩnh vực như tài chính, chuỗi cung ứng, hay quản lý danh tính số.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "computer_vision_engineer",
@@ -210,8 +210,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Computer Vision Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia thiết kế và phát triển các hệ thống giúp máy tính “nhìn thấy” và hiểu được thông tin từ hình ảnh hoặc video. Họ xây dựng các thuật toán để phát hiện, phân loại và diễn giải các mẫu thị giác, từ đó giúp máy móc đưa ra quyết định hoặc hành động dựa trên những gì chúng quan sát được.<br><br>Mục tiêu cốt lõi:Đảm bảo máy móc có thể trích xuất thông tin trực quan một cách chính xác, đáng tin cậy và hiệu quả. Nói cách khác, họ giúp máy tính “hiểu những gì chúng nhìn thấy”, chứ không chỉ “xử lý từng điểm ảnh”.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "technical_support_specialist",
@@ -221,8 +221,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Technical Support Specialist là gì?",
                 "firstdesc": "Định nghĩa: Là người hỗ trợ người dùng cuối giải quyết các vấn đề kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống mạng. Họ là cầu nối giữa người dùng và đội ngũ kỹ thuật, giúp đảm bảo sản phẩm hoặc dịch vụ công nghệ hoạt động trơn tru.<br><br>Mục tiêu cốt lõi:Giúp người dùng khắc phục sự cố nhanh chóng, sử dụng sản phẩm hiệu quả, đồng thời thu thập phản hồi về lỗi và trải nghiệm người dùng để nhóm phát triển cải tiến sản phẩm.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "database_administrator",
@@ -232,8 +232,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Database Administrator là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, quản lý, bảo trì và đảm bảo hiệu suất của các hệ thống cơ sở dữ liệu (Database Systems) của tổ chức.<br><br>Mục tiêu cốt lõi: Đảm bảo tính toàn vẹn, bảo mật và khả năng sẵn có (Availability) của dữ liệu. Thực hiện các quy trình sao lưu, phục hồi và tối ưu hóa truy vấn để hệ thống hoạt động nhanh và đáng tin cậy.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "technical_writer",
@@ -243,8 +243,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Technical Writer là gì?",
                 "firstdesc": "Định nghĩa:Là người tạo và quản lý các tài liệu hướng dẫn, sổ tay, hướng dẫn sử dụng và tài liệu kỹ thuật liên quan đến phần mềm, phần cứng hoặc hệ thống, giúp người dùng và đội kỹ thuật hiểu và vận hành sản phẩm đúng cách. Mặc dù làm việc chủ yếu trong giai đoạn phát triển nhưng công việc của họ lại không quá liên quan đến việc lập trình.<br><br>Mục tiêu cốt lõi:Đảm bảo thông tin kỹ thuật được truyền đạt rõ ràng, chính xác và dễ hiểu, giúp người dùng sử dụng sản phẩm hiệu quả và giúp nhóm kỹ thuật giảm lỗi, tiết kiệm thời gian hỗ trợ.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "it_consultant",
@@ -254,8 +254,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "IT Consultant là gì?",
                 "firstdesc": "Định nghĩa: Là những chuyên gia được công ty thuê để phân tích các vấn đề kinh doanh (ví dụ: quy trình làm việc chậm, hệ thống cũ kỹ) và đưa ra lời khuyên (giải pháp).<br><br>Mục tiêu cốt lõi: Xác định chính xác vấn đề và đưa ra các giải pháp công nghệ tối ưu, giúp công ty đạt được mục tiêu kinh doanh (ví dụ: tăng doanh thu, giảm chi phí vận hành).Đảm bảo rằng việc đầu tư vào công nghệ là phù hợp và mang lại hiệu quả cho chiến lược kinh doanh tổng thể của khách hàng.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "chief_technology_officer",
@@ -265,8 +265,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "CTO là gì?",
                 "firstdesc": "CTO là người định hướng chiến lược công nghệ và kiến trúc hệ thống của công ty, đảm bảo công nghệ hỗ trợ mục tiêu kinh doanh và đổi mới sản phẩm. Khác với CIO, người tập trung vào hệ thống CNTT nội bộ và vận hành công nghệ, CTO hướng tới sản phẩm, R&D và đổi mới thị trường.<br><br>Mục tiêu cốt lõi:Đảm bảo công ty sử dụng công nghệ hiệu quả, sáng tạo và cạnh tranh, đồng thời hướng dẫn đội ngũ kỹ thuật phát triển sản phẩm và giải pháp phù hợp chiến lược doanh nghiệp.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "project_manager",
@@ -276,8 +276,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Project Manager là gì?",
                 "firstdesc": "Định nghĩa: Là vị trí quản lý quy trình và nguồn lực, chịu trách nhiệm lập kế hoạch, tổ chức, điều phối và kiểm soát toàn bộ quá trình thực hiện một dự án CNTT (ví dụ: xây dựng phần mềm, triển khai hệ thống).<br><br>Mục tiêu cốt lõi: Đảm bảo dự án được hoàn thành đúng phạm vi, trong ngân sách và đúng thời hạn đã được phê duyệt. Quản lý rủi ro và các bên liên quan để đạt được kết quả cuối cùng theo yêu cầu kinh doanh.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "system_administrator",
@@ -287,8 +287,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Administrator là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm cài đặt, cấu hình, vận hành và duy trì cơ sở hạ tầng CNTT trong toàn bộ vòng đời hệ thống, bao gồm máy chủ, hệ điều hành, mạng và các ứng dụng doanh nghiệp, đảm bảo hệ thống sẵn sàng, ổn định và bảo mật.<br><br>Mục tiêu cốt lõi:Đảm bảo tính sẵn sàng, hiệu suất và bảo mật của hệ thống , xử lý sự cố kịp thời và cung cấp hỗ trợ kỹ thuật liên tục để vận hành sản phẩm và quy trình kinh doanh không gián đoạn.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "network_engineer",
@@ -298,8 +298,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "Network Engineer là gì?",
                 "firstdesc": "Là chuyên gia chịu trách nhiệm thiết kế, triển khai, cấu hình và quản lý cơ sở hạ tầng mạng trong toàn bộ vòng đời hệ thống, bao gồm mạng có dây và không dây, đảm bảo kết nối ổn định, bảo mật và hiệu quả giữa người dùng, máy chủ và dịch vụ.<br><br>Mục tiêu cốt lõi:Đảm bảo hệ thống mạng hoạt động liên tục và tin cậy , hỗ trợ vận hành, phát triển và triển khai sản phẩm, đồng thời tăng hiệu suất và bảo mật cho toàn bộ cơ sở hạ tầng CNTT.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "chief_information_officer",
@@ -309,8 +309,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "CIO là gì?",
                 "firstdesc": "Định nghĩa: Là vị trí quản lý cấp cao chịu trách nhiệm về toàn bộ hệ thống và chiến lược công nghệ thông tin (IT) trong doanh nghiệp, đảm bảo các hệ thống CNTT vận hành ổn định, an toàn và hỗ trợ đầy đủ các quy trình kinh doanh trong suốt vòng đời phát triển phần mềm và hệ thống.<br><br>Mục tiêu cốt lõi:Dẫn dắt chuyển đổi số, giám sát, bảo trì và cải tiến liên tục hệ thống CNTT, tối ưu hóa việc sử dụng công nghệ để nâng cao hiệu quả vận hành, bảo mật và khả năng cạnh tranh của doanh nghiệp.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "systems_engineer",
@@ -320,8 +320,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "System Engineer là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia chịu trách nhiệm thiết kế, tích hợp và quản lý toàn bộ hệ thống phần mềm, phần cứng và mạng lưới trong tổ chức. Họ nhìn nhận dự án từ góc độ toàn cảnh.<br><br>Mục tiêu cốt lõi: Đảm bảo tất cả các thành phần kỹ thuật hoạt động cùng nhau một cách nhất quán, hiệu quả và đáp ứng các yêu cầu ở cấp độ hệ thống lớn, quản lý độ phức tạp và rủi ro xuyên suốt dự án.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "business_intelligence_analyst",
@@ -331,8 +331,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "BIA là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia sử dụng các công cụ và kỹ thuật phân tích dữ liệu để xây dựng báo cáo (reports) và bảng điều khiển (dashboards), giúp tổ chức theo dõi hiệu suất và hiểu rõ xu hướng kinh doanh.<br><br>Mục tiêu cốt lõi: Chuyển đổi dữ liệu thô thành thông tin chi tiết (insights) hành động được, hỗ trợ các nhà quản lý trong việc đánh giá tình hình hiện tại và đưa ra các quyết định chiến lược hoặc điều chỉnh kịp thời.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "qa_analyst",
@@ -342,8 +342,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "QA Analyst là gì?",
                 "firstdesc": "Định nghĩa: Là chuyên gia thực hiện các hoạt động kiểm thử theo kế hoạch (ví dụ: kiểm thử chức năng, kiểm thử hồi quy) để tìm ra lỗi (bugs) và các vấn đề về chất lượng trong sản phẩm phần mềm.<br><br>Mục tiêu cốt lõi: Đảm bảo sản phẩm hoạt động đúng theo yêu cầu thiết kế và đạt được mức độ chất lượng chấp nhận được trước khi phát hành, qua đó giảm thiểu rủi ro và tăng sự tin cậy của người dùng.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             }
         ]
     },
@@ -437,8 +437,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a DevOps Engineer?",
                 "firstdesc": "Definition: A DevOps Engineer is a technical specialist responsible for automating and optimizing processes across the entire software development lifecycle, from coding to deployment and operations.<br><br>Core Objectives: To increase the speed, frequency, and reliability of software releases. To ensure seamless collaboration between the Development (Dev) and Operations (Ops) teams through automation and infrastructure management.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "dev",
@@ -459,8 +459,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Software Tester?",
                 "firstdesc": "Definition: A Software Tester is a professional responsible for testing, evaluating, and verifying the quality of a software product.<br><br>Core Objectives: To detect, document, and ensure the resolution of defects to confirm that the software is fully functional, stable, high-performing, and meets quality standards before reaching the end-user.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "software_engineer",
@@ -470,8 +470,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Software Engineer? ",
                 "firstdesc": "Definition: A Software Engineer is a specialist who designs, develops, and maintains software by applying engineering principles, standardized models, and processes in software development. They are responsible for transforming user requirements into a complete software system, ensuring logic, stability, and scalability. This is a highly distinctive role because it requires the professional to possess a skillset that fully addresses all phases of the SDLC (Software Development Life Cycle) model, and is thus often compensated higher.<br><br>Core Objectives: To create high-quality, high-performing software that accurately meets technical and business requirements, while also being easy to maintain and scalable in the future; thereby contributing to the improvement of the product's productivity, reliability, and sustainability.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "product_owner",
@@ -481,8 +481,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Product Owner ?",
                 "firstdesc": "Definition: A Product Owner (PO) is responsible for resolving real-world problems encountered by users when utilizing the product. Concurrently, the PO operates, improves, and optimizes the product to achieve the company's business objectives.<br><br>Core Objectives: To ensure the software product aligns with user needs, business goals, and strategic vision by managing the Product Backlog, prioritizing features rationally, and collaborating closely with the technical team to make timely and sound decisions during the development process.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "system_analyst",
@@ -492,8 +492,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a System Analyst?",
                 "firstdesc": "Definition: A System Analyst is an IT professional responsible for analyzing, designing, and implementing information systems. They evaluate whether the system meets its stated objectives and work with end-users, software vendors, and developers to achieve the best results. System Analysts use analysis and design techniques to solve business problems with technology, while also acting as a catalyst for change, designing systems for those changes, and guiding others to use the system effectively.<br><br>Core Objectives: To ensure the software is designed for the right purpose, suitable for real-world needs, and easy to deploy and maintain. In other words, they help “build the right thing” not just “build the thing right.”",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "ai_engineer",
@@ -503,8 +503,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is an AI  Engineer?",
                 "firstdesc": "Definition: An AI Engineer is responsible for designing, training, and integrating Machine Learning and Deep Learning models into software products to create intelligent and automated features.<br><br>Core Objectives: To ensure that the AI models are successfully deployed into the production environment, operating stably and being scalable.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "cyber_security_engineer",
@@ -514,8 +514,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Cybersecuirty Engineer?",
                 "firstdesc": "Definition: A Cybersecurity Specialist is an expert responsible for designing, implementing, and maintaining security measures to protect an organization's systems, networks, and data from cyberattacks, unauthorized access, or information leakage.<br><br>Core Objectives: To ensure the confidentiality, integrity, and availability (CIA) of information systems, thereby effectively preventing, detecting, and responding to cyber threats, helping the business operate safely and sustainably in the digital environment.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "cloud_engineer",
@@ -525,8 +525,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Cloud Engineer?",
                 "firstdesc": "Definition: A Cloud Engineer is a specialist who designs, builds, deploys, and manages infrastructure and services on public cloud computing platforms (such as AWS, Azure, GCP).<br><br>Core Objectives: To ensure that the systems deployed on the cloud are efficient, secure, scalable, and cost-optimized. To transition traditional operational processes into an automated cloud environment.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "game_developer",
@@ -536,8 +536,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Game Developer?",
                 "firstdesc": "Definition: A Game Programmer is a professional responsible for writing code and programming the features, gameplay mechanics, and logic of video games.<br><br>Core Objectives: To transform design ideas into a playable game product, ensuring the game operates stably, achieves high performance, and delivers an enjoyable experience for players.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "blockchain_developer",
@@ -547,8 +547,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Blockchain Developer?",
                 "firstdesc": "Definition: A Blockchain Developer is an expert who designs, develops, and deploys applications or systems based on Blockchain technology, including building smart contracts, creating and managing decentralized transactions, and integrating blockchain into software products to ensure data transparency and security.<br><br>Core Objectives: To build and maintain decentralized systems that are highly secure, transparent, and tamper-proof, thereby increasing trustworthiness, reducing reliance on intermediaries, and expanding the applicability of blockchain in sectors like finance, supply chain, or digital identity management.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "computer_vision_engineer",
@@ -558,8 +558,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Computer Vision Engineer ?",
                 "firstdesc": "Definition: A Computer Vision Engineer is the specialist who designs and develops systems that enable computers to “see” and understand visual information from images or videos. They build algorithms that detect, classify, and interpret visual patterns so machines can make decisions or perform actions based on what they perceive.<br><br>Core Objective: Ensure that machines can extract meaningful insights from visual data accurately, reliably, and efficiently. In other words, they help computers “understand what they see,” not just “process pixels.”",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "technical_support_specialist",
@@ -569,8 +569,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Technical Support Specialist?",
                 "firstdesc": "Definition: A Technical Support Specialist is a professional who assists end-users in resolving technical issues related to software, hardware, or network systems. They act as a bridge between users and the technical team, helping ensure the technology product or service operates smoothly.<br><br>Core Objectives: To help users resolve issues quickly and use the product effectively, while also collecting feedback on bugs and user experience for the development team to improve the product.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "database_administrator",
@@ -580,8 +580,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Database Administrator?",
                 "firstdesc": "Definition: A Database Administrator (DBA) is a specialist responsible for installing, configuring, managing, maintaining, and ensuring the performance of an organization's Database Systems.<br><br>Core Objectives: To ensure the integrity, security, and availability of data. To execute backup, recovery procedures, and query optimization so that the system operates quickly and reliably.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "technical_writer",
@@ -591,8 +591,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Technical Writer ?",
                 "firstdesc": "Definition: A Technical Writer is a professional who creates and manages instructional documents, manuals, user guides, and technical documentation related to software, hardware, or systems, helping users and technical teams understand and operate the product correctly. Although they primarily work during the development phase, their job is not directly related to programming.<br><br>Core Objectives: To ensure technical information is communicated clearly, accurately, and understandably, helping users utilize the product effectively and enabling the technical team to reduce errors and save support time.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "it_consultant",
@@ -602,8 +602,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is an IT Consultant?",
                 "firstdesc": "Definition: An IT Consultant is an expert hired by a company to analyze business problems (e.g., slow workflows, outdated systems) and provide advice (solutions).<br><br>Core Objectives: To accurately identify the problem and propose optimal technology solutions, helping the company achieve its business objectives (e.g., increasing revenue, reducing operating costs). To ensure that technology investment is appropriate and delivers value for the client's overall business strategy.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "chief_technology_officer",
@@ -613,8 +613,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a CTO?",
                 "firstdesc": "Definition: A CTO is the person who guides the technology strategy and system architecture of the company, ensuring that technology supports business objectives and product innovation. Unlike the CIO (Chief Information Officer), who focuses on internal IT systems and technology operations, the CTO is geared towards product, R&D, and market innovation.<br><br>Core Objectives: To ensure the company utilizes technology effectively, innovatively, and competitively, while guiding the technical team to develop products and solutions that align with the corporate strategy.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "project_manager",
@@ -624,8 +624,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Project Manager?",
                 "firstdesc": "Definition: A Project Manager is a position responsible for managing processes and resources, tasked with planning, organizing, coordinating, and controlling the entire execution process of an IT project (e.g., software construction, system implementation).<br><br>Core Objectives: To ensure the project is completed within the approved scope, budget, and timeline. To manage risks and stakeholders to achieve the final outcome aligned with business requirements.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "system_administrator",
@@ -635,8 +635,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a System Administrator?",
                 "firstdesc": "Definition: A System Administrator (SysAdmin) is a specialist responsible for installing, configuring, operating, and maintaining the IT infrastructure throughout the entire system lifecycle, including servers, operating systems, networks, and enterprise applications, ensuring the system is available, stable, and secure.<br><br>Core Objectives: To ensure the availability, performance, and security of the system, promptly troubleshoot issues, and provide continuous technical support to ensure uninterrupted business processes and product operations.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "network_engineer",
@@ -646,8 +646,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a Network Engineer?",
                 "firstdesc": "Definition: A Network Engineer is a specialist responsible for designing, deploying, configuring, and managing the network infrastructure throughout the entire system lifecycle, including wired and wireless networks, ensuring stable, secure, and efficient connectivity between users, servers, and services.<br><br>Core Objectives: To ensure continuous and reliable network operation, supporting product operation, development, and deployment, while simultaneously enhancing the performance and security of the entire IT infrastructure.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "chief_information_officer",
@@ -657,8 +657,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a CIO?",
                 "firstdesc": "Definition: A Chief Information Officer (CIO) is a senior management position responsible for the entire information technology (IT) system and strategy within the enterprise, ensuring that IT systems operate stably, securely, and fully support business processes throughout the software and system development lifecycle.<br><br>Core Objectives: To lead digital transformation, oversee, maintain, and continuously improve IT systems, and optimize the use of technology to enhance the operational efficiency, security, and competitiveness of the business.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "systems_engineer",
@@ -668,8 +668,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a System Engineer?",
                 "firstdesc": "Definition: A System Architect is a specialist responsible for designing, integrating, and managing the entire system of software, hardware, and networks within an organization. They view the project from a holistic perspective.<br><br>Core Objectives: To ensure that all technical components work together cohesively, efficiently, and meet large-scale system requirements, managing complexity and risk throughout the project lifecycle.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "business_intelligence_analyst",
@@ -679,8 +679,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a BIA ?",
                 "firstdesc": "Definition: A Business Intelligence (BI) Analyst is a specialist who uses data analysis tools and techniques to build reports and dashboards, helping organizations monitor performance and understand business trends.<br><br>Core Objectives: To transform raw data into actionable insights, supporting managers in evaluating the current situation and making timely strategic decisions or adjustments.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             },
             {
                 "id": "qa_analyst",
@@ -690,8 +690,8 @@
                 "seperator": "/FE/assets/images/pages/cloud.svg",
                 "firsttitle": "What is a QA Analyst?",
                 "firstdesc": "Definition: A QA Analyst is a specialist who executes planned testing activities (e.g., functional testing, regression testing) to find bugs and quality issues in the software product.<br><br>Core Objectives: To ensure the product functions correctly according to design requirements and achieves an acceptable quality level before release, thereby mitigating risks and increasing user confidence.",
-                "secondtitle": "",
-                "seconddesc": ""
+                "secondtitle": "#",
+                "seconddesc": "#"
             }
         ]
     }

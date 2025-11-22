@@ -297,7 +297,7 @@ body {
 
 @media only screen and (max-width: 600px) {
     .sdlc-section1 {
-        height: 200px;
+        height: 130px;
         padding: 0 15px;
     }
 
@@ -308,15 +308,15 @@ body {
     }
 
     .sdlc-section1__layer1 {
-        top: 60px;
+        top: 20px;
     }
 
     .sdlc-section1__layer2 {
-        top: 70px;
+        top: 30px;
     }
 
     .sdlc-section1__layer3 {
-        top: 80px;
+        top: 40px;
     }
 
     .sdlc-section1__layer3 > img:nth-child(3) {
